@@ -5,4 +5,4 @@ Following is some information about myself and links to the exercises, assignmen
 
 #ABOUT ME
 
-[Exercises](Exercises/x2b_Map.JPG)
+[Exercises](Exercises/Ex2b_Map.JPG)
