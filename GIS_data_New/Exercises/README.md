@@ -4,4 +4,5 @@ This is my repository for the Iowa State University Web Mapping and Spatial Data
 Following is some information about myself and links to the exercises, assignments and class projects completed for this course.
 
 #ABOUT ME
-[Exercises](Ex2b_Map.JPG)
+
+[Exercises](Exercises/Ex2b_Map.JPG)
