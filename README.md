@@ -6,7 +6,7 @@ Following is some information about myself and links to the exercises, assignmen
 [About_Me.....](About_me/Aboutme.md)
 
 # Class Exercises
-[1b]() - A quick analysis/observation of the data provided by Professor Chris Seeger
+[1b](Exercise_1/Exercise_1.md) - A quick analysis/observation of the data provided by Professor Chris Seeger
 
 [2b]() - It contains a map created on QGIS and exported to Github with an image from a webpage.
        
