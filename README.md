@@ -7,7 +7,12 @@ Following is some information about myself and links to the exercises, assignmen
 
 # Class Exercises
 
-
 Link to [Exercise_2b](Class_Exercises/Exercise_2/Ex2b_Map.png)
 
 Link to [Google](https://www.google.com)
+
+# Assignments
+
+# Final Project Documentation
+
+# Roadmap
