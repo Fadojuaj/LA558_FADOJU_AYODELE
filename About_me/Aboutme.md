@@ -8,4 +8,4 @@ Ayo's ongoing education in GIS and Digital Marketplace Analytics enhances his al
 With a clear vision for his future, Ayo aspires to become a highly accomplished scholar-practitioner, using his knowledge and experience to create world-class solutions for the physical, economic, and social problems faced by his community. He is committed to using policy formulation to positively impact the world and is driven to achieve his long-term goals.
 
 ![My_Image](Ayo.jpg)
-See my Linkedin profile for my information about me [linkedin](www.linkedin.com/in/ayodele-fadoju)
+See my Linkedin profile for my information about me [Ayodele_Fadoju_linkedin_Profile](https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BTRS5H7ouQvKu5Wq%2B3ANTTg%3D%3D)
