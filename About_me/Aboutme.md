@@ -5,4 +5,4 @@ Ayo's ongoing education in GIS and Digital Marketplace Analytics enhances his al
 Ayo is a dedicated professional, holding certifications as a Urban Planner with the Town Planners Registration Council of Nigeria (TOPREC) and as a Corporate Member of the Nigerian Institute of Town Planners (NITP). In addition, he holds an Expert Certificate in Health Safety and Environment (HSE) from the Joint Professionals Training Support Institute (JPTS).
 With a clear vision for his future, Ayo aspires to become a highly accomplished scholar-practitioner, using his knowledge and experience to create world-class solutions for the physical, economic, and social problems faced by his community. He is committed to using policy formulation to positively impact the world and is driven to achieve his long-term goals.
 
-[My Image](About_me/Ayo.jpg)
+(About_me/Ayo.jpg)
