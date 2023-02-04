@@ -10,7 +10,7 @@ Following is some information about myself and links to the exercises, assignmen
 
 [2b]() - It contains a map created on QGIS and exported to Github with an image from a webpage.
        
-[3a] 
+[3a]() 
 
 Link to [Exercise_2b](Class_Exercises/Exercise_2/Ex2b_Map.png)
 
