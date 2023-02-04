@@ -10,6 +10,6 @@ All 30 days had almost the same number of tracked flights, with most days having
 
 ## Question 2:
 
-![Candy](CandyObservation1.jpg)
+![Image](CandyObservation1.jpg)
 
 ![Candy](CandyObservation2.jpg)
