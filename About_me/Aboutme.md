@@ -7,4 +7,5 @@ Ayo's ongoing education in GIS and Digital Marketplace Analytics enhances his al
 
 With a clear vision for his future, Ayo aspires to become a highly accomplished scholar-practitioner, using his knowledge and experience to create world-class solutions for the physical, economic, and social problems faced by his community. He is committed to using policy formulation to positively impact the world and is driven to achieve his long-term goals.
 
-[My_Image](Ayo.jpg)
+![My_Image](Ayo.jpg)
+See 
