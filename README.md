@@ -5,6 +5,6 @@ Following is some information about myself and links to the exercises, assignmen
 
 # ABOUT ME
 
-Link to [Exercise_2b](Class Exercises/Exercise_2/Ex2b_Map.png)
+Link to [Exercise_2b](Class_Exercises/Exercise_2/Ex2b_Map.png)
 
 Link to [Google](https://www.google.com)
