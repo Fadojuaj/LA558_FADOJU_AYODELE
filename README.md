@@ -3,8 +3,8 @@
 This is my repository for the Iowa State University Web Mapping and Spatial Data Visualization - Spring 2023. 
 Following is some information about myself and links to the exercises, assignments and class projects completed for this course.
 
-# ABOUT ME
+[About Me.....](V
 
-Link to [Exercise_2b](Class Exercises/Exercise_2/Ex2b_Map.png)
+Link to [Exercise_2b](Class_Exercises/Exercise_2/Ex2b_Map.png)
 
 Link to [Google](https://www.google.com)
