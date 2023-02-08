@@ -14,7 +14,7 @@ Geospatial PDF</a> &
 
 ## Description
 
--For Assignment 1, I executed two tasks centered on mapping.
+-For Assignment 1, I executed three tasks;
 - Firstly, I utilized Open Street Map to create a map of my hometown, Ijegun, in Lagos, Nigeria, marked with a location marker.
  - In the second task, I utilized QGIS to generate a choropleth map that displays the percentage of the population with access to improved water systems.
 - The data was obtained from the Nigeria National Bureau of Statistics website [Nigeria National Bereau of Statistics](https://www.nigerianstat.gov.ng/) while the shapefiles were sourced from ESRI's Living Atlas.
