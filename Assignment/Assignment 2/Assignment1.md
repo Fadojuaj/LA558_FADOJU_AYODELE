@@ -1,6 +1,6 @@
 ## My Assignment 1 Docementation
 
-### [1. OpenStreetMap](https://son1101.github.io/LA558_Son/assignments/assign3a/assign3a.html) 
+### [1. OpenStreetMap](<a href="https://fadojuaj.github.io/LA558_FADOJU_AYODELE/Assignment%202/OpenStreetMap_Ijegun/Ass2_OSM.html" rel="noopener noreferrer"><b>OpenStreetMap</b>: Map of Ijegun Township in Lagos, Nigeria</a>) 
 - It shows my hometown in Ijegun, Lagos Nigeria
 
 ### <a href="https://fadojuaj.github.io/LA558_FADOJU_AYODELE/Assignment%202/OpenStreetMap_Ijegun/Ass2_OSM.html" rel="noopener noreferrer"><b>OpenStreetMap</b>: Map of Ijegun Township in Lagos, Nigeria</a>2. Geospatial PDF</a> & [3. GIS2Web](<a href="https://fadojuaj.github.io/LA558_FADOJU_AYODELE/qgis2web.com/qgis2web_2023_02_06-22_46_25_723413/qgis2web_2023_02_06-22_50_28_532826/index.html" target="_blank" rel="noopener noreferrer"><b>GIS2Web</b>: Percentage of Population with Unimproved Water Systems in Nigeria</) 
