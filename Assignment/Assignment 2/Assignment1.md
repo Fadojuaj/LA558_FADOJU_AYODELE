@@ -1,4 +1,4 @@
-# My Assignment 1 Docementation
+# My Assignment 1 Documentation
 
 ### Task 1
 
