@@ -1,9 +1,9 @@
 ## My Assignment 1 Docementation
 
-### <a href="https://fadojuaj.github.io/LA558_FADOJU_AYODELE/Assignment%202/OpenStreetMap_Ijegun/Ass2_OSM.html" rel="noopener noreferrer"><b>OpenStreetMap</b>: Map of Ijegun Township in Lagos, Nigeria</a>
+### [Open Street Map](https://fadojuaj.github.io/LA558_FADOJU_AYODELE/Assignment%202/OpenStreetMap_Ijegun/Ass2_OSM.html")
 - It shows my hometown in Ijegun, Lagos Nigeria
 
-### <a href="https://fadojuaj.github.io/LA558_FADOJU_AYODELE/Assignment%202/OpenStreetMap_Ijegun/Ass2_OSM.html" rel="noopener noreferrer"><b>OpenStreetMap</b>: Map of Ijegun Township in Lagos, Nigeria</a>2. Geospatial PDF</a> & [3. GIS2Web](<a href="https://fadojuaj.github.io/LA558_FADOJU_AYODELE/qgis2web.com/qgis2web_2023_02_06-22_46_25_723413/qgis2web_2023_02_06-22_50_28_532826/index.html" target="_blank" rel="noopener noreferrer"><b>GIS2Web</b>: Percentage of Population with Unimproved Water Systems in Nigeria</) 
+### . Geospatial PDF</a> & [3. GIS2Web](<a href="https://fadojuaj.github.io/LA558_FADOJU_AYODELE/qgis2web.com/qgis2web_2023_02_06-22_46_25_723413/qgis2web_2023_02_06-22_50_28_532826/index.html" target="_blank" rel="noopener noreferrer"><b>GIS2Web</b>: Percentage of Population with Unimproved Water Systems in Nigeria</) 
 -For Assignment 1, I executed two tasks centered on mapping.
 - Firstly, I utilized Open Street Map to create a map of my hometown, Ijegun, in Lagos, Nigeria, marked with a location marker.
  - In the second task, I utilized QGIS to generate a choropleth map that displays the percentage of the population with access to improved water systems.
