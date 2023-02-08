@@ -13,6 +13,8 @@ Following is some information about myself and links to the exercises, assignmen
 ## Assignments
 [1](Assignment/Assignment%202/Assignment1.md) - My Assignment 1 
 
+
 ## Final Project Documentation
+
 
 ## Roadmap
