@@ -2,7 +2,7 @@
 
 ### Task 1
 
-[Open Street Map](https://github.io/Fadojuaj/LA558_FADOJU_AYODELE/Assignment/Assignment%202/OpenStreetMap_Ijegun/Ass2_OSM.html)
+[Open Street Map](https://github.io/fadojuaj/LA558_FADOJU_AYODELE/Assignment/Assignment%202/OpenStreetMap_Ijegun/Ass2_OSM.html)
 - It shows my hometown in Ijegun, Lagos Nigeria
 
 ### Task 2
