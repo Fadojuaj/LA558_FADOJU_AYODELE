@@ -24,4 +24,4 @@ Geospatial PDF</a> &
   - I then created the choropleth map to show the distribution of the population without improved water systems across Nigeria's states.Finally, I exported the map as a geospatial PDF.
   - In the final task, I used the GIS2Web plugin to create a webmap using the choropleth map and changed the coordinate reference system to Nigeria for more accurate projection.
   
-  ## The various resource used for this Assignment can be found [here](https://github.com/Fadojuaj/LA558_FADOJU_AYODELE/blob/Main/Assignment/Assignment%202/Exported_Map/Assign3.pdf" target="_blank" rel="noopener noreferrer)
+  ### The various resource used for this Assignment can be found [here](https://github.com/Fadojuaj/LA558_FADOJU_AYODELE/blob/Main/Assignment/Assignment%202/Exported_Map/Assign3.pdf")
