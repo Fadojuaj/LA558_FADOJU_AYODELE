@@ -10,7 +10,7 @@
 [Geospatial PDF](https://fadojuaj.github.io/LA558_FADOJU_AYODELE/Assignment/Assignment%202/Exported_Map/Assign3.pdf)
 
 ### Task 3
-[3. GIS2Web](<a href="https://fadojuaj.github.io/LA558_FADOJU_AYODELE/qgis2web.com/qgis2web_2023_02_06-22_46_25_723413/qgis2web_2023_02_06-22_50_28_532826/index.html" target="_blank" rel="noopener noreferrer"><b>GIS2Web</b>: Percentage of Population with Unimproved Water Systems in Nigeria</) 
+[QGIS2Web](https://fadojuaj.gitHub.io/LA558_FADOJU_AYODELE/Assignment/Assignment%202/Exported_Map/qgis2web_2023_02_06-22_46_25_723413/qgis2web_2023_02_06-22_50_28_532826/index.html#7/9.536/1.824) 
 
 ## Description
 
