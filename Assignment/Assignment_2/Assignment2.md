@@ -11,7 +11,8 @@
 
 
 ### Task 3
-[QGIS2Web](https://fadojuaj.gitHub.io/LA558_FADOJU_AYODELE/Assignment/Assignment_2/Exported_Map/qgis2web_2023_02_06-22_46_25_723413/qgis2web_2023_02_06-22_50_28_532826/index.html#6/8.524/5.515) 
+<a href="https://fadojuaj.gitHub.io/LA558_FADOJU_AYODELE/Assignment/Assignment_2/Exported_Map/qgis2web_2023_02_06-22_46_25_723413/qgis2web_2023_02_06-22_50_28_532826/index.html#6/8.524/5.515" target="_blank" rel="noopener noreferrer">QGIS2WEB</a>
+ 
 
 ## Description
 
