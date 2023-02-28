@@ -11,7 +11,9 @@ Following is some information about myself and links to the exercises, assignmen
 [2b](Class_Exercises/Exercise_2/Exercise_2.md) - It contains a map created on QGIS and exported to Github with an image from a webpage.
        
 ## Assignments
-[1](Assignment/Assignment_2/Assignment2.md) - My Assignment 1 
+[1](Assignment/Assignment_2/Assignment2.md) - Assignment 1 
+
+[2](Assignment_2/Assignment_2.md) - Assignmnet 2
 
 
 ## Final Project Documentation
