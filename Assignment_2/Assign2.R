@@ -88,8 +88,8 @@ ggplot() +
                       high = "darkblue",
                       name = "Unimproved water supply (%)") +
   theme_minimal() +
-  ggtitle("A Map of Nigeria Showing Areas With Un-improved Water Source") +
-  theme(plot.title = element_text(hjust = 0.5)) +
+          ggtitle("A Map of Nigeria Showing Areas With Un-improved Water Source") +
+  theme(plot.title = element_text (hjust = 0.5, size=26)) +
   theme_void()
 
 
