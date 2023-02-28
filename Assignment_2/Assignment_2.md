@@ -8,5 +8,4 @@ The data used was obtained from a class exercise in my policy class. It contains
 
 ## Mapping data using R
 For the purpose of this assignment, shapefiles of Nigeria were used. The data was obtained from the [Nigeria National Bureau of Statistics](https://www.nigerianstat.gov.ng/) website , while the shapefiles were sourced from ESRI's Living Atlas. Tidyverse library functions such as mutate were used to create a column for unimproved water source, which was in turn used to create the map using GGplot2 for plotting.
-
 ![Nigeria](MapofNigeria_Unimproved_water_source.png)
