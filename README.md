@@ -13,7 +13,7 @@ Following is some information about myself and links to the exercises, assignmen
 ## Assignments
 [1](Assignment/Assignment_2/Assignment2.md) - Assignment 1 
 
-[2](Assignment_2/Assignment_2.md) - Assignmnet 2
+[2](Assignment_2/Assign_2.md) - Assignmnet 2
 
 
 ## Final Project Documentation

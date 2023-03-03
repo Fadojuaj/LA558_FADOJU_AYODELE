@@ -1,4 +1,4 @@
-# DATA VISULAIZATION USING R
+# DATA VISUALIZATION USING R
 
 ## Data Plotting using R
 The data used was obtained from a class exercise in my policy class. It contains a dataset of employment by industry. The data was cleaned and prepared in Excel, and then imported into R, with the working directory set. The Tidyverse library was utilized to perform various functions, which ultimately culminated in a bar chart by GGplot2, showing either growth or decrease in the various sectors.
