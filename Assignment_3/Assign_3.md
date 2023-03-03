@@ -13,6 +13,7 @@ The tidycensus package was equally deployed in displaying the map of Georgia sho
 ![Georgia](Educational_Attainment_in_Georgia.png)
 
 ## Plot 3
+### Plotting Data using the R Graphics Gallery
 The data from my policy class was reused in this assignment. It contains a dataset of employment by industry. The data was cleaned and prepared in Excel, and then imported into R, as a csv file. A circular bar plot graphics was used to represent changes in employment by industry.
 
 ![Emplyment_by_industry](Changes_in_Employment_by_industry.png)
