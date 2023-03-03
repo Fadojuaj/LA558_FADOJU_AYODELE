@@ -9,6 +9,7 @@ The data used for plotting the chart of five counties with the highest Median Ho
 ## Plot 2
 ### Mapping data using R
 The tidycensus package was equally deployed in displaying the map of Georgia showing the percentage of population with educational attainment of bachelor's degree or higher.
+
 ![Georgia](Educational_Attainment_in_Georgia.png)
 
 ## Plot 3
