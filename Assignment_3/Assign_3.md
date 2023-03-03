@@ -1,7 +1,7 @@
 # Mastering R
 
 ## Plot 1
-###TidyCensus using R
+### TidyCensus using R
 The data used for plotting the chart of five counties with the highest Median Household Income in Iowa, 2016 - 2020 American Community Survey data was obtained directly through the tidy census package. tidyverse library functions were used in its modification
 
 ![Median_Household_Income](Median_Income.png)
