@@ -15,6 +15,8 @@ Following is some information about myself and links to the exercises, assignmen
 
 [2](Assignment_2/Assign_2.md) - Assignmnet 2
 
+[3](Assignment_3/Assign_3.md) - Assignment 3
+
 
 ## Final Project Documentation
 
