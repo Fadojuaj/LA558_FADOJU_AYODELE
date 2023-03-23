@@ -17,6 +17,8 @@ Following is some information about myself and links to the exercises, assignmen
 
 [3](Assignment_3/Assign_3.md) - Assignment 3
 
+[4](Assignment_4/Assign_4.html) - Assignment 4
+
 
 ## Final Project Documentation
 
