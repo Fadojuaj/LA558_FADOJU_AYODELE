@@ -1,0 +1,13 @@
+name: Ayodele Fadoju's placeholder
+#title: "My 'Student' Page"
+
+#These work if you have a supporting theme.
+#subtitle: "LA 558 Spring 2023"
+#description: A theme for GitHub Pages.
+#show_downloads: true
+#theme: jekyll-theme-architect
+
+# Set a path/url to a favicon that will be displayed by the browser
+favicon_ico: "favicon.ico"
+
+#permalink: pretty
