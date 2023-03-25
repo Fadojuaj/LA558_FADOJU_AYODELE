@@ -1,0 +1,1001 @@
+Object_ID,Location,City,Housing_Units,Year_Built,Monthly_Rent_Range,Latitude,Longitude
+1,Nigeria,Kwale,4,2017,136517,8.17,3.02
+2,Nigeria,Kamba,5,2017,208988,8.44,3.57
+3,Nigeria,Igbor,4,2017,196136,6.37,3.46
+4,Nigeria,Uga,5,2023,80402,7.96,2.9
+5,Nigeria,Nafada,2,2018,218801,9.23,4.17
+6,Nigeria,Madara,3,2015,220732,7.98,4.55
+7,Nigeria,Ibeto,1,2022,74777,7.19,3.08
+8,Nigeria,Oke Ila,1,2023,190888,9.16,5.94
+9,Nigeria,Eha Amufu,2,2022,51493,7.56,2.76
+10,Nigeria,Birnin Kebbi,5,2015,50674,7.18,5.76
+11,Nigeria,Katagum,3,2021,243256,8.55,2.84
+12,Nigeria,Kende,1,2021,180302,8.76,2.9
+13,Nigeria,Biliri,1,2017,239557,7.36,5.25
+14,Nigeria,Omu Aran,2,2016,74290,6.42,4.42
+15,Nigeria,Nsukka,2,2021,52580,6.81,4.46
+16,Nigeria,Isu,5,2016,101622,6.33,3.32
+17,Nigeria,Ndeaboh,3,2023,221068,8.41,3.55
+18,Nigeria,Obolo-Eke (1),5,2014,70111,7.06,5.63
+19,Nigeria,Ngurore,1,2017,130439,8.15,3.9
+20,Nigeria,Onueke,1,2021,235546,8.87,3.61
+21,Nigeria,Wamba,4,2018,67597,8.71,5.62
+22,Nigeria,Sauri,1,2020,242482,9.29,2.92
+23,Nigeria,Gajiram,5,2020,235424,7.22,3.7
+24,Nigeria,Umunede,2,2023,242156,8.44,3.18
+25,Nigeria,Gwandu,5,2015,53655,8.33,3.32
+26,Nigeria,Gambaru,2,2018,222537,7.95,3.84
+27,Nigeria,Kaura Namoda,4,2014,142201,7.72,5.03
+28,Nigeria,Sade,4,2018,137240,7.17,4.48
+29,Nigeria,Elele,1,2020,173488,8.2,4.88
+30,Nigeria,Madagali,3,2022,94892,8.9,4.11
+31,Nigeria,Ondo,5,2013,166794,7.39,3.71
+32,Nigeria,Onitsha,2,2020,168728,6.53,3.07
+33,Nigeria,Amper,5,2023,64226,7.49,4.52
+34,Nigeria,Kajuru,1,2023,102780,7.35,3.93
+35,Nigeria,Takum,4,2014,71634,6.76,3.44
+36,Nigeria,Magumeri,2,2013,185775,8.75,5.33
+37,Nigeria,Madala,4,2020,139885,7.91,3.64
+38,Nigeria,Dutsin Ma,3,2023,140682,9.22,4.48
+39,Nigeria,Jibiya,1,2022,146666,7.93,3.09
+40,Nigeria,Kajuru,4,2014,181584,8.59,5.9
+41,Nigeria,Okpoga,2,2018,240784,9.3,4.9
+42,Nigeria,Kwali,1,2021,213250,8.25,3.62
+43,Nigeria,Kwali,5,2020,232085,8.52,5.43
+44,Nigeria,Badeggi,4,2018,148177,7.08,5.17
+45,Nigeria,Bida,2,2019,208349,6.88,2.79
+46,Nigeria,Ibeto,2,2023,237469,6.91,5.03
+47,Nigeria,Orerokpe,3,2019,184726,7.47,5.66
+48,Nigeria,Oke Ila,5,2020,236115,6.52,3.28
+49,Nigeria,Buni Yadi,5,2022,123599,8.33,3.94
+50,Nigeria,Bomadi,5,2015,164852,6.75,5.13
+51,Nigeria,Keffi,3,2013,107061,7.64,4.35
+52,Nigeria,Rabah,1,2019,185308,8.35,5.21
+53,Nigeria,Ijebu-Ife,3,2020,151926,8.32,2.78
+54,Nigeria,Mekkaw,5,2016,152950,8.81,4.52
+55,Nigeria,Orlu,3,2014,201184,7.5,4.14
+56,Nigeria,Tofa,2,2021,244423,8.93,3.71
+57,Nigeria,Bokkos,2,2014,110350,8.68,5.29
+58,Nigeria,Mokwa,5,2016,248234,8.73,3.27
+59,Nigeria,Gusau,1,2021,96518,7.94,4.68
+60,Nigeria,Gambaru,1,2016,57505,7.7,2.7
+61,Nigeria,Ikot-Ekpene,1,2017,56877,7.33,3.99
+62,Nigeria,Bode Sadu,4,2022,82456,7.46,4.73
+63,Nigeria,Lokoja,3,2021,203407,6.41,3.01
+64,Nigeria,Auna,2,2013,218567,8.58,3.05
+65,Nigeria,Gembu,3,2013,184761,7.13,3.93
+66,Nigeria,Uromi,3,2017,108538,9.32,5.15
+67,Nigeria,Gorgoram,3,2014,87449,7.19,4.32
+68,Nigeria,Lapai,4,2016,117740,8.76,4.05
+69,Nigeria,Musawa,3,2017,80210,6.54,4.99
+70,Nigeria,Zaki Biam,3,2017,147620,6.64,5.6
+71,Nigeria,Ogaminan,4,2023,55462,6.94,2.77
+72,Nigeria,Wasagu,3,2016,125771,8.23,3.29
+73,Nigeria,Effium,2,2017,186798,9.1,3.84
+74,Nigeria,Rijau,2,2013,228836,7.75,3.81
+75,Nigeria,Saki,3,2014,197286,7.33,3.73
+76,Nigeria,Badeggi,1,2018,222035,8.94,3.59
+77,Nigeria,Patani,3,2020,146516,9.25,5.1
+78,Nigeria,Sokoto,2,2018,94960,8.47,3.48
+79,Nigeria,Gwio Kura,4,2013,176916,7.92,3.37
+80,Nigeria,Ebute Ikorodu,2,2017,195727,7.87,5.77
+81,Nigeria,Orlu,2,2023,117121,7.21,2.79
+82,Nigeria,Mayo Belwa,3,2020,78010,7.44,3.82
+83,Nigeria,Obiaruku Quarters,4,2018,113030,6.99,5.67
+84,Nigeria,Kontagora,5,2015,208817,8.35,5.3
+85,Nigeria,Danja,2,2018,138470,8.93,3.5
+86,Nigeria,Yelwa,1,2022,218125,8.97,3.5
+87,Nigeria,Gumel,2,2021,201404,7.04,3.41
+88,Nigeria,Sabon Gari-Nangere,2,2022,197483,9.0,5.14
+89,Nigeria,Babana,2,2023,79373,7.21,3.78
+90,Nigeria,Dindima,3,2019,93487,8.54,3.39
+91,Nigeria,Agbani,3,2014,136120,7.23,4.22
+92,Nigeria,Dan Sadau,5,2022,51730,7.14,5.91
+93,Nigeria,Katsina,5,2021,69726,7.61,5.83
+94,Nigeria,Madara,2,2016,75101,8.82,3.63
+95,Nigeria,Obonoma,2,2016,141695,6.4,5.75
+96,Nigeria,Bassa,3,2023,130340,7.2,5.6
+97,Nigeria,Ndeaboh,3,2014,240540,6.8,4.59
+98,Nigeria,Wawa,4,2019,96036,8.22,5.9
+99,Nigeria,Nafada,5,2021,209929,7.52,3.14
+100,Nigeria,Ajasse Ipo,4,2016,133635,7.65,5.46
+101,Nigeria,Okpo,2,2015,182086,7.93,2.87
+102,Nigeria,Ozubulu,4,2017,50264,8.57,4.34
+103,Nigeria,Illela,1,2018,110793,6.76,3.21
+104,Nigeria,Okuta,1,2013,74081,6.64,4.24
+105,Nigeria,Eha Amufu,2,2023,220836,6.42,3.56
+106,Nigeria,Konkwesso,5,2019,57257,8.5,4.29
+107,Nigeria,Shagamu,2,2014,162473,6.55,5.09
+108,Nigeria,Awgu,2,2015,89305,6.78,5.43
+109,Nigeria,Kishi,2,2022,105177,9.13,2.82
+110,Nigeria,Konduga,3,2020,93519,7.61,3.29
+111,Nigeria,Monguno,2,2022,125411,7.4,4.54
+112,Nigeria,Tambawel,5,2017,130040,7.59,4.97
+113,Nigeria,Mekkaw,2,2015,123164,7.78,2.82
+114,Nigeria,Agbani,5,2016,159778,7.76,4.14
+115,Nigeria,Oji River,3,2014,249442,6.7,3.12
+116,Nigeria,Mekkaw,2,2023,124066,8.11,4.04
+117,Nigeria,Oke Ila,3,2013,163936,7.84,4.04
+118,Nigeria,Etinan,1,2014,156828,6.87,4.83
+119,Nigeria,Olupona,3,2015,62863,7.34,4.09
+120,Nigeria,Ode,2,2020,112977,9.37,4.25
+121,Nigeria,Bassa,4,2020,142637,7.58,3.81
+122,Nigeria,Owo,2,2020,160997,8.84,2.7
+123,Nigeria,Okigwi,1,2014,176170,8.36,5.87
+124,Nigeria,Langtang,3,2017,165903,9.19,2.83
+125,Nigeria,Rabah,5,2017,178623,9.14,3.38
+126,Nigeria,Giade,3,2018,160786,7.16,2.83
+127,Nigeria,Idah,4,2018,199974,7.44,3.07
+128,Nigeria,Samamiya,3,2020,189174,7.79,3.24
+129,Nigeria,Nafada,3,2018,209538,9.01,5.05
+130,Nigeria,Gwandu,5,2017,181737,8.46,5.61
+131,Nigeria,Gwandu,5,2013,120897,6.74,3.42
+132,Nigeria,Ete,4,2020,105212,7.01,3.81
+133,Nigeria,Ozubulu,5,2013,69411,8.41,2.76
+134,Nigeria,Madagali,1,2020,74278,9.26,4.36
+135,Nigeria,Omuo-Ekiti,3,2018,109700,7.1,4.33
+136,Nigeria,Okpoma,2,2017,117997,8.64,4.29
+137,Nigeria,Kaingiwa,1,2019,115480,8.26,2.72
+138,Nigeria,Maru,1,2023,190375,7.71,3.24
+139,Nigeria,Bida,1,2017,181670,8.95,4.5
+140,Nigeria,Ndeaboh,4,2013,129496,8.13,3.89
+141,Nigeria,Pankshin,3,2019,71588,7.81,5.83
+142,Nigeria,Lokoja,5,2017,96451,6.59,5.69
+143,Nigeria,Kaiama,1,2018,101473,7.85,5.54
+144,Nigeria,Argungu,2,2018,138830,8.44,4.19
+145,Nigeria,Misau,5,2014,205417,7.34,4.43
+146,Nigeria,Numan,1,2020,212955,7.1,4.75
+147,Nigeria,Gwaram,5,2015,149210,6.88,5.8
+148,Nigeria,Madala,3,2016,60529,8.05,3.7
+149,Nigeria,Mashi,3,2013,141516,7.44,4.16
+150,Nigeria,Ebute Ikorodu,4,2019,224633,6.81,5.07
+151,Nigeria,Illushi,3,2018,102269,9.27,5.52
+152,Nigeria,Abeokuta,5,2018,103859,8.33,5.43
+153,Nigeria,Dankama,4,2018,119070,8.28,3.91
+154,Nigeria,Takai,1,2017,110113,8.18,4.31
+155,Nigeria,Toungo,3,2013,103379,8.53,3.72
+156,Nigeria,Ogoja,1,2021,143542,7.91,3.16
+157,Nigeria,Mberubu,5,2018,236014,6.33,5.49
+158,Nigeria,Ilare,4,2016,213543,7.95,4.48
+159,Nigeria,Kachia,3,2016,170875,7.56,5.47
+160,Nigeria,Matsena,5,2020,118576,7.44,3.17
+161,Nigeria,Otukpa,1,2023,221759,7.02,5.73
+162,Nigeria,Okrika,1,2020,205707,7.06,5.35
+163,Nigeria,Tegina,3,2016,153021,8.48,3.21
+164,Nigeria,Amper,3,2015,172479,7.08,3.3
+165,Nigeria,Madagali,3,2018,77368,9.3,4.49
+166,Nigeria,Elele,5,2016,162309,8.37,2.97
+167,Nigeria,Pindiga,3,2016,95278,6.61,3.63
+168,Nigeria,Itu,3,2018,245738,7.76,5.82
+169,Nigeria,Jalingo,4,2022,71843,9.22,4.95
+170,Nigeria,Kujama,4,2018,232798,8.02,3.64
+171,Nigeria,Geidam,2,2022,193457,8.65,3.41
+172,Nigeria,Nafada,2,2020,227739,8.42,4.25
+173,Nigeria,Boju,1,2020,218508,8.32,2.83
+174,Nigeria,Yenagoa,3,2015,202796,6.91,3.67
+175,Nigeria,Damaturu,3,2015,119912,6.65,5.57
+176,Nigeria,Esuk Oron,3,2022,75748,7.42,4.77
+177,Nigeria,Ijebu-Ife,3,2018,160934,6.95,5.52
+178,Nigeria,Kumagunnam,4,2013,154039,8.29,4.77
+179,Nigeria,Abuochiche,2,2016,131990,7.98,5.27
+180,Nigeria,Oke Ila,3,2013,95740,7.81,2.75
+181,Nigeria,Lere,2,2014,192179,7.42,3.61
+182,Nigeria,Abeokuta,2,2022,227383,8.13,3.78
+183,Nigeria,Okuta,1,2022,81081,7.52,5.44
+184,Nigeria,Kazaure,2,2013,157949,6.35,3.69
+185,Nigeria,Zaki Biam,3,2020,55985,7.9,5.4
+186,Nigeria,Bassa,4,2022,208204,8.44,2.81
+187,Nigeria,Geidam,1,2018,204394,8.18,5.26
+188,Nigeria,Orita Eruwa,5,2021,80994,8.33,4.13
+189,Nigeria,Dindima,3,2023,87849,6.57,4.75
+190,Nigeria,Ijebu-Ife,4,2020,238232,7.71,4.91
+191,Nigeria,Bode Sadu,5,2015,164832,9.25,3.8
+192,Nigeria,Neni,3,2020,82394,6.55,4.98
+193,Nigeria,Bokani,5,2013,216926,6.78,2.85
+194,Nigeria,Katagum,1,2021,238640,6.37,2.97
+195,Nigeria,Ikot-Ekpene,3,2018,161398,8.97,3.56
+196,Nigeria,Gumel,2,2013,123821,7.92,5.28
+197,Nigeria,Siluko,5,2016,229756,7.96,3.64
+198,Nigeria,Abonnema,1,2015,245352,6.56,2.67
+199,Nigeria,Katsina,4,2020,222203,9.08,3.86
+200,Nigeria,Obiaruku Quarters,5,2015,121219,8.81,4.65
+201,Nigeria,Nguru,3,2014,73509,9.1,5.52
+202,Nigeria,Dutsin Ma,5,2023,182749,7.97,5.43
+203,Nigeria,Shinkafe,5,2014,52135,7.17,4.05
+204,Nigeria,Shaffa,3,2023,215960,8.14,5.94
+205,Nigeria,Aba,5,2015,148584,8.59,4.48
+206,Nigeria,Sofo-Birnin-Gwari,1,2018,204630,8.2,2.97
+207,Nigeria,Abuja,2,2018,145408,8.76,5.1
+208,Nigeria,Gwandu,5,2017,60970,8.89,3.69
+209,Nigeria,Oji River,1,2018,52847,9.03,4.16
+210,Nigeria,Abuochiche,1,2014,143143,8.59,5.25
+211,Nigeria,Esuk Oron,1,2020,211759,6.34,3.98
+212,Nigeria,Dadiya,1,2021,246797,8.92,5.14
+213,Nigeria,Ndeaboh,4,2017,77716,7.46,5.89
+214,Nigeria,Tambawel,4,2022,58376,9.36,4.7
+215,Nigeria,Biliri,3,2016,133003,7.59,5.83
+216,Nigeria,Kwale,3,2013,151318,7.34,3.41
+217,Nigeria,Yashikera,4,2020,177466,6.35,3.4
+218,Nigeria,Offa,4,2020,106118,6.95,5.66
+219,Nigeria,Illushi,4,2013,110829,6.73,4.97
+220,Nigeria,Otan Aiyegbaju,2,2016,80460,6.37,4.21
+221,Nigeria,Benisheikh,1,2022,121078,6.42,4.64
+222,Nigeria,Konkwesso,5,2021,111002,9.32,5.6
+223,Nigeria,Ake-Eze,2,2014,181028,8.84,5.13
+224,Nigeria,Igbo-Ukwu,2,2023,178413,8.45,3.84
+225,Nigeria,Disina,5,2023,87061,8.12,3.55
+226,Nigeria,Mando,2,2013,120740,8.58,4.14
+227,Nigeria,Zungeru,1,2019,234916,8.92,2.92
+228,Nigeria,Lafia,2,2013,115712,8.78,5.4
+229,Nigeria,Maiduguri,5,2016,186645,8.77,2.88
+230,Nigeria,Okpoma,5,2023,237739,9.26,5.85
+231,Nigeria,Badeggi,1,2019,74719,6.84,5.66
+232,Nigeria,Konkwesso,4,2021,108255,8.15,5.34
+233,Nigeria,Miringa,1,2013,84670,9.03,5.29
+234,Nigeria,Zaki Biam,3,2019,110120,7.43,3.59
+235,Nigeria,Keffin Hausa,5,2018,53905,9.3,5.49
+236,Nigeria,Kajuru,4,2014,95222,6.36,5.65
+237,Nigeria,Yola,1,2019,107167,6.56,2.91
+238,Nigeria,Yandev,1,2018,66334,6.78,4.83
+239,Nigeria,Wuyo,2,2016,108139,7.84,4.91
+240,Nigeria,Ugba,2,2015,238393,9.27,5.18
+241,Nigeria,Kuta,5,2017,83137,6.58,3.81
+242,Nigeria,Ukata,2,2023,241032,9.24,2.83
+243,Nigeria,Rabah,4,2016,57488,6.95,5.01
+244,Nigeria,Igbo-Ukwu,2,2022,82334,6.44,5.28
+245,Nigeria,Bauchi,3,2019,78367,8.0,5.27
+246,Nigeria,Kuje,5,2021,67220,7.41,4.21
+247,Nigeria,Ugep,4,2014,186436,8.99,5.93
+248,Nigeria,Aku,5,2020,197568,6.51,5.94
+249,Nigeria,Ibeto,2,2017,125551,8.69,2.89
+250,Nigeria,Ode,3,2013,79323,8.69,2.88
+251,Nigeria,Awgu,4,2017,145138,8.75,3.01
+252,Nigeria,Bokkos,5,2023,55466,9.34,4.83
+253,Nigeria,Biliri,1,2021,60081,8.92,5.04
+254,Nigeria,Ikang,1,2023,184734,7.01,5.62
+255,Nigeria,Amaigbo,4,2015,146892,8.23,4.84
+256,Nigeria,Jibiya,1,2015,131903,8.28,4.46
+257,Nigeria,Uyo,3,2019,204844,7.83,4.68
+258,Nigeria,Kwolla,5,2015,177096,6.63,4.74
+259,Nigeria,Wurno,5,2013,92999,8.09,4.87
+260,Nigeria,Talata Mafara,4,2023,91396,8.38,4.7
+261,Nigeria,Shanga,2,2021,181073,8.92,3.94
+262,Nigeria,Zango,5,2013,65126,8.8,2.79
+263,Nigeria,Abakaliki,1,2018,217648,6.46,5.81
+264,Nigeria,Sokoto,2,2013,211466,8.73,5.74
+265,Nigeria,Nassarawa,1,2020,135349,9.27,3.57
+266,Nigeria,Idah,1,2015,116429,8.48,2.7
+267,Nigeria,Obiaruku Quarters,2,2015,139841,9.08,4.46
+268,Nigeria,Fika,4,2016,211054,8.33,3.97
+269,Nigeria,Tokombere,1,2019,229957,6.56,4.5
+270,Nigeria,Effium,5,2022,187418,8.25,5.4
+271,Nigeria,Bugana,4,2019,212095,7.17,4.57
+272,Nigeria,Dadiya,5,2014,203033,9.31,5.42
+273,Nigeria,Idanre,5,2020,188484,7.77,5.73
+274,Nigeria,Yandev,5,2022,100834,7.2,3.85
+275,Nigeria,Gujba,2,2017,123259,8.41,5.86
+276,Nigeria,Madagali,1,2018,227004,8.8,4.38
+277,Nigeria,Holma,1,2016,221756,9.18,3.16
+278,Nigeria,Gorgoram,4,2018,125060,7.59,4.79
+279,Nigeria,Akure,1,2019,125355,6.7,4.79
+280,Nigeria,Sauri,4,2013,162374,8.26,2.77
+281,Nigeria,Numan,2,2018,209491,8.49,5.29
+282,Nigeria,Adani,5,2017,152093,7.08,3.95
+283,Nigeria,Sauri,2,2014,141403,8.22,5.67
+284,Nigeria,Suleja,5,2014,53079,9.35,3.55
+285,Nigeria,Samamiya,1,2018,183676,9.09,4.67
+286,Nigeria,Ugep,1,2014,244434,8.69,5.46
+287,Nigeria,Gandi,1,2017,87805,7.66,4.37
+288,Nigeria,Ilesa,5,2023,114577,8.3,5.83
+289,Nigeria,Orodo,5,2020,148081,8.57,5.38
+290,Nigeria,Sokoto,2,2020,66647,7.4,3.12
+291,Nigeria,Onueke,1,2023,132799,7.36,5.83
+292,Nigeria,Dindima,3,2022,85903,7.43,5.34
+293,Nigeria,New Shagunnu,1,2013,197195,6.63,5.47
+294,Nigeria,Bununu Dass,4,2020,82110,8.18,5.32
+295,Nigeria,Obubra,3,2013,180091,7.28,5.23
+296,Nigeria,Ifo,4,2017,242124,7.32,3.28
+297,Nigeria,Orodo,1,2022,171465,8.23,4.41
+298,Nigeria,Obonoma,1,2020,85319,7.67,5.7
+299,Nigeria,Onitsha,2,2016,244147,7.08,4.66
+300,Nigeria,Ugep,4,2013,160965,8.02,4.32
+301,Nigeria,Okpoma,4,2019,209957,8.15,3.44
+302,Nigeria,Nkpor,1,2016,120446,8.85,4.19
+303,Nigeria,Ipoti,2,2018,238160,8.61,4.44
+304,Nigeria,Kwale,4,2015,81053,7.9,5.55
+305,Nigeria,Badeggi,2,2013,62971,9.0,5.33
+306,Nigeria,Anchau,3,2020,110390,8.45,3.62
+307,Nigeria,Ochobo,1,2016,111017,7.52,3.34
+308,Nigeria,Oji River,5,2021,77305,8.48,2.96
+309,Nigeria,Katsina,3,2016,229245,6.98,3.31
+310,Nigeria,Riti,1,2018,199195,7.26,2.74
+311,Nigeria,Wudil,4,2021,122019,8.83,3.21
+312,Nigeria,Geidam,2,2015,134472,6.39,4.7
+313,Nigeria,Damasak,4,2017,234785,6.35,4.66
+314,Nigeria,Gorgoram,5,2018,232288,8.25,5.15
+315,Nigeria,Oke Ila,4,2017,176260,7.8,2.76
+316,Nigeria,Gusau,3,2018,79639,7.88,5.5
+317,Nigeria,Zaria,3,2014,183373,9.03,5.58
+318,Nigeria,Jibiya,3,2019,100949,8.96,4.97
+319,Nigeria,Wushishi,3,2020,190341,7.2,5.55
+320,Nigeria,Jimeta,2,2018,90369,7.81,4.19
+321,Nigeria,Ajasse Ipo,4,2016,154024,7.87,2.98
+322,Nigeria,Igbor,5,2018,103535,7.69,5.3
+323,Nigeria,Yuli,5,2014,229901,6.39,4.05
+324,Nigeria,Badagry,1,2014,135395,6.46,5.25
+325,Nigeria,Ipoti,3,2014,147826,6.94,3.51
+326,Nigeria,Orlu,4,2018,192130,8.22,5.49
+327,Nigeria,Rabah,1,2021,216215,8.45,5.77
+328,Nigeria,Aku,3,2022,133647,9.06,4.98
+329,Nigeria,Abua,2,2017,239358,6.8,4.47
+330,Nigeria,Shinkafe,5,2022,230792,7.68,5.09
+331,Nigeria,Amaigbo,1,2019,223779,7.6,4.42
+332,Nigeria,Toungo,4,2021,129861,8.75,4.7
+333,Nigeria,Jos,4,2015,98630,7.75,3.38
+334,Nigeria,Ipoti,2,2023,236516,6.53,5.28
+335,Nigeria,Holma,2,2016,129287,7.56,4.71
+336,Nigeria,Omoku,2,2019,87451,9.05,5.88
+337,Nigeria,Orlu,2,2013,224349,9.12,3.18
+338,Nigeria,Effium,5,2013,182189,8.37,3.35
+339,Nigeria,Tegina,5,2019,85854,8.2,4.04
+340,Nigeria,Mokwa,5,2015,179744,7.97,5.01
+341,Nigeria,Ogurugu,2,2019,84159,7.17,3.9
+342,Nigeria,Ondo,5,2020,139988,8.09,5.92
+343,Nigeria,Kuje,4,2016,161393,7.47,2.9
+344,Nigeria,Saki,3,2023,215027,9.14,4.38
+345,Nigeria,Shagamu,5,2013,104378,7.2,3.28
+346,Nigeria,Modakeke,4,2019,170681,6.78,3.54
+347,Nigeria,Miringa,2,2017,249645,7.67,4.9
+348,Nigeria,Uruobo-Okija,2,2020,123451,6.69,4.25
+349,Nigeria,Monguno,2,2019,239128,8.3,3.0
+350,Nigeria,Ifon,3,2016,87397,8.73,4.54
+351,Nigeria,Neni,2,2023,53336,7.45,4.23
+352,Nigeria,Pategi,5,2022,90799,7.2,5.88
+353,Nigeria,Sankera,3,2021,121119,8.69,4.21
+354,Nigeria,Bokani,4,2023,132711,8.79,3.08
+355,Nigeria,Lapai,5,2018,177028,8.0,4.58
+356,Nigeria,Sankera,5,2016,208406,8.89,4.63
+357,Nigeria,Akankpa,2,2023,133686,6.53,4.62
+358,Nigeria,Rijau,1,2018,78195,6.7,3.09
+359,Nigeria,Gagarawa,4,2020,112735,9.28,4.33
+360,Nigeria,Lere,3,2019,154247,7.28,2.93
+361,Nigeria,Bassa,3,2013,235453,7.67,3.19
+362,Nigeria,Orodo,5,2013,234206,7.43,4.63
+363,Nigeria,Hunkuyi,3,2015,90268,6.61,2.78
+364,Nigeria,Suya,2,2022,72496,7.89,4.51
+365,Nigeria,Fika,1,2014,112068,6.92,5.23
+366,Nigeria,Ilare,3,2022,145064,6.72,5.1
+367,Nigeria,Dakingari,4,2019,176432,8.76,3.62
+368,Nigeria,Dan Sadau,4,2022,231089,6.53,5.26
+369,Nigeria,Maru,5,2014,74270,7.55,4.09
+370,Nigeria,Damasak,3,2014,163781,9.22,3.86
+371,Nigeria,Offa,4,2016,79197,8.33,5.74
+372,Nigeria,Rabah,5,2017,83268,9.03,3.46
+373,Nigeria,Gambaru,2,2014,69337,8.91,3.92
+374,Nigeria,Boju,1,2015,235366,7.49,5.17
+375,Nigeria,Kujama,4,2014,173108,9.09,5.96
+376,Nigeria,Sokoto,2,2019,69793,8.33,3.88
+377,Nigeria,Orodo,3,2016,85393,6.67,3.98
+378,Nigeria,Yajiwa,5,2019,111139,6.53,3.0
+379,Nigeria,Mashi,5,2023,88583,7.45,5.23
+380,Nigeria,Gwaram,5,2020,133164,7.56,4.25
+381,Nigeria,Bukuru,4,2019,248671,7.29,3.17
+382,Nigeria,Kazaure,4,2018,89282,8.43,3.98
+383,Nigeria,Maru,1,2019,178089,8.18,3.06
+384,Nigeria,Uyo,3,2021,200967,8.5,3.56
+385,Nigeria,Boju,1,2014,210542,8.68,2.9
+386,Nigeria,Ruma,4,2019,124673,7.68,2.82
+387,Nigeria,Kiyawa,2,2014,246102,6.57,5.61
+388,Nigeria,Abonnema,1,2020,109929,8.22,5.7
+389,Nigeria,Suya,4,2018,154938,6.73,5.96
+390,Nigeria,Nsukka,1,2014,192809,7.35,2.97
+391,Nigeria,Dabai,4,2018,69189,6.54,4.89
+392,Nigeria,Kazaure,5,2018,249199,8.51,4.17
+393,Nigeria,Fika,1,2020,215697,8.51,5.7
+394,Nigeria,Omu Aran,4,2020,100186,8.51,5.11
+395,Nigeria,Wagini,1,2022,78298,8.15,3.33
+396,Nigeria,Mafa,3,2022,55981,7.06,2.85
+397,Nigeria,Bin Yauri,2,2020,160181,8.02,5.29
+398,Nigeria,Onueke,1,2020,132542,6.39,2.69
+399,Nigeria,Iwo,1,2015,118603,7.27,4.61
+400,Nigeria,Kwolla,4,2015,153982,9.18,3.43
+401,Nigeria,Bama,5,2018,54544,8.12,4.34
+402,Nigeria,Hunkuyi,3,2022,81170,7.87,5.96
+403,Nigeria,Mutum Biyu,5,2014,132703,9.0,5.87
+404,Nigeria,Shanga,2,2019,59282,9.01,5.01
+405,Nigeria,Okpoma,2,2022,163090,7.17,3.22
+406,Nigeria,Kaingiwa,2,2021,94739,7.63,2.85
+407,Nigeria,Neni,4,2019,120587,9.37,3.78
+408,Nigeria,Gora,5,2017,234066,7.52,5.06
+409,Nigeria,Agbor,1,2023,191167,7.33,4.43
+410,Nigeria,Okpo,3,2019,203787,8.34,2.97
+411,Nigeria,Maiyema,1,2015,246140,9.33,5.1
+412,Nigeria,Egbe,2,2017,241424,8.51,3.56
+413,Nigeria,Ake-Eze,4,2022,242190,8.98,4.04
+414,Nigeria,Opi,2,2023,150081,7.0,3.85
+415,Nigeria,Yenagoa,2,2018,239378,7.84,4.99
+416,Nigeria,Argungu,5,2018,108185,9.29,5.93
+417,Nigeria,Umuahia,1,2019,67823,7.75,2.81
+418,Nigeria,Zadawa,1,2013,226543,9.06,3.71
+419,Nigeria,Wuyo,5,2020,105346,8.65,5.94
+420,Nigeria,Keffin Hausa,4,2014,202897,6.49,3.32
+421,Nigeria,Oyo,4,2020,73477,8.63,2.67
+422,Nigeria,Igbo Ora,5,2013,197630,6.69,4.13
+423,Nigeria,Kura,5,2021,243982,7.55,4.15
+424,Nigeria,Bununu Dass,4,2014,101348,9.1,2.71
+425,Nigeria,Nnewi,5,2022,133554,6.71,2.88
+426,Nigeria,Ozubulu,5,2019,183851,9.25,3.07
+427,Nigeria,Badeggi,5,2018,90864,8.18,5.02
+428,Nigeria,Oke Ila,3,2019,197120,8.08,4.21
+429,Nigeria,Auna,1,2018,129326,8.09,5.24
+430,Nigeria,Okigwi,3,2016,186233,8.77,5.23
+431,Nigeria,Abakaliki,5,2013,203450,9.05,3.98
+432,Nigeria,Aba,3,2020,161545,9.23,3.7
+433,Nigeria,Mutum Biyu,3,2017,239226,8.33,2.96
+434,Nigeria,Amper,2,2022,112147,8.48,3.44
+435,Nigeria,Ete,4,2017,241196,8.55,5.45
+436,Nigeria,Omuo-Ekiti,2,2014,104685,8.89,4.09
+437,Nigeria,Kaiama,2,2016,229259,8.2,3.79
+438,Nigeria,Lalupon,5,2018,117529,7.12,4.08
+439,Nigeria,Soba,4,2023,80222,8.38,3.29
+440,Nigeria,Kuje,1,2015,216834,7.6,4.84
+441,Nigeria,Badagry,4,2018,140858,7.45,5.14
+442,Nigeria,Shinkafe,2,2018,176711,7.48,4.3
+443,Nigeria,Kafarati,2,2022,96446,6.42,3.45
+444,Nigeria,Bode Sadu,2,2022,198757,6.55,4.83
+445,Nigeria,Tokombere,4,2020,62079,8.98,3.76
+446,Nigeria,Matsena,1,2015,150998,8.51,2.74
+447,Nigeria,Abeokuta,2,2022,70745,7.4,3.63
+448,Nigeria,Uyo,4,2022,122128,8.37,3.35
+449,Nigeria,Igbeti,4,2014,92494,7.84,5.09
+450,Nigeria,Yamrat,2,2019,135118,6.57,4.84
+451,Nigeria,Adani,4,2021,207605,8.49,3.53
+452,Nigeria,Wasagu,1,2013,69078,8.82,4.32
+453,Nigeria,Modakeke,2,2018,58396,8.81,3.31
+454,Nigeria,Nassarawa,3,2022,220788,8.7,3.03
+455,Nigeria,Jibiya,2,2023,63285,9.16,4.4
+456,Nigeria,Kwali,1,2013,154796,7.96,3.96
+457,Nigeria,Ikot-Ekpene,2,2016,175313,7.86,4.76
+458,Nigeria,Omu Aran,4,2015,159885,8.15,4.88
+459,Nigeria,Talata Mafara,5,2014,77461,8.61,5.24
+460,Nigeria,Gumel,2,2015,123848,6.65,5.03
+461,Nigeria,Ilesa,1,2022,242854,7.45,3.0
+462,Nigeria,Ekpoma,3,2016,230514,7.24,4.13
+463,Nigeria,Zungeru,2,2022,222931,8.99,3.08
+464,Nigeria,Agbor,5,2014,193660,7.47,2.8
+465,Nigeria,Oguta,3,2017,229626,8.37,3.16
+466,Nigeria,Nassarawa,2,2020,168881,9.14,5.79
+467,Nigeria,Uromi,4,2014,50531,7.2,4.39
+468,Nigeria,Sofo-Birnin-Gwari,3,2018,184845,6.98,5.58
+469,Nigeria,Mahuta,4,2023,53943,9.08,5.68
+470,Nigeria,Iwo,1,2017,184466,6.89,3.13
+471,Nigeria,Kende,1,2019,198397,8.23,4.31
+472,Nigeria,Isanlu Itedoijowa,5,2020,182035,8.93,5.25
+473,Nigeria,Wushishi,5,2023,131826,7.44,5.6
+474,Nigeria,Gusau,5,2019,133683,8.14,5.6
+475,Nigeria,Oyan,1,2013,51133,7.69,4.51
+476,Nigeria,Elele,2,2019,243511,7.55,3.92
+477,Nigeria,Wagini,1,2017,70013,8.62,5.03
+478,Nigeria,Ukata,4,2023,169844,8.51,5.42
+479,Nigeria,Omu Aran,3,2021,150067,6.6,5.2
+480,Nigeria,Tofa,5,2019,248682,7.81,4.41
+481,Nigeria,Ohafia-Ifigh,2,2014,102059,6.43,3.2
+482,Nigeria,Ruma,3,2018,212350,9.12,5.13
+483,Nigeria,Owerri,3,2015,153403,8.49,5.47
+484,Nigeria,Ake-Eze,4,2015,212976,6.77,5.59
+485,Nigeria,Ughelli,2,2020,97674,6.54,2.77
+486,Nigeria,Kiyawa,4,2021,225698,7.3,5.18
+487,Nigeria,Ogaminan,3,2019,219033,7.29,2.82
+488,Nigeria,Bauchi,5,2015,105467,7.51,4.61
+489,Nigeria,Kura,3,2021,136787,8.52,5.77
+490,Nigeria,Gashua,2,2022,230611,7.78,3.16
+491,Nigeria,Aku,1,2021,109248,8.66,3.4
+492,Nigeria,Nkpor,3,2018,121805,6.98,5.01
+493,Nigeria,Port Harcourt,2,2015,76939,7.02,5.04
+494,Nigeria,Ochobo,3,2015,135771,8.9,4.87
+495,Nigeria,Ukata,3,2021,152788,8.01,5.65
+496,Nigeria,Abuja,1,2018,147686,7.58,5.43
+497,Nigeria,Shani,5,2020,104807,8.27,3.05
+498,Nigeria,New Shagunnu,2,2015,55809,6.37,3.12
+499,Nigeria,Katsina-Ala,4,2019,53179,8.73,4.51
+500,Nigeria,Kwolla,2,2015,123414,7.25,4.13
+501,Nigeria,Idi Iroko,4,2021,128421,9.25,4.66
+502,Nigeria,Omuo-Ekiti,4,2022,50644,7.06,4.48
+503,Nigeria,Uba,1,2023,191131,8.25,4.34
+504,Nigeria,Katsina,4,2023,207408,8.27,3.02
+505,Nigeria,Holma,1,2016,54035,9.02,2.7
+506,Nigeria,Akure,3,2020,104206,9.17,2.67
+507,Nigeria,Agenebode,5,2022,183836,6.9,3.08
+508,Nigeria,Biliri,5,2016,74651,9.09,3.51
+509,Nigeria,Kende,4,2014,241193,8.92,5.82
+510,Nigeria,Dambarta,4,2019,146597,7.91,3.54
+511,Nigeria,Igbor,3,2018,179418,8.93,3.8
+512,Nigeria,Ila Orangun,2,2018,172811,7.8,3.09
+513,Nigeria,Illushi,3,2017,197254,6.4,4.1
+514,Nigeria,Nkpor,5,2017,162685,9.13,3.0
+515,Nigeria,Gujba,4,2017,139988,8.93,5.83
+516,Nigeria,Magumeri,2,2018,230203,6.46,3.44
+517,Nigeria,Kachia,1,2017,238773,6.96,3.86
+518,Nigeria,Mekkaw,2,2019,151344,7.55,3.1
+519,Nigeria,Badeggi,2,2023,242749,7.71,4.21
+520,Nigeria,Omoku,5,2016,195262,8.57,3.55
+521,Nigeria,Dan Sadau,2,2020,83538,8.84,4.19
+522,Nigeria,Oguta,4,2015,239254,8.66,4.76
+523,Nigeria,Ozubulu,4,2021,68231,6.4,4.42
+524,Nigeria,Nkwerre,5,2015,196706,8.95,4.33
+525,Nigeria,Obudu,2,2017,173093,7.1,4.84
+526,Nigeria,Abakaliki,1,2023,150005,6.55,2.92
+527,Nigeria,Makoko,4,2020,108029,7.61,5.01
+528,Nigeria,Garko,1,2022,138895,6.82,5.53
+529,Nigeria,Miringa,5,2018,241701,8.89,4.91
+530,Nigeria,Oguma,2,2018,195025,7.54,5.0
+531,Nigeria,Tofa,2,2015,149582,6.49,5.09
+532,Nigeria,Ochobo,2,2015,134173,8.55,3.39
+533,Nigeria,Siluko,4,2017,87860,7.45,4.04
+534,Nigeria,Siluko,4,2016,186039,7.44,4.04
+535,Nigeria,Obiaruku Quarters,5,2023,153529,9.12,3.1
+536,Nigeria,Aba,4,2018,88145,7.27,3.73
+537,Nigeria,Opi,2,2018,70140,7.88,4.34
+538,Nigeria,Jega,4,2014,227893,9.34,5.12
+539,Nigeria,Gamawa,4,2018,176310,7.57,5.54
+540,Nigeria,Ochobo,4,2019,103924,6.64,5.4
+541,Nigeria,Zungeru,5,2020,124875,7.69,5.54
+542,Nigeria,Sabon Gari-Nangere,5,2023,230626,7.19,2.84
+543,Nigeria,Zaki Biam,1,2017,200811,8.78,4.08
+544,Nigeria,Anchau,1,2017,151403,8.96,3.43
+545,Nigeria,Ode,4,2013,158493,8.02,4.24
+546,Nigeria,Ogoja,2,2015,54138,6.89,4.51
+547,Nigeria,Kaiama,1,2018,232958,8.81,5.29
+548,Nigeria,Otun,4,2023,147172,8.02,3.63
+549,Nigeria,Tofa,3,2014,56683,7.74,5.48
+550,Nigeria,Marte,4,2014,184566,8.77,3.13
+551,Nigeria,Siluko,5,2021,203064,8.89,5.95
+552,Nigeria,Rano,4,2014,166537,7.3,3.11
+553,Nigeria,Osogbo,5,2013,191678,9.05,3.21
+554,Nigeria,Wawa,4,2021,249453,6.92,4.27
+555,Nigeria,Maru,4,2022,145707,6.49,2.96
+556,Nigeria,Vom,5,2023,94409,7.03,2.71
+557,Nigeria,Onueke,5,2014,189357,8.79,3.76
+558,Nigeria,Dakingari,3,2013,111696,7.28,4.92
+559,Nigeria,Nassarawa,4,2019,209261,7.84,4.85
+560,Nigeria,Zaria,3,2020,145311,7.95,3.74
+561,Nigeria,Lalupon,3,2013,133563,8.2,4.08
+562,Nigeria,Tofa,4,2022,128261,7.11,3.01
+563,Nigeria,Potiskum,1,2016,73553,9.01,4.23
+564,Nigeria,Lokoja,5,2021,199417,9.06,4.82
+565,Nigeria,Igbo-Ukwu,1,2019,174685,7.96,2.72
+566,Nigeria,Mekkaw,5,2015,58255,6.63,4.2
+567,Nigeria,Igbo-Ukwu,2,2014,131184,6.56,2.84
+568,Nigeria,Shinkafe,3,2019,61134,7.7,5.15
+569,Nigeria,Yandev,2,2023,168818,8.52,3.86
+570,Nigeria,Siluko,4,2020,64729,9.29,4.03
+571,Nigeria,Bukuru,2,2018,184189,7.51,4.09
+572,Nigeria,Okrika,5,2016,211281,8.24,4.4
+573,Nigeria,Itu,2,2015,182185,8.89,3.66
+574,Nigeria,Nkpor,3,2020,114512,7.87,2.68
+575,Nigeria,Gusau,2,2015,106934,6.38,5.26
+576,Nigeria,Ilare,3,2021,56913,9.35,4.55
+577,Nigeria,Kabba,4,2016,192391,7.51,5.3
+578,Nigeria,Potiskum,3,2018,100110,6.42,4.56
+579,Nigeria,Kwolla,4,2023,203883,8.67,5.2
+580,Nigeria,Gaya,2,2013,237997,8.94,5.79
+581,Nigeria,Mekkaw,2,2014,109221,6.56,4.63
+582,Nigeria,Kishi,4,2016,226998,8.16,4.41
+583,Nigeria,Orodo,1,2016,225983,9.29,3.06
+584,Nigeria,Auna,1,2013,218511,8.69,5.56
+585,Nigeria,Gajiram,5,2021,100363,8.74,5.73
+586,Nigeria,Mashi,1,2017,209184,8.3,5.88
+587,Nigeria,Ete,1,2020,210939,7.96,4.41
+588,Nigeria,Gamawa,5,2019,198281,9.27,3.56
+589,Nigeria,Gakem,1,2020,202880,6.91,5.78
+590,Nigeria,Nnewi,3,2013,215507,6.48,3.52
+591,Nigeria,Nnewi,1,2013,239751,8.78,3.51
+592,Nigeria,Konduga,1,2019,102575,8.59,5.72
+593,Nigeria,Kishi,1,2014,239039,8.09,4.79
+594,Nigeria,Omuo-Ekiti,3,2016,183929,9.35,3.63
+595,Nigeria,Kaura Namoda,4,2023,162842,6.74,4.84
+596,Nigeria,Kwali,2,2021,123881,7.91,4.25
+597,Nigeria,Illushi,3,2017,83265,8.62,3.75
+598,Nigeria,Orlu,4,2020,217551,7.07,3.23
+599,Nigeria,Ore,1,2013,207647,9.2,2.86
+600,Nigeria,Boje,1,2018,153777,7.91,2.93
+601,Nigeria,Uyo,2,2022,165890,8.83,3.59
+602,Nigeria,Mashi,1,2013,216846,7.62,4.45
+603,Nigeria,Igboho,5,2016,224392,7.96,5.84
+604,Nigeria,Mayo Belwa,1,2022,227898,6.41,4.62
+605,Nigeria,Mubi,1,2016,151440,6.36,3.95
+606,Nigeria,Mutum Biyu,2,2017,228539,7.16,5.96
+607,Nigeria,Amaigbo,5,2016,205095,7.57,5.12
+608,Nigeria,Zungeru,2,2019,156798,8.03,4.67
+609,Nigeria,Amper,1,2021,189272,7.66,5.4
+610,Nigeria,Tegina,4,2014,175491,7.63,5.57
+611,Nigeria,Kukawa,3,2021,100457,7.07,5.3
+612,Nigeria,Okigwi,4,2018,227964,9.13,3.38
+613,Nigeria,Kafarati,2,2015,104912,8.07,5.31
+614,Nigeria,Danja,5,2021,74788,6.42,4.94
+615,Nigeria,Ndeaboh,1,2013,206918,8.34,5.53
+616,Nigeria,Yenagoa,3,2016,146696,8.96,4.96
+617,Nigeria,Okpoma,2,2021,144907,8.1,5.96
+618,Nigeria,Kaingiwa,3,2018,82068,8.49,4.71
+619,Nigeria,Bomadi,1,2022,226448,9.07,3.46
+620,Nigeria,Obudu,3,2015,216416,6.82,3.72
+621,Nigeria,Ndeaboh,1,2023,81341,8.95,3.9
+622,Nigeria,Owo,2,2019,229888,6.81,5.27
+623,Nigeria,Ode,5,2016,53806,7.54,3.46
+624,Nigeria,Musawa,3,2019,162967,8.96,2.97
+625,Nigeria,Kagoro,3,2021,140905,8.08,3.09
+626,Nigeria,Gorgoram,2,2014,241992,9.06,4.32
+627,Nigeria,Omoku,4,2013,139142,8.51,3.17
+628,Nigeria,Buni Yadi,1,2016,72315,7.94,2.92
+629,Nigeria,Matsena,2,2014,110241,9.09,4.74
+630,Nigeria,Jakusko,2,2014,84759,7.93,4.81
+631,Nigeria,Dapchi,4,2016,227502,8.07,4.91
+632,Nigeria,Malummaduri,5,2023,89361,6.63,4.48
+633,Nigeria,Oju,5,2019,186197,8.91,4.65
+634,Nigeria,Gusau,2,2016,126036,8.83,4.3
+635,Nigeria,Magumeri,5,2021,230121,7.58,4.93
+636,Nigeria,Wasagu,1,2017,143056,7.6,2.98
+637,Nigeria,Akwanga,2,2021,50491,6.34,2.93
+638,Nigeria,Abua,2,2022,200350,7.59,4.46
+639,Nigeria,Mahuta,2,2016,51471,7.76,3.08
+640,Nigeria,Idah,2,2019,186125,8.57,2.97
+641,Nigeria,Tegina,1,2016,79788,7.37,5.57
+642,Nigeria,Patani,1,2021,58103,7.08,5.88
+643,Nigeria,Shanga,2,2018,156343,9.17,3.2
+644,Nigeria,Zaria,1,2020,109814,8.17,5.91
+645,Nigeria,Pindiga,1,2019,185819,9.2,3.91
+646,Nigeria,Omu Aran,5,2013,115047,6.96,4.41
+647,Nigeria,Agenebode,2,2022,230143,9.09,5.84
+648,Nigeria,Ipoti,2,2022,148680,8.34,3.27
+649,Nigeria,Ogurugu,1,2013,183670,7.92,3.22
+650,Nigeria,Saki,4,2021,176576,6.51,3.19
+651,Nigeria,Modakeke,2,2021,238488,8.78,4.93
+652,Nigeria,Patani,3,2022,66224,6.64,3.72
+653,Nigeria,Nassarawa,1,2018,126773,8.09,4.06
+654,Nigeria,Wushishi,2,2018,107886,7.39,4.2
+655,Nigeria,Akwanga,3,2023,155752,7.47,2.9
+656,Nigeria,Obiaruku Quarters,5,2015,122355,8.86,3.41
+657,Nigeria,Disina,3,2022,55936,7.89,3.69
+658,Nigeria,Kumagunnam,3,2022,114081,7.63,5.68
+659,Nigeria,Ozubulu,5,2013,244709,9.15,4.59
+660,Nigeria,Lere,4,2015,165916,6.46,4.99
+661,Nigeria,Riti,4,2014,71036,7.74,5.8
+662,Nigeria,Idah,4,2014,238804,9.35,5.55
+663,Nigeria,Tokombere,3,2022,108042,6.64,2.99
+664,Nigeria,Jega,1,2023,168016,8.47,3.34
+665,Nigeria,Afikpo,3,2016,201173,7.14,5.12
+666,Nigeria,Gagarawa,5,2013,219179,7.65,5.43
+667,Nigeria,Holma,1,2020,115367,8.26,3.89
+668,Nigeria,Okigwi,2,2021,91401,7.73,3.87
+669,Nigeria,Danja,5,2017,223252,7.88,5.51
+670,Nigeria,Illushi,5,2019,71007,7.43,5.2
+671,Nigeria,Ochobo,2,2020,165766,7.91,4.68
+672,Nigeria,Etinan,3,2013,240584,7.39,3.88
+673,Nigeria,Sade,4,2018,230939,6.52,5.42
+674,Nigeria,Akankpa,3,2019,65240,9.31,4.1
+675,Nigeria,Warri,5,2023,230940,6.81,5.53
+676,Nigeria,Numan,5,2013,124213,8.04,4.2
+677,Nigeria,Kafachan,2,2014,122493,7.67,5.19
+678,Nigeria,Disina,2,2016,90439,7.28,3.57
+679,Nigeria,Soba,4,2016,183111,7.8,3.75
+680,Nigeria,Ogaminan,2,2017,217555,7.35,3.9
+681,Nigeria,Idah,2,2020,133562,8.74,2.93
+682,Nigeria,Bukuru,3,2017,229378,8.01,4.21
+683,Nigeria,Rabah,1,2023,111510,7.4,2.8
+684,Nigeria,Jimeta,5,2019,190475,9.1,4.27
+685,Nigeria,Koton Karifi,4,2016,235442,7.88,4.01
+686,Nigeria,Shani,5,2017,79910,8.31,4.75
+687,Nigeria,Ilesa,4,2020,224055,6.5,4.44
+688,Nigeria,Kujama,1,2014,154768,6.92,4.16
+689,Nigeria,Ndeaboh,4,2020,114489,7.65,5.52
+690,Nigeria,Ndeaboh,1,2014,99960,8.07,2.79
+691,Nigeria,Damasak,3,2013,105308,7.11,5.33
+692,Nigeria,Gamawa,4,2013,234260,6.68,4.45
+693,Nigeria,Ifo,2,2021,162466,9.2,3.43
+694,Nigeria,Ode,4,2017,220573,8.21,2.98
+695,Nigeria,Mafa,3,2019,243082,6.55,3.48
+696,Nigeria,Lere,1,2019,185567,9.09,3.55
+697,Nigeria,Ugba,5,2020,94324,7.6,5.07
+698,Nigeria,Omoku,4,2023,185283,7.85,4.12
+699,Nigeria,Akankpa,1,2017,208670,6.78,5.61
+700,Nigeria,Gwandu,5,2016,137092,8.91,3.48
+701,Nigeria,Egbe,5,2016,129084,8.81,4.19
+702,Nigeria,Holma,5,2020,223915,8.58,5.35
+703,Nigeria,Gwio Kura,5,2013,104175,8.97,2.84
+704,Nigeria,Onitsha,1,2020,120717,8.08,2.83
+705,Nigeria,Owode,1,2023,232017,6.92,4.68
+706,Nigeria,Kujama,4,2021,223344,7.91,3.37
+707,Nigeria,Obonoma,4,2022,234352,6.74,4.64
+708,Nigeria,Ringim,1,2020,230507,7.51,3.69
+709,Nigeria,Biliri,4,2021,189243,8.6,4.8
+710,Nigeria,Auna,5,2016,244833,6.92,5.91
+711,Nigeria,Orlu,4,2016,232616,7.35,3.22
+712,Nigeria,Sade,5,2019,107103,7.37,5.89
+713,Nigeria,Okpo,2,2015,188304,7.25,4.56
+714,Nigeria,Dadiya,3,2022,118590,9.25,4.1
+715,Nigeria,Ndeaboh,3,2022,199451,8.48,5.39
+716,Nigeria,Rijau,5,2015,170161,7.68,4.41
+717,Nigeria,Lokoja,1,2013,189897,9.24,5.13
+718,Nigeria,Kuta,5,2018,120668,6.67,4.84
+719,Nigeria,Ibadan,2,2021,53062,7.14,5.16
+720,Nigeria,Omuo-Ekiti,4,2018,206948,8.3,4.74
+721,Nigeria,Talata Mafara,4,2015,72125,7.81,4.02
+722,Nigeria,Shinkafe,3,2014,72679,7.22,4.27
+723,Nigeria,Saki,5,2020,103978,7.22,4.02
+724,Nigeria,Maiyema,2,2016,235896,9.37,3.47
+725,Nigeria,Shinkafe,3,2015,208218,9.04,4.34
+726,Nigeria,Dapchi,1,2016,161216,8.61,4.91
+727,Nigeria,Bokkos,1,2023,195459,7.46,5.27
+728,Nigeria,Yanda Bayo,3,2021,79377,6.85,5.85
+729,Nigeria,Jimeta,3,2013,201121,8.17,4.57
+730,Nigeria,Fiditi,5,2013,127993,8.9,4.97
+731,Nigeria,Bokani,2,2018,147226,9.32,5.76
+732,Nigeria,Opi,2,2016,76870,8.25,3.65
+733,Nigeria,Buni Yadi,5,2019,123455,6.42,3.13
+734,Nigeria,Nnewi,1,2015,201407,7.98,5.09
+735,Nigeria,Gwadabawa,4,2021,177341,6.51,3.77
+736,Nigeria,Maiduguri,4,2020,90034,6.44,5.85
+737,Nigeria,Agbani,2,2014,238388,8.55,5.76
+738,Nigeria,Samamiya,1,2014,56471,8.9,5.11
+739,Nigeria,Yanda Bayo,1,2021,145859,8.69,4.54
+740,Nigeria,Tambawel,4,2023,156038,8.76,3.7
+741,Nigeria,Magumeri,3,2014,193885,7.95,4.87
+742,Nigeria,Kari,4,2015,220021,9.24,3.57
+743,Nigeria,Kumagunnam,3,2015,222068,8.16,4.98
+744,Nigeria,Gumel,4,2018,64689,8.08,4.29
+745,Nigeria,Mokwa,3,2013,176268,7.77,4.84
+746,Nigeria,Sapele,4,2023,62341,6.38,3.72
+747,Nigeria,Uromi,4,2015,209324,6.5,5.61
+748,Nigeria,Ugep,4,2020,248567,8.67,5.15
+749,Nigeria,Jebba,3,2020,140903,8.96,4.47
+750,Nigeria,Kuje,1,2018,238137,7.76,3.44
+751,Nigeria,Olupona,1,2020,176324,7.11,4.05
+752,Nigeria,Keffin Hausa,5,2018,188608,8.52,3.67
+753,Nigeria,Obubra,3,2018,129214,9.19,3.99
+754,Nigeria,Ughelli,3,2017,230094,8.29,3.35
+755,Nigeria,Okpo,4,2013,173394,6.35,5.87
+756,Nigeria,Kusheriki,1,2018,106535,8.39,2.95
+757,Nigeria,Amper,1,2015,206458,9.23,3.6
+758,Nigeria,Adani,3,2016,83573,8.59,3.99
+759,Nigeria,Danja,1,2022,120658,7.9,3.36
+760,Nigeria,Ebute Ikorodu,5,2018,158952,7.23,4.48
+761,Nigeria,New Shagunnu,5,2018,94364,8.14,4.23
+762,Nigeria,Danja,4,2020,74587,8.28,5.83
+763,Nigeria,Ngala,2,2023,203656,8.31,3.32
+764,Nigeria,Riti,5,2023,96409,7.44,3.45
+765,Nigeria,Bukuru,1,2019,173048,8.11,4.45
+766,Nigeria,Zalanga,3,2023,213143,6.65,2.98
+767,Nigeria,Ndeaboh,4,2022,195946,6.95,4.17
+768,Nigeria,Keffi,3,2018,163623,8.35,5.06
+769,Nigeria,Vom,1,2015,87295,8.57,3.31
+770,Nigeria,Misau,4,2013,59789,8.14,5.52
+771,Nigeria,Sauri,5,2014,244052,7.01,3.47
+772,Nigeria,Wurno,3,2023,233861,6.51,4.44
+773,Nigeria,Wagini,3,2016,165992,6.77,3.7
+774,Nigeria,Agbani,5,2018,123565,7.98,3.22
+775,Nigeria,Yandev,3,2015,53186,8.53,2.77
+776,Nigeria,Gorgoram,3,2019,115781,8.17,3.02
+777,Nigeria,Owerri,3,2020,177800,8.95,3.68
+778,Nigeria,Pategi,4,2023,115119,8.2,4.64
+779,Nigeria,Akwanga,4,2019,93673,9.08,4.22
+780,Nigeria,Rahama,1,2015,139072,7.27,5.09
+781,Nigeria,Afikpo,4,2019,75752,7.85,5.61
+782,Nigeria,Yola,5,2015,152342,6.99,5.93
+783,Nigeria,Kaduna,1,2017,232257,7.88,2.99
+784,Nigeria,Iwo,2,2019,189931,9.09,5.04
+785,Nigeria,Idah,5,2016,50361,8.59,3.38
+786,Nigeria,Madara,1,2020,180081,7.61,5.93
+787,Nigeria,Sabon Gari-Nangere,2,2013,122327,6.78,5.08
+788,Nigeria,Gwaram,4,2022,193550,9.37,3.67
+789,Nigeria,Owode,1,2013,189557,8.63,5.91
+790,Nigeria,Idanre,4,2013,125434,8.36,5.96
+791,Nigeria,Kaduna,1,2019,125297,8.82,4.54
+792,Nigeria,Esuk Oron,3,2018,86660,6.36,5.35
+793,Nigeria,Amaigbo,4,2018,56743,7.76,3.55
+794,Nigeria,Idi Iroko,4,2022,194069,8.46,3.52
+795,Nigeria,Orita Eruwa,4,2016,202209,7.96,3.99
+796,Nigeria,Aba,3,2019,59624,8.93,5.53
+797,Nigeria,Ogaminan,1,2022,152812,8.18,4.58
+798,Nigeria,Bununu Kasa,4,2022,231342,9.05,4.24
+799,Nigeria,Danja,1,2020,183062,8.04,2.97
+800,Nigeria,Mahuta,3,2014,197327,7.62,3.23
+801,Nigeria,Siluko,5,2017,60864,8.9,5.0
+802,Nigeria,Obollo-Afor,4,2023,138796,8.36,2.9
+803,Nigeria,Lalupon,4,2013,249204,7.89,3.99
+804,Nigeria,Takai,4,2013,165182,7.56,2.74
+805,Nigeria,Koton Karifi,2,2017,102773,7.58,5.31
+806,Nigeria,Uba,1,2014,128767,6.82,3.12
+807,Nigeria,Pankshin,5,2018,98999,6.36,3.79
+808,Nigeria,Gwaram,1,2018,64678,6.66,3.71
+809,Nigeria,Gashua,4,2020,156876,7.53,5.66
+810,Nigeria,Wukari,4,2022,214855,8.32,3.98
+811,Nigeria,Orodo,1,2017,63540,8.92,2.7
+812,Nigeria,Ejigbo,1,2014,138037,8.92,2.91
+813,Nigeria,Uba,5,2017,167123,7.21,3.85
+814,Nigeria,Ondo,4,2014,80775,8.21,4.78
+815,Nigeria,Wudil,5,2015,113750,7.5,5.01
+816,Nigeria,Holma,5,2020,75185,9.21,5.54
+817,Nigeria,Neni,1,2023,107537,7.19,5.6
+818,Nigeria,Abuochiche,2,2017,170016,6.74,2.89
+819,Nigeria,Lapai,5,2021,71017,8.81,2.78
+820,Nigeria,Fika,4,2021,181923,8.38,4.93
+821,Nigeria,Jega,1,2022,246179,6.39,5.49
+822,Nigeria,Mberubu,5,2015,80935,6.54,3.94
+823,Nigeria,Auna,3,2015,237226,9.2,3.78
+824,Nigeria,Kankara,2,2015,189932,9.34,5.63
+825,Nigeria,Ogoja,3,2014,179306,9.05,5.49
+826,Nigeria,Oguta,2,2019,211690,9.13,4.71
+827,Nigeria,Lere,4,2021,150085,7.07,4.05
+828,Nigeria,Ngala,1,2023,170039,9.22,2.9
+829,Nigeria,Ete,1,2020,248089,7.63,3.32
+830,Nigeria,Agbor,5,2022,181921,8.35,5.24
+831,Nigeria,Gwandu,3,2022,156616,8.78,4.44
+832,Nigeria,Takum,5,2014,154376,8.41,5.28
+833,Nigeria,Egbe,2,2013,139908,8.56,3.48
+834,Nigeria,Igboho,1,2019,92062,7.28,3.92
+835,Nigeria,Kaltungo,4,2019,154107,7.7,5.41
+836,Nigeria,Amper,3,2016,165878,6.52,5.08
+837,Nigeria,Lokoja,3,2018,117870,8.48,4.91
+838,Nigeria,Miringa,3,2013,154594,7.95,3.65
+839,Nigeria,Malummaduri,2,2023,53698,7.81,5.87
+840,Nigeria,Okuta,5,2013,192803,7.18,3.08
+841,Nigeria,Anka,3,2020,68586,7.76,3.17
+842,Nigeria,Mayo Belwa,5,2023,123535,7.62,5.49
+843,Nigeria,Bornu Yassu,1,2018,189773,7.11,4.58
+844,Nigeria,Hunkuyi,1,2014,67907,7.99,4.42
+845,Nigeria,Magumeri,2,2022,135158,7.64,4.54
+846,Nigeria,Kafarati,5,2017,51093,6.67,5.5
+847,Nigeria,Ndeaboh,4,2021,149215,9.13,5.26
+848,Nigeria,Gora,1,2021,144002,8.08,4.53
+849,Nigeria,Sokoto,2,2021,166306,7.86,3.14
+850,Nigeria,Obollo-Afor,4,2023,170854,8.64,3.51
+851,Nigeria,Okpoma,2,2019,157740,7.73,5.81
+852,Nigeria,Kafarati,1,2023,66426,8.58,4.65
+853,Nigeria,Amassoma,3,2015,190235,7.29,4.01
+854,Nigeria,Kiyawa,5,2013,100244,7.76,3.6
+855,Nigeria,Jibiya,3,2021,91232,6.58,4.57
+856,Nigeria,Umuahia,2,2020,214672,6.86,4.57
+857,Nigeria,Auna,4,2020,74980,7.63,5.68
+858,Nigeria,Otukpa,2,2019,135647,9.2,4.74
+859,Nigeria,Iperu,1,2021,230567,8.27,5.42
+860,Nigeria,Miringa,4,2016,89350,7.08,3.56
+861,Nigeria,Owo,2,2019,94478,6.59,3.46
+862,Nigeria,Dadiya,1,2019,159182,7.67,2.95
+863,Nigeria,Talata Mafara,1,2017,73829,6.43,4.56
+864,Nigeria,Ikang,3,2022,123789,7.49,5.62
+865,Nigeria,Kujama,1,2021,238534,9.11,4.01
+866,Nigeria,New Shagunnu,2,2014,245033,7.94,4.58
+867,Nigeria,Ikeja,1,2016,180627,9.32,4.92
+868,Nigeria,Toungo,1,2013,174263,8.01,2.84
+869,Nigeria,Mutum Biyu,2,2014,87911,8.6,3.16
+870,Nigeria,Gujba,2,2019,188807,7.18,5.03
+871,Nigeria,Moriki,5,2013,191642,6.95,3.64
+872,Nigeria,Kwale,5,2019,101400,6.69,4.47
+873,Nigeria,Dutsin Ma,4,2017,195633,7.89,3.67
+874,Nigeria,Aku,4,2022,106406,7.28,3.05
+875,Nigeria,Lokoja,1,2013,192963,7.32,2.98
+876,Nigeria,Rahama,3,2015,248164,8.47,4.49
+877,Nigeria,Samamiya,5,2022,164672,6.96,4.66
+878,Nigeria,Yuli,4,2020,217978,9.11,5.61
+879,Nigeria,Takum,4,2022,79645,8.29,4.6
+880,Nigeria,Gwaram,5,2016,117675,9.16,5.88
+881,Nigeria,Mutum Biyu,1,2017,125747,7.72,3.97
+882,Nigeria,Rahama,5,2020,88234,8.53,3.11
+883,Nigeria,Giade,4,2016,76570,6.53,4.7
+884,Nigeria,Boje,5,2023,90299,6.57,5.81
+885,Nigeria,Esuk Oron,3,2021,92656,6.59,4.27
+886,Nigeria,Jega,3,2017,95285,7.14,4.05
+887,Nigeria,Ochobo,4,2023,242929,8.63,3.82
+888,Nigeria,Umuahia,2,2020,240246,9.05,4.55
+889,Nigeria,Kachia,1,2016,148929,8.37,4.86
+890,Nigeria,Ibeto,3,2021,132290,8.88,3.87
+891,Nigeria,Dankalwa,5,2021,186965,8.93,3.37
+892,Nigeria,Gwadabawa,5,2017,74752,6.71,3.82
+893,Nigeria,Malumfashi,5,2015,68490,8.0,5.32
+894,Nigeria,Uyo,4,2023,248740,7.3,4.67
+895,Nigeria,Nsukka,3,2017,110298,6.44,5.77
+896,Nigeria,Yelwa,1,2017,212807,8.07,3.31
+897,Nigeria,Madara,2,2019,178294,8.0,4.98
+898,Nigeria,Elele,4,2022,234261,8.53,5.14
+899,Nigeria,Vom,1,2020,121099,8.54,4.07
+900,Nigeria,Obiaruku Quarters,3,2016,87001,8.42,3.35
+901,Nigeria,Kabba,2,2022,184244,8.43,5.55
+902,Nigeria,Jos,4,2017,193977,8.34,4.56
+903,Nigeria,Konduga,1,2016,82281,8.98,5.39
+904,Nigeria,Mokwa,5,2015,110406,7.75,4.56
+905,Nigeria,Igarra,1,2022,125506,7.18,3.8
+906,Nigeria,Shaffa,3,2017,198363,7.28,3.96
+907,Nigeria,Takai,3,2019,109742,7.92,3.55
+908,Nigeria,Oke Iho,1,2021,231251,8.47,3.69
+909,Nigeria,Omu Aran,5,2017,187324,6.37,5.87
+910,Nigeria,Owerri,1,2014,91427,7.64,5.35
+911,Nigeria,Yajiwa,1,2023,237151,7.17,3.76
+912,Nigeria,Shaffa,1,2020,171475,6.7,5.11
+913,Nigeria,Misau,1,2020,196197,7.04,4.66
+914,Nigeria,Igbo Ora,1,2018,115706,6.79,5.13
+915,Nigeria,Orerokpe,3,2018,94144,8.26,5.18
+916,Nigeria,Gwadabawa,1,2018,217163,6.99,3.54
+917,Nigeria,Nguru,5,2014,56764,6.73,4.16
+918,Nigeria,Wagini,1,2016,69879,9.23,5.89
+919,Nigeria,Itu,4,2019,121307,7.62,3.94
+920,Nigeria,Amper,1,2015,136416,6.52,3.32
+921,Nigeria,Nkwerre,2,2017,149165,6.67,3.53
+922,Nigeria,Dindima,3,2020,138558,8.85,4.51
+923,Nigeria,Shinkafe,5,2022,162518,6.67,3.23
+924,Nigeria,Kari,2,2017,84939,9.19,5.07
+925,Nigeria,Otukpa,5,2015,142220,9.03,3.97
+926,Nigeria,Hunkuyi,3,2017,110719,8.44,5.41
+927,Nigeria,Ode,2,2021,187596,6.49,4.97
+928,Nigeria,Toungo,3,2018,64912,6.71,4.07
+929,Nigeria,Wuyo,3,2013,62939,6.58,2.83
+930,Nigeria,Ogwashi-Uku,2,2016,174289,7.25,4.75
+931,Nigeria,Gora,5,2022,220926,6.42,5.6
+932,Nigeria,Sabon Gari-Nangere,1,2020,60470,7.64,3.42
+933,Nigeria,Damasak,1,2021,161817,7.01,3.95
+934,Nigeria,Jakusko,4,2021,88687,7.16,4.78
+935,Nigeria,Warri,5,2018,100211,8.99,4.83
+936,Nigeria,Lau,2,2015,235149,8.42,5.45
+937,Nigeria,Ilesa,5,2016,178790,7.7,3.26
+938,Nigeria,Bukuru,1,2018,246905,7.22,4.99
+939,Nigeria,Ughelli,2,2020,67158,8.49,5.93
+940,Nigeria,Nsukka,3,2014,85157,7.41,4.73
+941,Nigeria,Ifo,4,2016,179295,8.76,5.46
+942,Nigeria,Yashikera,2,2013,114288,8.18,4.56
+943,Nigeria,Okpoma,5,2014,193588,8.67,5.26
+944,Nigeria,Saki,1,2014,121861,7.75,5.09
+945,Nigeria,Omu Aran,2,2023,120463,7.92,3.31
+946,Nigeria,Uyo,5,2018,179406,9.31,3.4
+947,Nigeria,Modakeke,5,2015,67048,6.51,5.62
+948,Nigeria,Badagry,4,2014,245145,6.9,3.65
+949,Nigeria,Langtang,1,2019,113014,7.25,4.15
+950,Nigeria,Ochobo,3,2017,98080,7.18,4.39
+951,Nigeria,Afikpo,2,2020,166699,7.69,5.38
+952,Nigeria,Igboho,1,2018,226065,6.51,3.53
+953,Nigeria,Maru,5,2015,123062,8.63,3.54
+954,Nigeria,Katagum,5,2014,196718,7.59,4.54
+955,Nigeria,Ode,3,2020,140147,6.67,4.31
+956,Nigeria,Agbor,4,2023,100116,7.87,5.79
+957,Nigeria,Esuk Oron,3,2015,207754,8.08,4.98
+958,Nigeria,Isu,4,2018,129849,8.45,5.83
+959,Nigeria,Sankera,2,2020,188141,7.59,5.83
+960,Nigeria,Wasagu,2,2013,213934,9.02,5.6
+961,Nigeria,Kusheriki,2,2015,62554,8.82,5.9
+962,Nigeria,Riyom,5,2018,235358,8.05,3.5
+963,Nigeria,Gwadabawa,2,2013,141560,6.37,5.1
+964,Nigeria,Ilare,1,2022,152278,7.6,3.67
+965,Nigeria,Funtua,5,2014,127796,9.17,5.85
+966,Nigeria,Ohafia-Ifigh,5,2021,175277,6.7,4.7
+967,Nigeria,Yenagoa,5,2020,247436,8.9,5.48
+968,Nigeria,Bokani,2,2019,107228,7.5,3.32
+969,Nigeria,Gagarawa,5,2019,109749,9.35,5.67
+970,Nigeria,Lafiagi,3,2013,210209,8.65,4.1
+971,Nigeria,Yajiwa,3,2016,245969,8.82,5.14
+972,Nigeria,Yelwa,4,2023,115484,6.54,2.8
+973,Nigeria,Jos,2,2022,187472,7.1,5.26
+974,Nigeria,Kuje,5,2013,220972,6.74,2.73
+975,Nigeria,Suleja,1,2016,128275,9.14,5.18
+976,Nigeria,Bassa,4,2022,142713,7.94,3.32
+977,Nigeria,Wuyo,2,2016,113439,6.91,3.54
+978,Nigeria,Igboho,2,2021,210137,8.09,4.27
+979,Nigeria,Takai,5,2015,118095,7.46,4.83
+980,Nigeria,Dutsin Ma,1,2016,247210,7.57,3.15
+981,Nigeria,Musawa,4,2023,145072,9.29,3.04
+982,Nigeria,Umunede,3,2013,105845,8.04,5.76
+983,Nigeria,Gwadabawa,2,2019,72595,8.14,5.63
+984,Nigeria,Mayo Belwa,1,2019,64589,6.33,2.93
+985,Nigeria,Bode Sadu,1,2013,82196,8.0,3.63
+986,Nigeria,Mokwa,3,2017,196481,6.81,5.69
+987,Nigeria,Oke Ila,3,2014,121451,8.47,5.03
+988,Nigeria,Jimeta,2,2015,111902,8.07,3.95
+989,Nigeria,Batsari,4,2020,232717,8.97,5.51
+990,Nigeria,Kuje,3,2013,167781,8.6,4.6
+991,Nigeria,Dakingari,1,2020,185991,6.79,3.47
+992,Nigeria,Ila Orangun,5,2013,86574,6.96,4.69
+993,Nigeria,Aba,2,2015,151812,8.0,4.02
+994,Nigeria,Ejigbo,2,2022,208185,8.77,2.71
+995,Nigeria,Vom,2,2013,73958,7.34,2.99
+996,Nigeria,Itu,3,2020,195521,8.26,4.34
+997,Nigeria,Kabba,2,2020,192996,7.6,4.99
+998,Nigeria,Langtang,4,2019,52871,8.93,5.63
+999,Nigeria,Warri,3,2015,88605,7.3,5.78
+1000,Nigeria,Kagoro,1,2022,169783,8.0,4.6
