@@ -15,7 +15,7 @@ Following is some information about myself and links to the exercises, assignmen
 ## Assignments
 - [1](Assignment/Assignment_2/Assignment2.md) - Assignment 1 
 
-- [2](Assignment_2/Assign_2.md) - Assignmnet 2
+- [2](Assignment_2/Assign_2.md) - Assignment 2
 
 - [3](Assignment_3/Assign_3.md) - Assignment 3
 
@@ -23,6 +23,13 @@ Following is some information about myself and links to the exercises, assignmen
 
 
 ## Final Project Documentation
+-[5](Final Project Documentation/Assignment_5.md)- Project Proposal
 
 
 ## Roadmap
+- April 5: Data cleaning and analysis 
+- April 10: Obtaining relevant secondary data (Ongoing)
+- April 15: Develop visuals using Tableau 
+- April 20: Refine web map and submit draft project report 
+- April 25: Refine web map and finalize project report
+- April 30: Submit final project report and web map.
