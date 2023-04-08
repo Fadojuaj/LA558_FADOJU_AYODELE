@@ -4,7 +4,6 @@
 # Fadoju, Ayodele
 
 install.packages("leaflet", "leaflet.providers", "tidyverse")
-install.packages("fontawesome")
 
 library(leaflet)
 library(leaflet.providers)
