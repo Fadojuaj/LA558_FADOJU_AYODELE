@@ -35,11 +35,11 @@ The data will be cleaned, processed, and analyzed using R before being visualize
 ### 1.2.3	Inspirations
 
 Some websites that provided inspiration for this project include:
-- Sustainable Development Goals Report 2019
-- European Cities on a Budget
-- Federal Ministry of Health Registry Nigeria
-- Housing and Construction in Africa
-- Building Resilience in Zimbabwe
+- [Sustainable Development Goals Report 2019](https://undesa.maps.arcgis.com/apps/MapSeries/index.html?appid=48248a6f94604ab98f6ad29fa182efbd)
+- [European Cities on a Budget](https://public.tableau.com/app/profile/sarah.bartlett/viz/EuropeanCitiesonaBudget/EuropeanCitiesonaBudget)
+- [Federal Ministry of Health Registry Nigeria](https://hfr.health.gov.ng/)
+- [Housing and Construction in Africa](https://public.tableau.com/app/profile/housingfinanceafrica/viz/HousingConstruction_FinalRevision/Story1)
+- [Building Resilience in Zimbabwe](https://usaid.maps.arcgis.com/apps/Cascade/index.html?appid=6f320488a0c145a7ab23df33fa1f8288)
 
 ### 1.2.4	Potential Challenges 
 
