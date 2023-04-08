@@ -35,17 +35,17 @@ The data will be cleaned, processed, and analyzed using R before being visualize
 ### 1.2.3	Inspirations
 
 Some websites that provided inspiration for this project include:
-•	Sustainable Development Goals Report 2019
-•	European Cities on a Budget
-•	Federal Ministry of Health Registry Nigeria
-•	Housing and Construction in Africa
-•	Building Resilience in Zimbabwe
+- Sustainable Development Goals Report 2019
+- European Cities on a Budget
+- Federal Ministry of Health Registry Nigeria
+- Housing and Construction in Africa
+- Building Resilience in Zimbabwe
 
 ### 1.2.4	Potential Challenges 
 
 Some potential challenges that may be encountered in this project include:
-•	Availability of real-time data, the project will rely heavily on primary data collected in the past
-•	Limited access to some areas within the community when the primary data was collected.
+- Availability of real-time data, the project will rely heavily on primary data collected in the past
+- Limited access to some areas within the community when the primary data was collected.
 •	Technical challenges while cleaning the raw data to fit my specific need.
 •	Time constraints due to ongoing project works at the moment
 
