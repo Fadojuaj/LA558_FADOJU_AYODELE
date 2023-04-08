@@ -46,16 +46,16 @@ Some websites that provided inspiration for this project include:
 Some potential challenges that may be encountered in this project include:
 - Availability of real-time data, the project will rely heavily on primary data collected in the past
 - Limited access to some areas within the community when the primary data was collected.
-•	Technical challenges while cleaning the raw data to fit my specific need.
-•	Time constraints due to ongoing project works at the moment
+- Technical challenges while cleaning the raw data to fit my specific need.
+- Time constraints due to ongoing project works at the moment
 
 ### Timeline
 
-•	April 5: Data cleaning and analysis
-•	April 10: Obtaining relevant secondary data 
-•	April 15: Develop web map using Leaflet or Tableau 
-•	April 20: Refine web map and submit draft project report 
-•	April 25: Refine web map and finalize project report
-•	April 30: Submit final project report and web map.
+- April 5: Data cleaning and analysis
+- April 10: Obtaining relevant secondary data 
+- April 15: Develop visuals using Tableau 
+- April 20: Refine web map and submit draft project report 
+- April 25: Refine web map and finalize project report
+- April 30: Submit final project report and web map.
 
 Fingers crossed!
