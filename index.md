@@ -23,7 +23,7 @@ Following is some information about myself and links to the exercises, assignmen
 
 - [6](Assignment_6/Assign_6.html) - Assignmnet 6
 
--[7](Assignment_7/Assign_7.html) - Assignment 7
+- [7](Assignment_7/Assign_7.html) - Assignment 7
 
 
 ## Final Project Documentation
