@@ -21,6 +21,10 @@ Following is some information about myself and links to the exercises, assignmen
 
 - [4](Assignment_4/Assign_4.html) - Assignment 4
 
+- [6](Assignment_6/Assign_6.html) - Assignmnet 6
+
+-[7](Assignment_7/Assign_7.html) - Assignment 7
+
 
 ## Final Project Documentation
 - [5](Final_Project_Documentation/Assignment_5.md)- Project Proposal
