@@ -1087,8 +1087,8 @@ with_Clean_Water]]></run>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='30' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='33' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='32' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone forceUpdate='true' h='4875' id='20' type-v2='text' w='68500' x='21000' y='1625'>
                   <formatted-text>
                     <run fontcolor='#000000' fontname='Rockwell' fontsize='20'>NIGERIA: EMERGING CLEAN WATER ACCESS ISSUES</run>
