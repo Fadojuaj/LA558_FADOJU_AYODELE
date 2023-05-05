@@ -10,9 +10,9 @@ Following is some information about myself and links to the exercises, assignmen
 
 - [2b](Class_Exercises/Exercise_2/Exercise_2.md) - It contains a map created on QGIS and exported to Github with an image from a webpage.
 
-- [6a](Class_Exercises/Exercise_3/Exercise_3.md) -  Mapping in R using Tidycensus
+- [6a](Class_Exercises/Exercise_6a/Exercise_6a.md) -  Mapping in R using Tidycensus
 
-- [7b](Class_Exercises/Exercise_4/Exercise_4.md) - Leaftlet map in R
+- [7b](Class_Exercises/Exercise_7b/Exercise_7b.md) - Leaftlet map in R
 
 - [10b](Class_Exercises/Exercise_10b/Excerise_10b.html) - Practice Excercise Using Tableau.
        
