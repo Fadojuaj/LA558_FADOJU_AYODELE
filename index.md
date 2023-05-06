@@ -14,7 +14,7 @@ Following is some information about myself and links to the exercises, assignmen
 
 - [7b](Class_Exercises/Excercise_7b/Excercise_7b.md) - Leaftlet map in R
 
-- [10b](Class_Exercises/Exercise_10b/Exercise_10b.html) - Practice Excercise Using Tableau.
+- [10b](Class_Exercises/Exercise_10b/Excerise_10b.html) - Practice Excercise Using Tableau.
        
 ## Assignments
 - [1](Assignment/Assignment_2/Assignment2.md) - Assignment 1 
