@@ -12,9 +12,9 @@ Following is some information about myself and links to the exercises, assignmen
 
 - [6a](Class_Exercises/Exercise_6a/Excercise_6a.md) -  Mapping in R using Tidycensus
 
-- [7b](Class_Exercises/Exercise_7b/Excercise_7b.md) - Leaftlet map in R
+- [7b](Class_Exercises/Excercise_7b/Excercise_7b.md) - Leaftlet map in R
 
-- [10b](Class_Exercises/Exercise_10b/Exercise_7b.html) - Practice Excercise Using Tableau.
+- [10b](Class_Exercises/Exercise_10b/Exercise_10b.html) - Practice Excercise Using Tableau.
        
 ## Assignments
 - [1](Assignment/Assignment_2/Assignment2.md) - Assignment 1 
