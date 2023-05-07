@@ -33,7 +33,7 @@ Following is some information about myself and links to the exercises, assignmen
 ## Final Project Documentation
 - [5](Final_Project_Documentation/Assignment_5.md)- Project Proposal
 
-- <a href="https://fadojuaj.gitHub.io/LA558_FADOJU_AYODELE/Final_Project_Documentation/READ_ME_Project_Process.pdf" target="_blank" rel="noopener noreferrer">6. READ ME: Project Methodology</a>
+- <a href="https://fadojuaj.gitHub.io/LA558_FADOJU_AYODELE/Final_Project_Documentation/READ_ME_Project_Process.pdf" target="_blank" rel="noopener noreferrer">6 - READ ME: Project Methodology</a>
 
 - [7](Final_Project_Documentation/Final_Project.html)- Final Project
 
