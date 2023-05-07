@@ -1072,7 +1072,7 @@
             <groupfilter function='level-members' level='[Geo-Political Zones]' user:ui-action-filter='[Action2_DEBF10B3DAF44FDA9EFEBC306D91F1C1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Action (Geo-Political Zones1)]'>
-            <groupfilter function='member' level='[Geo-Political Zones]' member='&quot;South-South&quot;' user:ui-action-filter='[Action2_DEBF10B3DAF44FDA9EFEBC306D91F1C1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='level-members' level='[Geo-Political Zones]' user:ui-action-filter='[Action2_DEBF10B3DAF44FDA9EFEBC306D91F1C1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]</column>
@@ -2442,15 +2442,15 @@
           <_.fcp.LayerControlWidget.true...layer-control toolbar-button-enabled='false' />
         </viewpoint>
       </viewpoints>
-      <active id='3' />
+      <active id='8' />
       <simple-id uuid='{801AB5E7-56A2-477C-9A4D-7E3F34AF0099}' />
     </window>
-    <window class='dashboard' maximized='true' name='Section4'>
+    <window class='dashboard' name='Section4'>
       <viewpoints />
       <active id='-1' />
       <simple-id uuid='{06BA1483-F108-40A8-8991-ABB1D047955E}' />
     </window>
-    <window class='dashboard' name='Conclusion&amp;Refrences'>
+    <window class='dashboard' maximized='true' name='Conclusion&amp;Refrences'>
       <viewpoints />
       <active id='-1' />
       <simple-id uuid='{17CFC8FE-1983-4B06-8D2F-0E20A987D86B}' />
