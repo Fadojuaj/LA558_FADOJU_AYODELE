@@ -1,5 +1,5 @@
 # NIGERIAN DOCTORS ON THE RUN: EMERGING ISSUES IN THE HEALTH CARE SYSTEM
-# Date:   March 26th, 2023
+# March 26th, 2023
 ## <a href="https://fadojuaj.github.io/LA558_FADOJU_AYODELE/Final_Project_Documentation/FinalProject_Proposal.pdf" target="_blank" rel="noopener noreferrer">THE PROPOSAL</a>
 
 ## Abstract
