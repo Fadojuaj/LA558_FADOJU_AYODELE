@@ -33,7 +33,7 @@ Following is some information about myself and links to the exercises, assignmen
 ## Final Project Documentation
 - [5](Final_Project_Documentation/Assignment_5.md)- Project Proposal
 
-- [6](Final_Project_Documentation/Read_me.md)- READ ME: Project Documentation
+- [6](Final_Project_Documentation/Read_me.md)- READ ME: Project Process
 
 - [7](Final_Project_Documentation/Final-Project.md)- Final Project
 
