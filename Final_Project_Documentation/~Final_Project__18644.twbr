@@ -1,0 +1,2441 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+    <ZoneFriendlyName />
+  </document-format-change-manifest>
+  <repository-location id='Doctors_Migration' path='/workbooks' revision='1.4' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv+ (Multiple Connections)' inline='true' name='federated.18yfqe20s8ioaa1bz90s01hbe0u3' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Number_of_Doctors&amp;otherhealthworkers_Nigeria' name='textscan.12k46e3106pxhe17oo1jm1tpu1cy'>
+            <connection class='textscan' directory='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation' filename='Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+          <named-connection caption='MedicalDoctors2010-2022' name='textscan.0ftgiue0gbmodn12cwhnb0z6qd5c'>
+            <connection class='textscan' directory='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation' filename='MedicalDoctors2010-2022.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+          <named-connection caption='Number_of_HealthFacilities_Nigeria' name='textscan.0xef3zs1enrt8511d1vhw135vk32'>
+            <connection class='textscan' directory='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation' filename='Number_of_HealthFacilities_Nigeria.csv' password='' server='' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0ftgiue0gbmodn12cwhnb0z6qd5c' name='MedicalDoctors2010-2022.csv' table='[MedicalDoctors2010-2022#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='State' ordinal='0' />
+            <column datatype='string' name='Geo-Political Zones' ordinal='1' />
+            <column datatype='integer' name='Doctors_2010' ordinal='2' />
+            <column datatype='integer' name='Doctors-2022' ordinal='3' />
+            <column datatype='real' name='Change' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.0ftgiue0gbmodn12cwhnb0z6qd5c' name='Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv' table='[Number_of_Doctors&amp;otherhealthworkers_Nigeria#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='State' ordinal='0' />
+              <column datatype='string' name='Geo-Political Zones' ordinal='1' />
+              <column datatype='integer' name='Number_of_Doctors' ordinal='2' />
+              <column datatype='integer' name='Number_of_Dentists' ordinal='3' />
+              <column datatype='integer' name='Number_of_Nurses' ordinal='4' />
+              <column datatype='integer' name='Number_of_other_Health_personels' ordinal='5' />
+              <column datatype='integer' name='Year' ordinal='6' />
+              <column datatype='real' name='lat' ordinal='7' />
+              <column datatype='real' name='long' ordinal='8' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0ftgiue0gbmodn12cwhnb0z6qd5c' name='MedicalDoctors2010-2022.csv' table='[MedicalDoctors2010-2022#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='State' ordinal='0' />
+              <column datatype='string' name='Geo-Political Zones' ordinal='1' />
+              <column datatype='integer' name='Doctors_2010' ordinal='2' />
+              <column datatype='integer' name='Doctors-2022' ordinal='3' />
+              <column datatype='real' name='Change' ordinal='4' />
+            </columns>
+          </relation>
+          <relation connection='textscan.0xef3zs1enrt8511d1vhw135vk32' name='Number_of_HealthFacilities_Nigeria.csv' table='[Number_of_HealthFacilities_Nigeria#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='State' ordinal='0' />
+              <column datatype='string' name='Geo-Political Zones' ordinal='1' />
+              <column datatype='integer' name='No_of_facility' ordinal='2' />
+              <column datatype='real' name='lat' ordinal='3' />
+              <column datatype='real' name='long' ordinal='4' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[Change]' value='[MedicalDoctors2010-2022.csv].[Change]' />
+          <map key='[Doctors-2022]' value='[MedicalDoctors2010-2022.csv].[Doctors-2022]' />
+          <map key='[Doctors_2010]' value='[MedicalDoctors2010-2022.csv].[Doctors_2010]' />
+          <map key='[Geo-Political Zones (MedicalDoctors2010-2022.csv)]' value='[MedicalDoctors2010-2022.csv].[Geo-Political Zones]' />
+          <map key='[Geo-Political Zones (Number_of_HealthFacilities_Nigeria.csv)]' value='[Number_of_HealthFacilities_Nigeria.csv].[Geo-Political Zones]' />
+          <map key='[Geo-Political Zones]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv].[Geo-Political Zones]' />
+          <map key='[No_of_facility]' value='[Number_of_HealthFacilities_Nigeria.csv].[No_of_facility]' />
+          <map key='[Number_of_Dentists]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv].[Number_of_Dentists]' />
+          <map key='[Number_of_Doctors]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv].[Number_of_Doctors]' />
+          <map key='[Number_of_Nurses]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv].[Number_of_Nurses]' />
+          <map key='[Number_of_other_Health_personels]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv].[Number_of_other_Health_personels]' />
+          <map key='[State (MedicalDoctors2010-2022.csv)]' value='[MedicalDoctors2010-2022.csv].[State]' />
+          <map key='[State (Number_of_HealthFacilities_Nigeria.csv)]' value='[Number_of_HealthFacilities_Nigeria.csv].[State]' />
+          <map key='[State]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv].[State]' />
+          <map key='[Year]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv].[Year]' />
+          <map key='[lat (Number_of_HealthFacilities_Nigeria.csv)]' value='[Number_of_HealthFacilities_Nigeria.csv].[lat]' />
+          <map key='[lat]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv].[lat]' />
+          <map key='[long (Number_of_HealthFacilities_Nigeria.csv)]' value='[Number_of_HealthFacilities_Nigeria.csv].[long]' />
+          <map key='[long]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv].[long]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[MedicalDoctors2010-2022.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Number_of_HealthFacilities_Nigeria.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geo-Political Zones</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Geo-Political Zones]</local-name>
+            <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv]</parent-name>
+            <remote-alias>Geo-Political Zones</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number_of_Doctors</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number_of_Doctors]</local-name>
+            <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv]</parent-name>
+            <remote-alias>Number_of_Doctors</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number_of_Dentists</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number_of_Dentists]</local-name>
+            <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv]</parent-name>
+            <remote-alias>Number_of_Dentists</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number_of_Nurses</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number_of_Nurses]</local-name>
+            <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv]</parent-name>
+            <remote-alias>Number_of_Nurses</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number_of_other_Health_personels</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number_of_other_Health_personels]</local-name>
+            <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv]</parent-name>
+            <remote-alias>Number_of_other_Health_personels</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lat]</local-name>
+            <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv]</parent-name>
+            <remote-alias>lat</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>long</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[long]</local-name>
+            <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv]</parent-name>
+            <remote-alias>long</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State (MedicalDoctors2010-2022.csv)]</local-name>
+            <parent-name>[MedicalDoctors2010-2022.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geo-Political Zones</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Geo-Political Zones (MedicalDoctors2010-2022.csv)]</local-name>
+            <parent-name>[MedicalDoctors2010-2022.csv]</parent-name>
+            <remote-alias>Geo-Political Zones</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Doctors_2010</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Doctors_2010]</local-name>
+            <parent-name>[MedicalDoctors2010-2022.csv]</parent-name>
+            <remote-alias>Doctors_2010</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Doctors-2022</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Doctors-2022]</local-name>
+            <parent-name>[MedicalDoctors2010-2022.csv]</parent-name>
+            <remote-alias>Doctors-2022</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Change</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Change]</local-name>
+            <parent-name>[MedicalDoctors2010-2022.csv]</parent-name>
+            <remote-alias>Change</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State (Number_of_HealthFacilities_Nigeria.csv)]</local-name>
+            <parent-name>[Number_of_HealthFacilities_Nigeria.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geo-Political Zones</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Geo-Political Zones (Number_of_HealthFacilities_Nigeria.csv)]</local-name>
+            <parent-name>[Number_of_HealthFacilities_Nigeria.csv]</parent-name>
+            <remote-alias>Geo-Political Zones</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>No_of_facility</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[No_of_facility]</local-name>
+            <parent-name>[Number_of_HealthFacilities_Nigeria.csv]</parent-name>
+            <remote-alias>No_of_facility</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lat (Number_of_HealthFacilities_Nigeria.csv)]</local-name>
+            <parent-name>[Number_of_HealthFacilities_Nigeria.csv]</parent-name>
+            <remote-alias>lat</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>long</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[long (Number_of_HealthFacilities_Nigeria.csv)]</local-name>
+            <parent-name>[Number_of_HealthFacilities_Nigeria.csv]</parent-name>
+            <remote-alias>long</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Percent_Change' datatype='real' name='[Calculation_383087466323828738]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Change] * 100' />
+      </column>
+      <column caption='Doctors 2010' datatype='integer' name='[Doctors_2010]' role='measure' type='quantitative' />
+      <column caption='Geo-Political Zones (Number of HealthFacilities Nigeria.csv)' datatype='string' name='[Geo-Political Zones (Number_of_HealthFacilities_Nigeria.csv)]' role='dimension' type='nominal' />
+      <column caption='Geo-Political Zones1' datatype='string' name='[Geo-Political Zones]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='No of facility' datatype='integer' name='[No_of_facility]' role='measure' type='quantitative' />
+      <column caption='Number of Dentists' datatype='integer' name='[Number_of_Dentists]' role='measure' type='quantitative' />
+      <column caption='Number of Doctors' datatype='integer' name='[Number_of_Doctors]' role='measure' type='quantitative' />
+      <column caption='Number of Nurses' datatype='integer' name='[Number_of_Nurses]' role='measure' type='quantitative' />
+      <column caption='Number of other Health personels' datatype='integer' name='[Number_of_other_Health_personels]' role='measure' type='quantitative' />
+      <column datatype='string' name='[State (MedicalDoctors2010-2022.csv)]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='State (Number of HealthFacilities Nigeria.csv)' datatype='string' name='[State (Number_of_HealthFacilities_Nigeria.csv)]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='State1' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <semantic-values semantic-role='[State].[Name]'>
+          <semantic-value key='&quot;Plateau&quot;' value='&quot;Plateau&quot;' />
+        </semantic-values>
+      </column>
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='MedicalDoctors2010-2022.csv' datatype='table' name='[__tableau_internal_object_id__].[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv' datatype='table' name='[__tableau_internal_object_id__].[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Number_of_HealthFacilities_Nigeria.csv' datatype='table' name='[__tableau_internal_object_id__].[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='lat (Number of HealthFacilities Nigeria.csv)' datatype='real' name='[lat (Number_of_HealthFacilities_Nigeria.csv)]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Lat' datatype='real' name='[lat]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column caption='long (Number of HealthFacilities Nigeria.csv)' datatype='real' name='[long (Number_of_HealthFacilities_Nigeria.csv)]' role='measure' type='quantitative' />
+      <column aggregation='Avg' caption='Long' datatype='real' name='[long]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column-instance column='[Geo-Political Zones]' derivation='None' name='[none:Geo-Political Zones:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Geo-Political Zones)' hidden='true' name='[Action (Geo-Political Zones)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Geo-Political Zones]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (Geo-Political Zones1)' hidden='true' name='[Action (Geo-Political Zones1)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Geo-Political Zones]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (State)' hidden='true' name='[Action (State)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[State]' />
+        </groupfilter>
+      </group>
+      <group caption='Action (State1)' hidden='true' name='[Action (State1)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[State]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Assignment_7/Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv+ (Multiple Connections).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090' table='[Extract].[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+            <relation name='Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313' table='[Extract].[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]' type='table' />
+            <relation name='MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090' table='[Extract].[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]' type='table' />
+            <relation name='Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093' table='[Extract].[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]' type='table' />
+          </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+          <cols>
+            <map key='[Change]' value='[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090].[Change]' />
+            <map key='[Doctors-2022]' value='[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090].[Doctors-2022]' />
+            <map key='[Doctors_2010]' value='[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090].[Doctors_2010]' />
+            <map key='[Geo-Political Zones (MedicalDoctors2010-2022.csv)]' value='[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090].[Geo-Political Zones]' />
+            <map key='[Geo-Political Zones (Number_of_HealthFacilities_Nigeria.csv)]' value='[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093].[Geo-Political Zones]' />
+            <map key='[Geo-Political Zones]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313].[Geo-Political Zones]' />
+            <map key='[No_of_facility]' value='[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093].[No_of_facility]' />
+            <map key='[Number_of_Dentists]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313].[Number_of_Dentists]' />
+            <map key='[Number_of_Doctors]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313].[Number_of_Doctors]' />
+            <map key='[Number_of_Nurses]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313].[Number_of_Nurses]' />
+            <map key='[Number_of_other_Health_personels]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313].[Number_of_other_Health_personels]' />
+            <map key='[State (MedicalDoctors2010-2022.csv)]' value='[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090].[State]' />
+            <map key='[State (Number_of_HealthFacilities_Nigeria.csv)]' value='[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093].[State]' />
+            <map key='[State]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313].[State]' />
+            <map key='[Year]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313].[Year]' />
+            <map key='[lat (Number_of_HealthFacilities_Nigeria.csv)]' value='[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093].[lat]' />
+            <map key='[lat]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313].[lat]' />
+            <map key='[long (Number_of_HealthFacilities_Nigeria.csv)]' value='[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093].[long]' />
+            <map key='[long]' value='[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313].[long]' />
+          </cols>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Geo-Political Zones</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Geo-Political Zones]</local-name>
+              <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</parent-name>
+              <remote-alias>Geo-Political Zones</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number_of_Doctors</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number_of_Doctors]</local-name>
+              <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</parent-name>
+              <remote-alias>Number_of_Doctors</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>36</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number_of_Dentists</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number_of_Dentists]</local-name>
+              <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</parent-name>
+              <remote-alias>Number_of_Dentists</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>34</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number_of_Nurses</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number_of_Nurses]</local-name>
+              <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</parent-name>
+              <remote-alias>Number_of_Nurses</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Number_of_other_Health_personels</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Number_of_other_Health_personels]</local-name>
+              <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</parent-name>
+              <remote-alias>Number_of_other_Health_personels</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>36</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Year</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Year]</local-name>
+              <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</parent-name>
+              <remote-alias>Year</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>lat</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[lat]</local-name>
+              <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</parent-name>
+              <remote-alias>lat</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>long</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[long]</local-name>
+              <parent-name>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</parent-name>
+              <remote-alias>long</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State (MedicalDoctors2010-2022.csv)]</local-name>
+              <parent-name>[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>9</ordinal>
+              <family>MedicalDoctors2010-2022.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Geo-Political Zones</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Geo-Political Zones (MedicalDoctors2010-2022.csv)]</local-name>
+              <parent-name>[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]</parent-name>
+              <remote-alias>Geo-Political Zones</remote-alias>
+              <ordinal>10</ordinal>
+              <family>MedicalDoctors2010-2022.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Doctors_2010</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Doctors_2010]</local-name>
+              <parent-name>[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]</parent-name>
+              <remote-alias>Doctors_2010</remote-alias>
+              <ordinal>11</ordinal>
+              <family>MedicalDoctors2010-2022.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>36</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Doctors-2022</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Doctors-2022]</local-name>
+              <parent-name>[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]</parent-name>
+              <remote-alias>Doctors-2022</remote-alias>
+              <ordinal>12</ordinal>
+              <family>MedicalDoctors2010-2022.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>36</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Change</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Change]</local-name>
+              <parent-name>[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]</parent-name>
+              <remote-alias>Change</remote-alias>
+              <ordinal>13</ordinal>
+              <family>MedicalDoctors2010-2022.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State (Number_of_HealthFacilities_Nigeria.csv)]</local-name>
+              <parent-name>[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Number_of_HealthFacilities_Nigeria.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Geo-Political Zones</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Geo-Political Zones (Number_of_HealthFacilities_Nigeria.csv)]</local-name>
+              <parent-name>[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]</parent-name>
+              <remote-alias>Geo-Political Zones</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Number_of_HealthFacilities_Nigeria.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>No_of_facility</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[No_of_facility]</local-name>
+              <parent-name>[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]</parent-name>
+              <remote-alias>No_of_facility</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Number_of_HealthFacilities_Nigeria.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>36</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>lat</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[lat (Number_of_HealthFacilities_Nigeria.csv)]</local-name>
+              <parent-name>[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]</parent-name>
+              <remote-alias>lat</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Number_of_HealthFacilities_Nigeria.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>long</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[long (Number_of_HealthFacilities_Nigeria.csv)]</local-name>
+              <parent-name>[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]</parent-name>
+              <remote-alias>long</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Number_of_HealthFacilities_Nigeria.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>37</approx-count>
+              <contains-null>true</contains-null>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Geo-Political Zones:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;North-Central&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;South-South&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;South-Eastern&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;North-Western&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;South-West&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;North-Eastern&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Nigeria&quot;' />
+        <semantic-value key='[State].[Name]' value='%null%' />
+      </semantic-values>
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='State' />
+        <field-sort-custom-order field='Geo-Political Zones' />
+        <field-sort-custom-order field='Doctors_2010' />
+        <field-sort-custom-order field='Doctors-2022' />
+        <field-sort-custom-order field='Calculation_383087466319667201' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='MedicalDoctors2010-2022.csv' id='MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090'>
+            <properties context=''>
+              <relation connection='textscan.0ftgiue0gbmodn12cwhnb0z6qd5c' name='MedicalDoctors2010-2022.csv' table='[MedicalDoctors2010-2022#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='State' ordinal='0' />
+                  <column datatype='string' name='Geo-Political Zones' ordinal='1' />
+                  <column datatype='integer' name='Doctors_2010' ordinal='2' />
+                  <column datatype='integer' name='Doctors-2022' ordinal='3' />
+                  <column datatype='real' name='Change' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090' table='[Extract].[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]' type='table' />
+            </properties>
+          </object>
+          <object caption='Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv' id='Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313'>
+            <properties context=''>
+              <relation connection='textscan.0ftgiue0gbmodn12cwhnb0z6qd5c' name='Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv' table='[Number_of_Doctors&amp;otherhealthworkers_Nigeria#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='State' ordinal='0' />
+                  <column datatype='string' name='Geo-Political Zones' ordinal='1' />
+                  <column datatype='integer' name='Number_of_Doctors' ordinal='2' />
+                  <column datatype='integer' name='Number_of_Dentists' ordinal='3' />
+                  <column datatype='integer' name='Number_of_Nurses' ordinal='4' />
+                  <column datatype='integer' name='Number_of_other_Health_personels' ordinal='5' />
+                  <column datatype='integer' name='Year' ordinal='6' />
+                  <column datatype='real' name='lat' ordinal='7' />
+                  <column datatype='real' name='long' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313' table='[Extract].[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]' type='table' />
+            </properties>
+          </object>
+          <object caption='Number_of_HealthFacilities_Nigeria.csv' id='Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093'>
+            <properties context=''>
+              <relation connection='textscan.0xef3zs1enrt8511d1vhw135vk32' name='Number_of_HealthFacilities_Nigeria.csv' table='[Number_of_HealthFacilities_Nigeria#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='State' ordinal='0' />
+                  <column datatype='string' name='Geo-Political Zones' ordinal='1' />
+                  <column datatype='integer' name='No_of_facility' ordinal='2' />
+                  <column datatype='real' name='lat' ordinal='3' />
+                  <column datatype='real' name='long' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093' table='[Extract].[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]' type='table' />
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[Geo-Political Zones]' />
+              <expression op='[Geo-Political Zones (MedicalDoctors2010-2022.csv)]' />
+            </expression>
+            <first-end-point object-id='Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313' />
+            <second-end-point object-id='MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[Geo-Political Zones]' />
+              <expression op='[Geo-Political Zones (Number_of_HealthFacilities_Nigeria.csv)]' />
+            </expression>
+            <first-end-point object-id='Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313' />
+            <second-end-point object-id='Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <shared-views>
+    <shared-view name='federated.18yfqe20s8ioaa1bz90s01hbe0u3'>
+      <datasources>
+        <datasource caption='Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv+ (Multiple Connections)' name='federated.18yfqe20s8ioaa1bz90s01hbe0u3' />
+      </datasources>
+      <datasource-dependencies datasource='federated.18yfqe20s8ioaa1bz90s01hbe0u3'>
+        <column caption='Geo-Political Zones1' datatype='string' name='[Geo-Political Zones]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+        <column caption='State1' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+          <semantic-values semantic-role='[State].[Name]'>
+            <semantic-value key='&quot;Plateau&quot;' value='&quot;Plateau&quot;' />
+          </semantic-values>
+        </column>
+        <column-instance column='[Geo-Political Zones]' derivation='None' name='[none:Geo-Political Zones:nk]' pivot='key' type='nominal' />
+        <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:Geo-Political Zones:nk]'>
+        <groupfilter function='level-members' level='[none:Geo-Political Zones:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:Geo-Political Zones:nk]' />
+      </filter>
+      <filter class='categorical' column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]'>
+        <groupfilter function='level-members' level='[none:State:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+        <target field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Filter 1 (generated)' name='[Action1_D318BFA51620481DB0DE1440B9C631DC]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Section3' type='sheet' worksheet='Doctors_Healthworkers' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Section3' />
+      </command>
+    </action>
+    <action caption='Filter 2 (generated)' name='[Action2_DEBF10B3DAF44FDA9EFEBC306D91F1C1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='Section3' type='sheet' worksheet='Doctors_2022' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='Section3' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Doctors_2010'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Rockwell' fontsize='10'>Doctors By Geo-political Zones</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv+ (Multiple Connections)' name='federated.18yfqe20s8ioaa1bz90s01hbe0u3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18yfqe20s8ioaa1bz90s01hbe0u3'>
+            <column caption='Doctors 2010' datatype='integer' name='[Doctors_2010]' role='measure' type='quantitative' />
+            <column caption='Geo-Political Zones1' datatype='string' name='[Geo-Political Zones]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='State1' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='&quot;Plateau&quot;' value='&quot;Plateau&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[Geo-Political Zones]' derivation='None' name='[none:Geo-Political Zones:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Doctors_2010]' derivation='Sum' name='[sum:Doctors_2010:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Action (State)]'>
+            <groupfilter function='level-members' level='[State]' user:ui-action-filter='[Action1_D318BFA51620481DB0DE1440B9C631DC]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:Geo-Political Zones:nk]</column>
+            <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]</column>
+            <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Action (State)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:Geo-Political Zones:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:Doctors_2010:qk]</rows>
+        <cols>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:Geo-Political Zones:nk]</cols>
+      </table>
+      <simple-id uuid='{4AAB51A8-9DD2-45E8-B431-55A48E8D092A}' />
+    </worksheet>
+    <worksheet name='Doctors_2022'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Fig. 5: Doctors By Geo-political Zones</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv+ (Multiple Connections)' name='federated.18yfqe20s8ioaa1bz90s01hbe0u3' />
+          </datasources>
+          <datasource-dependencies datasource='federated.18yfqe20s8ioaa1bz90s01hbe0u3'>
+            <column caption='Geo-Political Zones1' datatype='string' name='[Geo-Political Zones]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Number of Doctors' datatype='integer' name='[Number_of_Doctors]' role='measure' type='quantitative' />
+            <column caption='State1' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='&quot;Plateau&quot;' value='&quot;Plateau&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[Geo-Political Zones]' derivation='None' name='[none:Geo-Political Zones:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number_of_Doctors]' derivation='Sum' name='[sum:Number_of_Doctors:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Action (State)]'>
+            <groupfilter function='level-members' level='[State]' user:ui-action-filter='[Action1_D318BFA51620481DB0DE1440B9C631DC]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Action (State1)]'>
+            <groupfilter function='level-members' level='[State]' user:ui-action-filter='[Action3_9FB75560167C4718BAF674628AE7FD39]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:Geo-Political Zones:nk]</column>
+            <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]</column>
+            <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Action (State)]</column>
+            <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Action (State1)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='worksheet'>
+            <format attr='in-tooltip' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:Geo-Political Zones:nk]' />
+              <tooltip column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:Number_of_Doctors:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:Number_of_Doctors:qk]</rows>
+        <cols>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:Geo-Political Zones:nk]</cols>
+      </table>
+      <simple-id uuid='{43C9DF8C-3CB5-4FF9-A672-4EC2D0A07FF1}' />
+    </worksheet>
+    <worksheet name='Doctors_Healthworkers'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Fig 6: Health Care Professionals </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv+ (Multiple Connections)' name='federated.18yfqe20s8ioaa1bz90s01hbe0u3' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.18yfqe20s8ioaa1bz90s01hbe0u3'>
+            <column caption='Geo-Political Zones1' datatype='string' name='[Geo-Political Zones]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='Number of Dentists' datatype='integer' name='[Number_of_Dentists]' role='measure' type='quantitative' />
+            <column caption='Number of Doctors' datatype='integer' name='[Number_of_Doctors]' role='measure' type='quantitative' />
+            <column caption='Number of Nurses' datatype='integer' name='[Number_of_Nurses]' role='measure' type='quantitative' />
+            <column caption='Number of other Health personels' datatype='integer' name='[Number_of_other_Health_personels]' role='measure' type='quantitative' />
+            <column caption='State1' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='&quot;Plateau&quot;' value='&quot;Plateau&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[Geo-Political Zones]' derivation='None' name='[none:Geo-Political Zones:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number_of_Dentists]' derivation='Sum' name='[sum:Number_of_Dentists:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number_of_Doctors]' derivation='Sum' name='[sum:Number_of_Doctors:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number_of_Nurses]' derivation='Sum' name='[sum:Number_of_Nurses:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number_of_other_Health_personels]' derivation='Sum' name='[sum:Number_of_other_Health_personels:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Action (Geo-Political Zones)]'>
+            <groupfilter function='level-members' level='[Geo-Political Zones]' user:ui-action-filter='[Action2_DEBF10B3DAF44FDA9EFEBC306D91F1C1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Action (Geo-Political Zones1)]'>
+            <groupfilter function='level-members' level='[Geo-Political Zones]' user:ui-action-filter='[Action2_DEBF10B3DAF44FDA9EFEBC306D91F1C1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]</column>
+            <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:Geo-Political Zones:nk]</column>
+            <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Action (Geo-Political Zones)]</column>
+            <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Action (Geo-Political Zones1)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Longitude (generated)]' field-type='quantitative' max='1993249.2024539444' min='-21333.974221360288' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Latitude (generated)]' field-type='quantitative' max='1601608.346280562' min='323448.44781224785' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:Number_of_Doctors:qk]' symmetric='false' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#9e3d22</color>
+                <color>#ad4523</color>
+                <color>#bc4d23</color>
+                <color>#cb5522</color>
+                <color>#d95e21</color>
+                <color>#e76820</color>
+                <color>#ee7725</color>
+                <color>#f58a30</color>
+                <color>#fa9e3f</color>
+                <color>#fdb053</color>
+                <color>#ffc171</color>
+                <color>#d9d5c9</color>
+                <color>#cfc8dc</color>
+                <color>#c4b7df</color>
+                <color>#baa5e3</color>
+                <color>#ae92e6</color>
+                <color>#a37fea</color>
+                <color>#976ced</color>
+                <color>#8a57f1</color>
+                <color>#7e42f4</color>
+                <color>#702df8</color>
+                <color>#6316fb</color>
+                <color>#5500ff</color>
+              </color-palette>
+            </encoding>
+            <encoding attr='color' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:Number_of_other_Health_personels:qk]' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#a90c38</color>
+                <color>#bb163a</color>
+                <color>#ca223c</color>
+                <color>#d9303f</color>
+                <color>#e44144</color>
+                <color>#ee534b</color>
+                <color>#f36755</color>
+                <color>#f77a64</color>
+                <color>#fa8b75</color>
+                <color>#fd9b87</color>
+                <color>#ffac9b</color>
+                <color>#dfd4d1</color>
+                <color>#c8c8dc</color>
+                <color>#b7b7df</color>
+                <color>#a5a5e3</color>
+                <color>#9292e6</color>
+                <color>#7f7fea</color>
+                <color>#6c6ced</color>
+                <color>#5757f1</color>
+                <color>#4242f4</color>
+                <color>#2d2df8</color>
+                <color>#1616fb</color>
+                <color>#0000ff</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]' value='false' />
+            <format attr='break-on-special' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]' value='false' />
+            <format attr='omit-on-special' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Latitude (generated)]' value='false' />
+            <format attr='break-on-special' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Latitude (generated)]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Latitude (generated)]' value='false' />
+            <format attr='omit-on-special' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Longitude (generated)]' value='false' />
+            <format attr='break-on-special' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Longitude (generated)]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Longitude (generated)]' value='false' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='text-align' value='left' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:Number_of_other_Health_personels:qk]' value='Personnel'>
+              <formatted-text>
+                <run fontname='Rockwell'>Personnel</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]' value='Doctors By States'>
+              <formatted-text>
+                <run bold='true' fontcolor='#005500' fontname='Rockwell'>Doctors By States</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:Number_of_other_Health_personels:qk]' />
+              <lod column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]' />
+              <lod column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:Number_of_Dentists:qk]' />
+              <lod column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:Number_of_Nurses:qk]' />
+              <lod column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:Number_of_other_Health_personels:qk]' />
+              <tooltip column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:Number_of_Doctors:qk]' />
+              <geometry column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Latitude (generated)]</rows>
+        <cols>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{8A9B8242-61AE-4C74-ACCF-AC77CC9663CE}' />
+    </worksheet>
+    <worksheet name='healthfacilities'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Fig 1: Health facilities In Nigeria</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv+ (Multiple Connections)' name='federated.18yfqe20s8ioaa1bz90s01hbe0u3' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.18yfqe20s8ioaa1bz90s01hbe0u3'>
+            <column caption='Geo-Political Zones1' datatype='string' name='[Geo-Political Zones]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column caption='No of facility' datatype='integer' name='[No_of_facility]' role='measure' type='quantitative' />
+            <column caption='State1' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <semantic-values semantic-role='[State].[Name]'>
+                <semantic-value key='&quot;Plateau&quot;' value='&quot;Plateau&quot;' />
+              </semantic-values>
+            </column>
+            <column-instance column='[Geo-Political Zones]' derivation='None' name='[none:Geo-Political Zones:nk]' pivot='key' type='nominal' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+            <column-instance column='[No_of_facility]' derivation='Sum' name='[sum:No_of_facility:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Action (Geo-Political Zones)]'>
+            <groupfilter function='level-members' level='[Geo-Political Zones]' user:ui-action-filter='[Action2_DEBF10B3DAF44FDA9EFEBC306D91F1C1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Action (State)]'>
+            <groupfilter function='level-members' level='[State]' user:ui-action-filter='[Action1_D318BFA51620481DB0DE1440B9C631DC]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]</column>
+            <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:Geo-Political Zones:nk]</column>
+            <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Action (Geo-Political Zones)]</column>
+            <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Action (State)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Longitude (generated)]' field-type='quantitative' max='1887744.737770726' min='70017.459104423615' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Latitude (generated)]' field-type='quantitative' max='1624433.639062108' min='432071.25183320238' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:No_of_facility:qk]' palette='red_blue_diverging_10_0' type='interpolated' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <encodings>
+              <color column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:No_of_facility:qk]' />
+              <lod column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]' />
+              <geometry column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Geometry (generated)]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Latitude (generated)]</rows>
+        <cols>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{4F7EB4AB-381A-4F38-BB21-9DE7EF59F9BD}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Conclusion&amp;Refrences'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#e7f1f5d8' />
+        </style-rule>
+        <style-rule element='dash-text'>
+          <format attr='vertical-align' id='dash-text_15' value='top' />
+          <format attr='wrap' id='dash-text_15' value='auto' />
+          <format attr='text-align' id='dash-text_15' value='left' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='11' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='14' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='12' type-v2='layout-basic' w='98400' x='800' y='1000' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='79750' id='3' type-v2='text' w='60500' x='38800' y='5625'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='15'>RESOURCES</run>
+            <run>Æ&#10;&#10;</run>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Ezigbo, O. (2020):</run>
+            <run fontcolor='#005500' fontname='Rockwell' fontsize='11'> Population of Doctors in Nigeria Hits 74,543. </run>
+            <run fontcolor='#005500' fontname='Rockwell' fontsize='11' italic='true'>This Day</run>
+            <run fontcolor='#005500' fontname='Rockwell' fontsize='11'>. Retrieved from </run>
+            <run auto-url='true' bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' hyperlink='tabdoc:load-url url=&amp;quot;https://www.thisdaylive.com/index.php/2020/03/04/population-of-doctors-in-nigeria-hits-74543/#&amp;quot;' underline='true'>https://www.thisdaylive.com/index.php/2020/03/04/population-of-doctors-in-nigeria-hits-74543/#</run>
+            <run>Æ&#10;&#10;</run>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>GMC. (2018):</run>
+            <run fontcolor='#005500' fontname='Rockwell' fontsize='11'> The medical register over time. Retrieved 18/02/2019, from General Medical Council, UK. </run>
+            <run auto-url='true' bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' hyperlink='tabdoc:load-url url=&amp;quot;https://data.gmc-uk.org/gmcdata/home/#/reports/The%20Register/Stats/report&amp;quot;' underline='true'>https://data.gmc-uk.org/gmcdata/home/#/reports/The%20Register/Stats/report</run>
+            <run>Æ&#10;&#10;</run>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Kpakpakpa (2023): </run>
+            <run auto-url='true' bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' hyperlink='tabdoc:load-url url=&amp;quot;https://kpakpakpa.com/major-challenges-in-the-healthcare-sector-in-nigeria/&amp;quot;'>https://kpakpakpa.com/major-challenges-in-the-healthcare-sector-in-nigeria/</run>
+            <run>Æ&#10;&#10;</run>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Mustard Insights (2022): </run>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' underline='true'>African Countries With The Highest Number of Doctors (mustardinsights.com)</run>
+            <run>Æ&#10;&#10;</run>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' underline='true'>NOIPolls (2018): </run>
+            <run auto-url='true' bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' hyperlink='tabdoc:load-url url=&amp;quot;https://noi-polls.com/wp-content/uploads/2019/06/Emigration-of-Doctors-Press-Release-July-2018-Survey-Report.pdf&amp;quot;' underline='true'>https://noi-polls.com/wp-content/uploads/2019/06/Emigration-of-Doctors-Press-Release-July-2018-Survey-Report.pdf</run>
+            <run>Æ&#10;&#10;</run>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Pharmaccess (2018): </run>
+            <run auto-url='true' bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' hyperlink='tabdoc:load-url url=&amp;quot;https://www.pharmaccess.org/wp-content/uploads/2018/01/The-healthcare-system-in-Nigeria.pdf&amp;quot;'>https://www.pharmaccess.org/wp-content/uploads/2018/01/The-healthcare-system-in-Nigeria.pdf</run>
+            <run>Æ&#10;&#10;</run>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Tankwanchi, S. (2012): </run>
+            <run fontcolor='#005500' fontname='Rockwell' fontsize='11' italic='true'>Doctors beyond borders: Data trends and medical migration dynamics from Sub-Saharan Africa to the United States (Doctoral Dissertation).</run>
+            <run fontcolor='#005500' fontname='Rockwell' fontsize='11'> (Doctor of Philosophy), Vanderbilt University, Nashville.</run>
+            <run>Æ&#10;&#10;</run>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>The Guardian (2020): </run>
+            <run auto-url='true' bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' hyperlink='tabdoc:load-url url=&amp;quot;https://guardian.ng/news/uks-new-migration-visa-lures-nigerian-doctors/&amp;quot;'>https://guardian.ng/news/uks-new-migration-visa-lures-nigerian-doctors/</run>
+            <run>Æ&#10;&#10;</run>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>The Fedral Ministry of Health (2023)</run>
+            <run fontcolor='#005500' fontname='Rockwell' fontsize='11'>: </run>
+            <run auto-url='true' bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' hyperlink='tabdoc:load-url url=&amp;quot;https://hfr.health.gov.ng/&amp;quot;'>https://hfr.health.gov.ng/</run>
+            <run>Æ&#10;&#10;</run>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>WHO. (2019):</run>
+            <run fontcolor='#005500' fontname='Rockwell' fontsize='11'> Global Health Observatory Data Repository. Retrieved from </run>
+            <run auto-url='true' bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' hyperlink='tabdoc:load-url url=&amp;quot;http://apps.who.int/gho/data/node.country.country-NG&amp;quot;' underline='true'>http://apps.who.int/gho/data/node.country.country-NG</run>
+            <run>Æ&#10;&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='6000' id='4' type-v2='text' w='94700' x='1700' y='6000'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='15'>CONCLUSION</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone h='45375' id='15' type-v2='text' w='34800' x='2200' y='13125'>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>A large number of Nigerian doctors wish to leave the country for better professional opportunities, with low pay, rising insecurity, and insufficient diagnostic equipment being the primary driving factors. This trend is alarming as it could lead to significant negative consequences due to a shortage of doctors in the country&apos;s healthcare system. A possible solution to this problem is to create a policy that prevents political leaders from traveling abroad for medical treatment. To address the root causes of this problem, the government should consider increasing doctor remuneration, analyzing and addressing insecurity, and providing more funding to improve diagnostic infrastructure and retain healthcare professionals, which will save the healthcare system from collapse.</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='30' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone forceUpdate='true' h='79750' id='3' type-v2='text' w='60500' x='38800' y='5625'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='15'>RESOURCES</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Ezigbo, O. (2020):</run>
+                    <run fontcolor='#005500' fontname='Rockwell' fontsize='11'> Population of Doctors in Nigeria Hits 74,543. </run>
+                    <run fontcolor='#005500' fontname='Rockwell' fontsize='11' italic='true'>This Day</run>
+                    <run fontcolor='#005500' fontname='Rockwell' fontsize='11'>. Retrieved from </run>
+                    <run auto-url='true' bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' hyperlink='tabdoc:load-url url=&amp;quot;https://www.thisdaylive.com/index.php/2020/03/04/population-of-doctors-in-nigeria-hits-74543/#&amp;quot;' underline='true'>https://www.thisdaylive.com/index.php/2020/03/04/population-of-doctors-in-nigeria-hits-74543/#</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>GMC. (2018):</run>
+                    <run fontcolor='#005500' fontname='Rockwell' fontsize='11'> The medical register over time. Retrieved 18/02/2019, from General Medical Council, UK. </run>
+                    <run auto-url='true' bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' hyperlink='tabdoc:load-url url=&amp;quot;https://data.gmc-uk.org/gmcdata/home/#/reports/The%20Register/Stats/report&amp;quot;' underline='true'>https://data.gmc-uk.org/gmcdata/home/#/reports/The%20Register/Stats/report</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Kpakpakpa (2023): </run>
+                    <run auto-url='true' bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' hyperlink='tabdoc:load-url url=&amp;quot;https://kpakpakpa.com/major-challenges-in-the-healthcare-sector-in-nigeria/&amp;quot;'>https://kpakpakpa.com/major-challenges-in-the-healthcare-sector-in-nigeria/</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Mustard Insights (2022): </run>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' underline='true'>African Countries With The Highest Number of Doctors (mustardinsights.com)</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' underline='true'>NOIPolls (2018): </run>
+                    <run auto-url='true' bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' hyperlink='tabdoc:load-url url=&amp;quot;https://noi-polls.com/wp-content/uploads/2019/06/Emigration-of-Doctors-Press-Release-July-2018-Survey-Report.pdf&amp;quot;' underline='true'>https://noi-polls.com/wp-content/uploads/2019/06/Emigration-of-Doctors-Press-Release-July-2018-Survey-Report.pdf</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Pharmaccess (2018): </run>
+                    <run auto-url='true' bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' hyperlink='tabdoc:load-url url=&amp;quot;https://www.pharmaccess.org/wp-content/uploads/2018/01/The-healthcare-system-in-Nigeria.pdf&amp;quot;'>https://www.pharmaccess.org/wp-content/uploads/2018/01/The-healthcare-system-in-Nigeria.pdf</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Tankwanchi, S. (2012): </run>
+                    <run fontcolor='#005500' fontname='Rockwell' fontsize='11' italic='true'>Doctors beyond borders: Data trends and medical migration dynamics from Sub-Saharan Africa to the United States (Doctoral Dissertation).</run>
+                    <run fontcolor='#005500' fontname='Rockwell' fontsize='11'> (Doctor of Philosophy), Vanderbilt University, Nashville.</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>The Guardian (2020): </run>
+                    <run auto-url='true' bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' hyperlink='tabdoc:load-url url=&amp;quot;https://guardian.ng/news/uks-new-migration-visa-lures-nigerian-doctors/&amp;quot;'>https://guardian.ng/news/uks-new-migration-visa-lures-nigerian-doctors/</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>The Fedral Ministry of Health (2023)</run>
+                    <run fontcolor='#005500' fontname='Rockwell' fontsize='11'>: </run>
+                    <run auto-url='true' bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' hyperlink='tabdoc:load-url url=&amp;quot;https://hfr.health.gov.ng/&amp;quot;'>https://hfr.health.gov.ng/</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>WHO. (2019):</run>
+                    <run fontcolor='#005500' fontname='Rockwell' fontsize='11'> Global Health Observatory Data Repository. Retrieved from </run>
+                    <run auto-url='true' bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11' hyperlink='tabdoc:load-url url=&amp;quot;http://apps.who.int/gho/data/node.country.country-NG&amp;quot;' underline='true'>http://apps.who.int/gho/data/node.country.country-NG</run>
+                    <run>Æ&#10;&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='6000' id='4' type-v2='text' w='94700' x='1700' y='6000'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='15'>CONCLUSION</run>
+                    <run>Æ&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='45375' id='15' type-v2='text' w='34800' x='2200' y='13125'>
+                  <formatted-text>
+                    <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>A large number of Nigerian doctors wish to leave the country for better professional opportunities, with low pay, rising insecurity, and insufficient diagnostic equipment being the primary driving factors. This trend is alarming as it could lead to significant negative consequences due to a shortage of doctors in the country&apos;s healthcare system. A possible solution to this problem is to create a policy that prevents political leaders from traveling abroad for medical treatment. To address the root causes of this problem, the government should consider increasing doctor remuneration, analyzing and addressing insecurity, and providing more funding to improve diagnostic infrastructure and retain healthcare professionals, which will save the healthcare system from collapse.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{CC42F307-E161-4EAD-B03C-1048467FC9B4}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Coverpage'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#e7f1f5d8' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone forceUpdate='true' h='13625' id='3' type-v2='text' w='27000' x='72100' y='86250'>
+          <formatted-text>
+            <run bold='true' fontcolor='#aa0000' fontname='Rockwell' fontsize='13'>Author:</run>
+            <run>Æ&#10;&#10;</run>
+            <run bold='true' fontcolor='#aa0000' fontname='Rockwell' fontsize='17'>FADOJU, AYODELE</run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#aa0000' fontname='Rockwell' fontsize='17'>6th May,2023</run>
+          </formatted-text>
+        </zone>
+        <zone h='11500' id='4' is-centered='0' is-scaled='1' param='C:/Users/USER/AppData/Local/Temp/TableauTemp/1rs2hnx0a7g2nr114xmdu0y5w8hf/Sheets3/Image/vrpx2j1mvwfui8jgsb4l__03757.jpg' type-v2='bitmap' w='11900' x='300' y='1500' />
+        <zone h='54250' id='8' is-centered='0' is-scaled='1' param='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation/major-challenges-in-the-healthcare-sector-in-Nigeria.jpg' type-v2='bitmap' url='https://kpakpakpa.com/major-challenges-in-the-healthcare-sector-in-nigeria/' w='70900' x='17700' y='31250' />
+        <zone forceUpdate='true' h='18250' id='11' type-v2='text' w='86300' x='12800' y='14500'>
+          <formatted-text>
+            <run bold='true' fontcolor='#aa0000' fontname='Rockwell' fontsize='35'>NIGERIAN DOCTORS ON THE RUN</run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run bold='true' fontalignment='1' fontcolor='#aa0000' fontname='Rockwell' fontsize='22'>EMERGING ISSUES IN THE HEALTHCARE SYSTEM</run>
+          </formatted-text>
+        </zone>
+        <zone h='12250' id='12' is-centered='0' is-scaled='1' param='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation/2017-05-04-180016.875539NGACoat.png' type-v2='bitmap' w='14100' x='2500' y='3125' />
+        <zone forceUpdate='true' h='3250' id='13' type-v2='text' w='27000' x='17800' y='82250'>
+          <formatted-text>
+            <run bold='true' fontcolor='#aa0000' fontname='Rockwell' fontsize='8'>Image Sourced from Kpakpakpa, 2023</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='35' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='34' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='92' h='11500' id='4' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/USER/AppData/Local/Temp/TableauTemp/1rs2hnx0a7g2nr114xmdu0y5w8hf/Sheets3/Image/vrpx2j1mvwfui8jgsb4l__03757.jpg' type-v2='bitmap' w='11900' x='300' y='1500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='98' h='12250' id='12' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation/2017-05-04-180016.875539NGACoat.png' type-v2='bitmap' w='14100' x='2500' y='3125'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='18250' id='11' type-v2='text' w='86300' x='12800' y='14500'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#aa0000' fontname='Rockwell' fontsize='35'>NIGERIAN DOCTORS ON THE RUN</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run bold='true' fontalignment='1' fontcolor='#aa0000' fontname='Rockwell' fontsize='22'>EMERGING ISSUES IN THE HEALTHCARE SYSTEM</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='54250' id='8' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation/major-challenges-in-the-healthcare-sector-in-Nigeria.jpg' type-v2='bitmap' url='https://kpakpakpa.com/major-challenges-in-the-healthcare-sector-in-nigeria/' w='70900' x='17700' y='31250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3250' id='13' type-v2='text' w='27000' x='17800' y='82250'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#aa0000' fontname='Rockwell' fontsize='8'>Image Sourced from Kpakpakpa, 2023</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='13625' id='3' type-v2='text' w='27000' x='72100' y='86250'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#aa0000' fontname='Rockwell' fontsize='13'>Author:</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run bold='true' fontcolor='#aa0000' fontname='Rockwell' fontsize='17'>FADOJU, AYODELE</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#aa0000' fontname='Rockwell' fontsize='17'>6th May,2023</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{FB6F4249-1CBB-4CCB-BA25-DAAAD9761507}' />
+    </dashboard>
+    <dashboard name='Doctors_Migration' type='storyboard'>
+      <style />
+      <size maxheight='964' maxwidth='1016' minheight='964' minwidth='1016' />
+      <zones>
+        <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98340' id='1' param='vert' removable='false' type-v2='layout-flow' w='98426' x='787' y='830'>
+            <zone h='10477' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98426' x='787' y='830' />
+            <zone h='87863' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98426' x='787' y='11307'>
+              <flipboard active-id='1' nav-type='caption' show-nav-arrows='true'>
+                <story-points>
+                  <story-point caption='Coverpage' captured-sheet='Coverpage' id='1' />
+                  <story-point caption='Background Information' captured-sheet='Section_1' id='2'>
+                    <currentDeltas>
+                      <worksheet name='healthfacilities'>
+                        <style delta-type='added'>
+                          <style-rule element='axis'>
+                            <encoding attr='space' class='0' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Latitude (generated)]' field-type='quantitative' max='1644638.5383024374' min='391163.31515367882' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+                            <encoding attr='space' class='0' field='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Longitude (generated)]' field-type='quantitative' max='1794392.8573065603' min='141913.46381674492' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+                          </style-rule>
+                        </style>
+                      </worksheet>
+                    </currentDeltas>
+                    <capturedDeltas />
+                  </story-point>
+                  <story-point caption='Who Do we Hold Responsible?' captured-sheet='Section2' id='3' />
+                  <story-point caption='Healthcare Professionals in Nigeria' captured-sheet='Section3' id='4' />
+                  <story-point caption='Is the rest of Africa any better?' captured-sheet='Section4' id='5' />
+                  <story-point caption='Conclusion &amp; Resources' captured-sheet='Conclusion&amp;Refrences' id='6' />
+                </story-points>
+              </flipboard>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <simple-id uuid='{EF40A6B7-8171-481C-A9D0-7604470637DE}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Section2'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#e7f1f5d8' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='100000' id='7' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='29875' id='3' is-centered='0' is-scaled='1' param='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation/stakeholders.JPG' type-v2='bitmap' w='41500' x='54900' y='3875' />
+        <zone forceUpdate='' h='62125' id='6' param='https://fadojuaj.github.io/LA558_FADOJU_AYODELE/Final_Project_Documentation/Sechospitals.html' type-v2='web' w='52100' x='700' y='34500' />
+        <zone forceUpdate='true' h='27125' id='8' type-v2='text' w='52700' x='1100' y='750'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>WHO DO WE HOLD RESPONSIBLE?</run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>The government is a significant stakeholder, responsible for developing policies, regulations, and funding for healthcare. Health professionals, including doctors, nurses, pharmacists, and other specialists, are also important stakeholders. Private healthcare providers, such as hospitals and clinics, also play a significant role, particularly in urban areas. Patients and their families are another key stakeholder group. Other stakeholders include international organizations, NGOs, and donors who provide funding and support for various healthcare initiatives. Overall, the effective collaboration of all these stakeholders is necessary for the success of Nigeria&apos;s healthcare system (see Fig 3.)</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone h='32750' id='9' is-centered='0' is-scaled='1' param='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation/carelevel.JPG' type-v2='bitmap' w='41300' x='55100' y='62625' />
+        <zone forceUpdate='true' h='22500' id='10' type-v2='text' w='42800' x='54900' y='36125'>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>Secondary hospitals play a crucial role in Nigeria&apos;s healthcare system, as they provide free treatment and are generally better equipped than primary care facilities. However, many of these hospitals are not adequately equipped due to insufficient funding and the loss of doctors to other countries. With the majority of healthcare needs at the state and local government levels, addressing these challenges is crucial to ensure the provision of quality care to all Nigerians (see Fig 2 and 4).</run>
+            <run>Æ&#10;&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='4000' id='13' type-v2='text' w='32200' x='1000' y='96250'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: The Federal Ministry of Health (2023)</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='4000' id='14' type-v2='text' w='32200' x='54300' y='33000'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: Pharmaaccess (2018)</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='4000' id='15' type-v2='text' w='32200' x='55000' y='94625'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: Pharmaaccess (2018)</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='3125' id='16' type-v2='text' w='32400' x='600' y='31125'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Fig 2: Secondary hospitals in Nigeria</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='3750' id='17' type-v2='text' w='32000' x='54600' y='375'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Fig 3: The Stakeholders</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='3750' id='18' type-v2='text' w='32000' x='54900' y='58125'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Fig 4: Level of Care and Responsibility</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='38' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='37' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone forceUpdate='true' h='3750' id='17' type-v2='text' w='32000' x='54600' y='375'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Fig 3: The Stakeholders</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='27125' id='8' type-v2='text' w='52700' x='1100' y='750'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>WHO DO WE HOLD RESPONSIBLE?</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>The government is a significant stakeholder, responsible for developing policies, regulations, and funding for healthcare. Health professionals, including doctors, nurses, pharmacists, and other specialists, are also important stakeholders. Private healthcare providers, such as hospitals and clinics, also play a significant role, particularly in urban areas. Patients and their families are another key stakeholder group. Other stakeholders include international organizations, NGOs, and donors who provide funding and support for various healthcare initiatives. Overall, the effective collaboration of all these stakeholders is necessary for the success of Nigeria&apos;s healthcare system (see Fig 3.)</run>
+                    <run>Æ&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='239' h='29875' id='3' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation/stakeholders.JPG' type-v2='bitmap' w='41500' x='54900' y='3875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3125' id='16' type-v2='text' w='32400' x='600' y='31125'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Fig 2: Secondary hospitals in Nigeria</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4000' id='14' type-v2='text' w='32200' x='54300' y='33000'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: Pharmaaccess (2018)</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' forceUpdate='' h='62125' id='6' is-fixed='true' param='https://fadojuaj.github.io/LA558_FADOJU_AYODELE/Final_Project_Documentation/Sechospitals.html' type-v2='web' w='52100' x='700' y='34500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='22500' id='10' type-v2='text' w='42800' x='54900' y='36125'>
+                  <formatted-text>
+                    <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>Secondary hospitals play a crucial role in Nigeria&apos;s healthcare system, as they provide free treatment and are generally better equipped than primary care facilities. However, many of these hospitals are not adequately equipped due to insufficient funding and the loss of doctors to other countries. With the majority of healthcare needs at the state and local government levels, addressing these challenges is crucial to ensure the provision of quality care to all Nigerians (see Fig 2 and 4).</run>
+                    <run>Æ&#10;&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='3750' id='18' type-v2='text' w='32000' x='54900' y='58125'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Fig 4: Level of Care and Responsibility</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='262' h='32750' id='9' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation/carelevel.JPG' type-v2='bitmap' w='41300' x='55100' y='62625'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4000' id='15' type-v2='text' w='32200' x='55000' y='94625'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: Pharmaaccess (2018)</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4000' id='13' type-v2='text' w='32200' x='1000' y='96250'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: The Federal Ministry of Health (2023)</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{34570058-AB3D-4686-9285-8B3100FCF2EF}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Section3'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#e7f1f5d8' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv+ (Multiple Connections)' name='federated.18yfqe20s8ioaa1bz90s01hbe0u3' />
+      </datasources>
+      <datasource-dependencies datasource='federated.18yfqe20s8ioaa1bz90s01hbe0u3'>
+        <column caption='State1' datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+          <semantic-values semantic-role='[State].[Name]'>
+            <semantic-value key='&quot;Plateau&quot;' value='&quot;Plateau&quot;' />
+          </semantic-values>
+        </column>
+        <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='42000' id='3' name='Doctors_Healthworkers' w='47700' x='50700' y='12500' />
+        <zone h='6375' id='5' mode='dropdown' name='Doctors_Healthworkers' param='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]' type-v2='filter' w='22300' x='51200' y='6500' />
+        <zone h='55250' id='8' name='Doctors_2022' w='47600' x='2000' y='38375' />
+        <zone friendly-name='Health personnel' h='4000' id='25' name='Doctors_Healthworkers' pane-specification-id='0' param='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:Number_of_other_Health_personels:qk]' type-v2='color' w='41600' x='50100' y='55000' />
+        <zone forceUpdate='true' h='32750' id='44' type-v2='text' w='47700' x='50500' y='61375'>
+          <formatted-text>
+            <run fontcolor='#212121' fontname='Rockwell' fontsize='11'>Furthermore, since the year 2009, Nigeria has been losing an average of 700 doctors annually to Europe, America, Australia and South Africa. Also, the number of Nigeria-trained doctors undergoing residency in the USA has doubled in the last 10 years (Tankwanchi, 2012). Likewise, the number of doctors from Nigeria registered with the General Medical Council (GMC) in the UK has doubled from 2006 to 2016 based on available data on the GMC website (GMC, 2018).</run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#212121' fontname='Rockwell' fontsize='11'>An online survey conducted in Nigeria, in 2017, revealed that 9 out of every 10 doctors surveyed were seeking work opportunities abroad (NOIPolls, 2018). Let&apos;s take a peak into the health financing, health insurance and stakeholders in the country</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='35750' id='45' type-v2='text' w='44400' x='2400' y='3125'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='13'>HEALTHCARE PROFESSIONALS ACROSS NIGERIA</run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>According to data from the World Health Organisation (WHO) NHWA Data Platform in 2019, Nigeria has the highest number of medical doctors in Africa with 74,543 licensed medical doctors to cater to a population of over 210 million; its doctor-to-patient ratio is 1:2,800 (Ezigbo, 2020). As of 2019, only about 24, 600 of these doctors are practicing in Nigeria. </run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>The number of practicing medical doctors has continued to decrease due to the increasing migration of doctors. Figures 2 and 3 reveal the numbers of practicing doctors and healthcare practitioners across the country.    </run>
+            <run>Æ&#10;&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='4000' id='50' type-v2='text' w='32200' x='1600' y='93750'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: The Federal Ministry of Health (2023)</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='4000' id='51' type-v2='text' w='32200' x='49900' y='57500'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: The Federal Ministry of Health (2023)</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='71' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='70' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone forceUpdate='true' h='35750' id='45' type-v2='text' w='44400' x='2400' y='3125'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='13'>HEALTHCARE PROFESSIONALS ACROSS NIGERIA</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>According to data from the World Health Organisation (WHO) NHWA Data Platform in 2019, Nigeria has the highest number of medical doctors in Africa with 74,543 licensed medical doctors to cater to a population of over 210 million; its doctor-to-patient ratio is 1:2,800 (Ezigbo, 2020). As of 2019, only about 24, 600 of these doctors are practicing in Nigeria. </run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>The number of practicing medical doctors has continued to decrease due to the increasing migration of doctors. Figures 2 and 3 reveal the numbers of practicing doctors and healthcare practitioners across the country.    </run>
+                    <run>Æ&#10;&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6375' id='5' mode='dropdown' name='Doctors_Healthworkers' param='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]' type-v2='filter' w='22300' x='51200' y='6500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='42000' id='3' is-fixed='true' name='Doctors_Healthworkers' w='47700' x='50700' y='12500'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone friendly-name='Health personnel' h='4000' id='25' name='Doctors_Healthworkers' pane-specification-id='0' param='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:Number_of_other_Health_personels:qk]' type-v2='color' w='41600' x='50100' y='55000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='55250' id='8' is-fixed='true' name='Doctors_2022' w='47600' x='2000' y='38375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4000' id='51' type-v2='text' w='32200' x='49900' y='57500'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: The Federal Ministry of Health (2023)</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='32750' id='44' type-v2='text' w='47700' x='50500' y='61375'>
+                  <formatted-text>
+                    <run fontcolor='#212121' fontname='Rockwell' fontsize='11'>Furthermore, since the year 2009, Nigeria has been losing an average of 700 doctors annually to Europe, America, Australia and South Africa. Also, the number of Nigeria-trained doctors undergoing residency in the USA has doubled in the last 10 years (Tankwanchi, 2012). Likewise, the number of doctors from Nigeria registered with the General Medical Council (GMC) in the UK has doubled from 2006 to 2016 based on available data on the GMC website (GMC, 2018).</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#212121' fontname='Rockwell' fontsize='11'>An online survey conducted in Nigeria, in 2017, revealed that 9 out of every 10 doctors surveyed were seeking work opportunities abroad (NOIPolls, 2018). Let&apos;s take a peak into the health financing, health insurance and stakeholders in the country</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4000' id='50' type-v2='text' w='32200' x='1600' y='93750'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: The Federal Ministry of Health (2023)</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{D7B58688-9928-44C4-A82C-C51C6A983860}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Section4'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#e7f1f5d8' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='44250' id='3' is-centered='0' is-scaled='1' param='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation/Medical-doctors-by1000p.JPG' type-v2='bitmap' w='51700' x='400' y='47875' />
+        <zone h='41375' id='4' is-centered='0' is-scaled='1' param='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation/African_Doctors.JPG' type-v2='bitmap' w='48800' x='49200' y='7250' />
+        <zone forceUpdate='true' h='35000' id='5' type-v2='text' w='42300' x='2100' y='3500'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>IS THE REST OF AFRICA ANY BETTER?</run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>The population of Africa has been growing at a rate of 2.5% year-on-year over the last two decades. By 2050, it may reach 2.4 billion despite being served by only 2% of the total number of doctors in the world (see Fig 8).</run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>There are not enough medical doctors in Africa to meet the health needs of its growing population. The ratio of doctors to patient, on average, is 1 doctor for 10,000 people. Estimated figures show that Africa has a shortage of 2.3 million doctors and will increase to a shortage of around 4.3 million doctors by 2035. insurance and stakeholders in the country</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='28000' id='6' type-v2='text' w='47700' x='51800' y='54000'>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>Mauritius is the top-ranked African country with 27.13 doctors per 10,000 people, followed by Seychelles with 22.51 doctors per 10,000 population. Libya comes in third with 20.9 doctors per 10,000 people. Algeria has 17.19 doctors per 10,000 population, and Tunisia has 13.02 doctors per 10,000 population (see Fig.7).</run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>These are the only countries outside the top three to have more than 10 but less than 20 doctors per 10,000 population. Cape Verde, South Africa, Egypt, Morocco, and Namibia are also among the top 10 countries, with 8.31, 7.92, 7.46, 7.31, and 5.9 doctors per 10,000 population, respectively.</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='4000' id='9' type-v2='text' w='32200' x='400' y='92750'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: Mustard Insights  (2022)</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='4000' id='10' type-v2='text' w='32200' x='51800' y='47500'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: Mustard Insights  (2022)</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='6000' id='11' type-v2='text' w='47600' x='700' y='41125'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='10'>Fig 7: African Countries With the Highest Number of Medical Doctors </run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='10'>           (Per 10,000 Population) in Africa</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='3750' id='13' type-v2='text' w='46700' x='50700' y='2875'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Fig 8: African Countries with the Highest Number of Doctors</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='33' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='32' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone forceUpdate='true' h='3750' id='13' type-v2='text' w='46700' x='50700' y='2875'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Fig 8: African Countries with the Highest Number of Doctors</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='35000' id='5' type-v2='text' w='42300' x='2100' y='3500'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>IS THE REST OF AFRICA ANY BETTER?</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>The population of Africa has been growing at a rate of 2.5% year-on-year over the last two decades. By 2050, it may reach 2.4 billion despite being served by only 2% of the total number of doctors in the world (see Fig 8).</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>There are not enough medical doctors in Africa to meet the health needs of its growing population. The ratio of doctors to patient, on average, is 1 doctor for 10,000 people. Estimated figures show that Africa has a shortage of 2.3 million doctors and will increase to a shortage of around 4.3 million doctors by 2035. insurance and stakeholders in the country</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='41375' id='4' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation/African_Doctors.JPG' type-v2='bitmap' w='48800' x='49200' y='7250'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='6000' id='11' type-v2='text' w='47600' x='700' y='41125'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='10'>Fig 7: African Countries With the Highest Number of Medical Doctors </run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='10'>           (Per 10,000 Population) in Africa</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4000' id='10' type-v2='text' w='32200' x='51800' y='47500'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: Mustard Insights  (2022)</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='44250' id='3' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation/Medical-doctors-by1000p.JPG' type-v2='bitmap' w='51700' x='400' y='47875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='28000' id='6' type-v2='text' w='47700' x='51800' y='54000'>
+                  <formatted-text>
+                    <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>Mauritius is the top-ranked African country with 27.13 doctors per 10,000 people, followed by Seychelles with 22.51 doctors per 10,000 population. Libya comes in third with 20.9 doctors per 10,000 people. Algeria has 17.19 doctors per 10,000 population, and Tunisia has 13.02 doctors per 10,000 population (see Fig.7).</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontname='Rockwell' fontsize='11'>These are the only countries outside the top three to have more than 10 but less than 20 doctors per 10,000 population. Cape Verde, South Africa, Egypt, Morocco, and Namibia are also among the top 10 countries, with 8.31, 7.92, 7.46, 7.31, and 5.9 doctors per 10,000 population, respectively.</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4000' id='9' type-v2='text' w='32200' x='400' y='92750'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: Mustard Insights  (2022)</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{4808FAFF-81B0-4C0A-A521-6EB29950C665}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Section_1'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#e7f1f5d8' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones>
+        <zone h='39875' id='3' is-centered='0' is-scaled='1' param='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation/Doctors_Image.jpg' type-v2='bitmap' w='49100' x='47800' y='1875' />
+        <zone forceUpdate='true' h='40000' id='7' type-v2='text' w='43500' x='1500' y='2000'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='14'>BACKGROUND INFORMATION</run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#000000' fontname='Rockwell' fontsize='12'>Nigeria, which has the largest economy and the most populated nation in Africa has been experiencing a steady brain drain of its medical doctors over the years. The reasons for this phenomenon are multifaceted, with some of the primary factors being poor working conditions, inadequate infrastructure, low pay, and lack of opportunities for career advancement. </run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#000000' fontname='Rockwell' fontsize='12'>The impact of this trend on the country&apos;s healthcare system cannot be overstated, as it has resulted in a shortage of qualified medical personnel and reduced access to quality healthcare for the population. A peek at the number of facilities in the country tells a tale in itself (See Fig 1).</run>
+          </formatted-text>
+        </zone>
+        <zone h='45875' id='8' name='healthfacilities' w='44000' x='1500' y='42375' />
+        <zone h='6750' id='11' name='healthfacilities' pane-specification-id='0' param='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:No_of_facility:qk]' type-v2='color' w='41400' x='2200' y='88750' />
+        <zone forceUpdate='true' h='52750' id='22' type-v2='text' w='50500' x='47500' y='42250'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='14'>SURVIVAL OF THE FITTEST: HEALTH CARE OR DEATH?</run>
+            <run>Æ&#10;</run>
+            <run bold='true' fontcolor='#000000' fontname='Rockwell' fontsize='13'>Æ </run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#000000' fontname='Rockwell' fontsize='12'>The latest World Health Organisation survey ranks Nigeria’s healthcare system as the fourth worst in the world. This would not come as a surprise to Nigerians living in a country where there are no ambulance services or a simple toll-free number, like 999 to call in an emergency. In the unfortunate event of a heart attack, the chances of survival in Nigeria are dire. </run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#000000' fontname='Rockwell' fontsize='12'>The Health facilities across the country are grossly insufficient (See Fig. 1). The healthcare system has collapsed due to a lack of investment. For decades, Nigeria’s health sector has suffered from acute underfunding, whilst the country’s leadership have jetted off to the U.K. and the Dubai, to get the medical care they have callously denied their fellow citizens. Even Nigeria’s number one citizen would have nothing to do with the healthcare system he superintends, preferring instead to patronize, unashamedly, the health services built by his peers in the U.K., at great cost to the Nigerian treasury.</run>
+            <run>Æ&#10;&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='4000' id='26' type-v2='text' w='32200' x='1900' y='94625'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: The Federal Ministry of Health (2023)</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='4000' id='33' type-v2='text' w='32200' x='47500' y='37750'>
+          <formatted-text>
+            <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: The Guardian (2020)</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='950' minheight='950' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='53' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='52' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone fixed-size='280' h='39875' id='3' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation/Doctors_Image.jpg' type-v2='bitmap' w='49100' x='47800' y='1875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='40000' id='7' type-v2='text' w='43500' x='1500' y='2000'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='14'>BACKGROUND INFORMATION</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontname='Rockwell' fontsize='12'>Nigeria, which has the largest economy and the most populated nation in Africa has been experiencing a steady brain drain of its medical doctors over the years. The reasons for this phenomenon are multifaceted, with some of the primary factors being poor working conditions, inadequate infrastructure, low pay, and lack of opportunities for career advancement. </run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontname='Rockwell' fontsize='12'>The impact of this trend on the country&apos;s healthcare system cannot be overstated, as it has resulted in a shortage of qualified medical personnel and reduced access to quality healthcare for the population. A peek at the number of facilities in the country tells a tale in itself (See Fig 1).</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4000' id='33' type-v2='text' w='32200' x='47500' y='37750'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: The Guardian (2020)</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='52750' id='22' type-v2='text' w='50500' x='47500' y='42250'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='14'>SURVIVAL OF THE FITTEST: HEALTH CARE OR DEATH?</run>
+                    <run>Æ&#10;</run>
+                    <run bold='true' fontcolor='#000000' fontname='Rockwell' fontsize='13'>Æ </run>
+                    <run>Æ&#10;</run>
+                    <run fontcolor='#000000' fontname='Rockwell' fontsize='12'>The latest World Health Organisation survey ranks Nigeria’s healthcare system as the fourth worst in the world. This would not come as a surprise to Nigerians living in a country where there are no ambulance services or a simple toll-free number, like 999 to call in an emergency. In the unfortunate event of a heart attack, the chances of survival in Nigeria are dire. </run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontname='Rockwell' fontsize='12'>The Health facilities across the country are grossly insufficient (See Fig. 1). The healthcare system has collapsed due to a lack of investment. For decades, Nigeria’s health sector has suffered from acute underfunding, whilst the country’s leadership have jetted off to the U.K. and the Dubai, to get the medical care they have callously denied their fellow citizens. Even Nigeria’s number one citizen would have nothing to do with the healthcare system he superintends, preferring instead to patronize, unashamedly, the health services built by his peers in the U.K., at great cost to the Nigerian treasury.</run>
+                    <run>Æ&#10;&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='45875' id='8' is-fixed='true' name='healthfacilities' w='44000' x='1500' y='42375'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='6750' id='11' name='healthfacilities' pane-specification-id='0' param='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:No_of_facility:qk]' type-v2='color' w='41400' x='2200' y='88750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='4000' id='26' type-v2='text' w='32200' x='1900' y='94625'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#005500' fontname='Rockwell'>Source: The Federal Ministry of Health (2023)</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{40D028D7-42FA-4F5B-8E43-B576AD6E94F1}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Doctors_Healthworkers'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:Geo-Political Zones:nk]' type='filter' />
+            <card param='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:Number_of_other_Health_personels:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{AF287037-ACE2-4AF4-864E-CCFF1881F1FB}' />
+    </window>
+    <window class='worksheet' name='healthfacilities'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]' type='filter' />
+            <card param='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:Geo-Political Zones:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[sum:No_of_facility:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BAD94C8A-29B1-45CC-88A7-597E14F2A248}' />
+    </window>
+    <window class='worksheet' name='Doctors_2022'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:Geo-Political Zones:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D893D6EA-FFD2-45AE-8E29-DB402F0643F7}' />
+    </window>
+    <window class='worksheet' name='Doctors_2010'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:Geo-Political Zones:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{31F6D945-6165-4289-BFDB-924DD67E86BF}' />
+    </window>
+    <window class='dashboard' name='Coverpage'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{38CB62BA-5379-402A-96F1-4AB459E6172A}' />
+    </window>
+    <window class='dashboard' name='Section_1'>
+      <viewpoints>
+        <viewpoint name='healthfacilities'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='8' />
+      <simple-id uuid='{D58E8971-3889-4D2E-956C-8A00DCA1DF7A}' />
+    </window>
+    <window class='dashboard' name='Section2'>
+      <viewpoints />
+      <active id='7' />
+      <simple-id uuid='{FEBF96D6-4D21-4F55-9534-4A760E2581E9}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Section3'>
+      <viewpoints>
+        <viewpoint name='Doctors_2022'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Doctors_Healthworkers'>
+          <zoom type='entire-view' />
+          <geo-search-visibility value='1' />
+        </viewpoint>
+      </viewpoints>
+      <active id='3' />
+      <simple-id uuid='{801AB5E7-56A2-477C-9A4D-7E3F34AF0099}' />
+    </window>
+    <window class='dashboard' name='Section4'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{06BA1483-F108-40A8-8991-ABB1D047955E}' />
+    </window>
+    <window class='dashboard' name='Conclusion&amp;Refrences'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{17CFC8FE-1983-4B06-8D2F-0E20A987D86B}' />
+    </window>
+    <window class='dashboard' name='Doctors_Migration'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{4458DE0D-EB1D-4603-A530-AE8019A1F86C}' />
+    </window>
+  </windows>
+</workbook>
