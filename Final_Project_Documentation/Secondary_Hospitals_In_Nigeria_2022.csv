@@ -1,0 +1,677 @@
+ID_1,ID_0,Country,State,LGA,Ward,Facility UID,Facility Name,Facility Level,Ownership,latitude,Longitude
+1,163,,Abia,Arochukwu,Arochukwu 1,71428353,Arochukwu General Hospital,Secondary,Public,5.4226381,7.9130411
+1,163,,Abia,Arochukwu,Arochukwu 3,44547607,Obinkita Health Centre,Secondary,Public,5.4669427,7.8089687
+1,163,,Abia,Arochukwu,Ututu,18405757,Cottage Hospital,Secondary,Public,5.6646763,7.4601697
+1,163,,Abia,Bende,Item 1,57624198,Umunnato General Hospital,Secondary,Public,5.4626437,7.3697524
+1,163,,Abia,Isiala-Ngwa North,Ngwaukwu 1,72013874,Okpuala Ngwa General Hospital,Secondary,Public,5.0666654,7.3833318
+1,163,,Abia,Isiala-Ngwa South,Amaise Ahaba,36468069,Nigeria Naval Finance Logistics Hospital,Secondary,Public,5.1420552,7.0466313
+1,163,,Abia,Isuikwuato,Isiala,76261768,General Hospital Isuikwuato,Secondary,Public,5.7228428,7.4891199
+1,163,,Abia,Ukwa West,Ipu West,81067012,Owaza Cottage Hospital,Secondary,Public,4.8750422,7.2639741
+2,163,,Adamawa,Demsa,Borrong,42090976,Borrong General Hospital,Secondary,Public,9.7196576,12.7486597
+2,163,,Adamawa,Fufore,Fufore,39641698,Fufore Cottage Hospital,Secondary,Public,9.1750495,12.4380058
+2,163,,Adamawa,Ganye,Ganye 2,19422030,General Hospital Ganye,Secondary,Public,9.1630875,11.9819738
+2,163,,Adamawa,Gombi,Garkida,31808165,Garkida General Hospital,Secondary,Public,9.8790359,12.4224272
+2,163,,Adamawa,Gombi,Garkida,18693563,Garkida Leprosy Hospital,Secondary,Public,9.8957677,12.4191637
+2,163,,Adamawa,Guyuk,Guyuk,43645409,Guyuk Cottage Hospital,Secondary,Public,9.9050727,11.9046334
+2,163,,Adamawa,Hong,Shangui,60588991,Hong General Hospital,Secondary,Public,9.9154745,12.7393241
+2,163,,Adamawa,Jada,Jada 2,65187967,Jada General Hospital,Secondary,Public,9.6534562,12.0128442
+2,163,,Adamawa,Madagali,Gulak,17845730,Cottage Hospital Gulak,Secondary,Public,10.6239019,13.4620553
+2,163,,Adamawa,Maiha,Mayo-Nguli,28522110,Maiha Cottage Hospital,Secondary,Public,9.0420899,12.0037368
+2,163,,Adamawa,Mayo-Belwa,Mbilla,33404154,Mayo-Belwa Cottage Hospital,Secondary,Public,8.997964,12.067777
+2,163,,Adamawa,Michika,Michika 2,62779093,Michika General Hospital,Secondary,Public,10.596726,13.392281
+2,163,,Adamawa,Mubi North,Lokuwa,33736952,ADSU Health Clinic,Secondary,Public,9.226705,12.481201
+2,163,,Adamawa,Mubi South,Nasarawo,39963337,Mubi General Hospital,Secondary,Public,10.268526,13.270628
+2,163,,Adamawa,Numan,Sabon Pegi,27109987,General Hospital Numan,Secondary,Public,9.463574,12.029854
+2,163,,Adamawa,Song,Dumne,12729150,Dumne Primary Health Care Centre,Secondary,Public,9.546468,12.462399
+2,163,,Adamawa,Song,Song Gari,25031308,Song Cottage Hospital,Secondary,Public,9.798123,12.877935
+2,163,,Adamawa,Toungo,Toungo 1,40428714,Cottage Hospital Toungo,Secondary,Public,7.240186,11.831029
+2,163,,Adamawa,Yola North,Karewa,82983001,163 Nigerian Airforce Hospital,Secondary,Public,9.268914,12.437207
+2,163,,Adamawa,Yola North,Karewa,62976710,23Rd Army Medical Hospital,Secondary,Public,9.229599,12.447169
+2,163,Nigeria,Adamawa,Yola North,Nassarawo,74548539,Yola Specialist Hospital,Secondary,Public,9.250162,12.433293
+3,163,Nigeria,Akwa-Ibom,Esit Eket,Uquo 5,45604683,Uquo Excellence Medical Centre,Secondary,Public,4.867594,7.001464
+3,163,Nigeria,Akwa-Ibom,Essien Udim,Ikpe Annang,49719156,Ikpe Annang General Hospital,Secondary,Public,5.013071,7.882138
+3,163,Nigeria,Akwa-Ibom,Essien Udim,Ukana West 2,63445658,Ukana Cottage Hospital,Secondary,Public,5.101955,7.891626
+3,163,Nigeria,Akwa-Ibom,Ibiono Ibom,Ibiono Ibom 5,87150411,Ikot Ambang Handmaid Hospital,Secondary,Public,5.013782,8.061558
+3,163,Nigeria,Akwa-Ibom,Ibiono Ibom,Ibiono Ibom 9,29538541,Ntan Akpan Udom Eduwen Clinic and Maternity,Secondary,Public,5.059012,8.108574
+3,163,Nigeria,Akwa-Ibom,Ikot Ekpene,Ikot Ekpene 1,21537219,Ikot Ekpene General Hospital,Secondary,Public,5.171685,7.717495
+3,163,Nigeria,Akwa-Ibom,Ini,Ikpe 2,31192330,Ikpe Ikot Nkon General Hospital,Secondary,Public,5.059891,7.913918
+3,163,Nigeria,Akwa-Ibom,Mkpat Enin,Ikpa Ibom 3,64631040,Akwa Ibom State University Medical Centre,Secondary,Public,5.032258,7.929197
+3,163,Nigeria,Akwa-Ibom,Mkpat Enin,Ikpa Ikono 1,48306631,Ikot Ekpaw Cottage Hospital,Secondary,Public,5.1554,7.841625
+3,163,Nigeria,Akwa-Ibom,Mkpat Enin,Ukpum Minya 3,68405988,Asong Union Cottage Hospital,Secondary,Public,5.073736,7.905738
+3,163,Nigeria,Akwa-Ibom,Mkpat Enin,Ukpum Minya 3,63365239,Ikot Abia Cottage Hospital,Secondary,Public,4.79993,7.87889
+3,163,Nigeria,Akwa-Ibom,Obot Akara,Nto Edino 3,36627912,Nto Edino Comprehensive Health Centre,Secondary,Public,4.78739,7.70489
+3,163,Nigeria,Akwa-Ibom,Okobo,Okopedi 2,67016452,Amammong Okobo General Hospital,Secondary,Public,4.63547,7.69129
+3,163,Nigeria,Akwa-Ibom,Oruk Anam,Ibesit Nung Ikot 1 12,43167564,Ibesit Okpokoro Redeemer Cottage Hospital,Secondary,Public,4.58024,7.80551
+3,163,Nigeria,Akwa-Ibom,Oruk Anam,Ndot Ikot Okoro 3 5,38195097,Ikot Okoro General Hospital,Secondary,Public,4.8681,7.91832
+3,163,Nigeria,Akwa-Ibom,Oruk Anam,Ndot Ikot Okoro 3 5,71937480,Obio Akpa University Medical Centre,Secondary,Public,4.80725,7.67262
+3,163,Nigeria,Akwa-Ibom,Uruan,Northern Uruan 1,73675817,Mbiaya Comprehensive Health Centre,Secondary,Public,4.54004,7.82719
+4,163,Nigeria,Anambra,Aguata,Ekwuluobia II,16698075,Ekwuluobia General Hospital,Secondary,Public,6.03528,7.0769
+4,163,Nigeria,Anambra,Aguata,Ezinifite II,39488263,Chukwuemeka Odumegwu Ojukwu Teaching Hospital,Secondary,Public,6.2281,7.06972
+4,163,Nigeria,Anambra,Aguata,Umuchu 1,48375771,Umuchu General Hospital,Secondary,Public,5.93327,7.08916
+4,163,Nigeria,Anambra,Anaocha,Agulu II,30573596,Agulu General Hospital,Secondary,Public,6.07806,7.02608
+4,163,Nigeria,Anambra,Anaocha,Aguluizigbo,77286001,Aguluizugbo General Hospital,Secondary,Public,6.14144,7.06452
+4,163,Nigeria,Anambra,Anaocha,Neni 1,85348169,Nnamdi Azikiwe University Teaching Hospitalneni,Secondary,Public,6.1795,6.88269
+4,163,Nigeria,Anambra,Anaocha,Nri 1,16521163,Nri General Hospital,Secondary,Public,6.03187,6.93723
+4,163,Nigeria,Anambra,Awka North,Amanuke ward,64868594,Amanuke General Hospital,Secondary,Public,6.21428,6.94599
+4,163,Nigeria,Anambra,Awka South,Awka VI,37504319,Police Comprehensive Hospital Awka,Secondary,Public,6.20694,7.05858
+4,163,Nigeria,Anambra,Awka South,Mbaukwu,25638135,Mbaukwu General Hospital,Secondary,Public,6.03198,7.1737
+4,163,Nigeria,Anambra,Ekwusigo,Ichi,57776327,Ichi General Hospital,Secondary,Public,5.8533,7.06212
+4,163,Nigeria,Anambra,Ekwusigo,Ifite..,58867042,Oraifite General Hospital,Secondary,Public,5.96215,6.91998
+4,163,Nigeria,Anambra,Idemili South,Nnobi ward 1,19410500,NNOBI GENERAL HOSPITAL,Secondary,Public,6.00897,6.95959
+4,163,Nigeria,Anambra,Idemili South,Oba III,70025631,Trauma (NAUTH)Centre Oba,Secondary,Public,6.141045,6.812761
+4,163,Nigeria,Anambra,Njikoka,Abagana ward 3,66037514,Nnamdi Azikiwe Teaching Hospital Abagana,Secondary,Public,6.0130208,7.1844644
+4,163,Nigeria,Anambra,Njikoka,Enugwu Ukwu 1,23717890,Enugwu Ukwu General Hospital,Secondary,Public,6.0297598,7.1748629
+4,163,Nigeria,Anambra,Njikoka,Nimo III,69766075,Nimo General Hospital,Secondary,Public,6.0778877,6.9387167
+4,163,Nigeria,Anambra,Onitsha North,Army Barracks ward 2,50666335,Army Barracks MRS Hospital,Secondary,Public,6.143851,6.794679
+4,163,Nigeria,Anambra,Onitsha North,Ogbeumuonicha ward 7,53621435,Police Medical Centre,Secondary,Public,6.1398247,6.7978563
+4,163,Nigeria,Anambra,Onitsha North,Umudei 13,84519982,Onitsha General Hospital,Secondary,Public,6.155721,6.787235
+4,163,Nigeria,Anambra,Onitsha North,Water Works 14,82503403,St.Patrick'S Hospital And Maternity,Secondary,Public,6.1524874,6.7876325
+4,163,Nigeria,Anambra,Orumba North,Ajali I,61811586,General Hospital Orumba,Secondary,Public,5.9640379,7.2559335
+4,163,Nigeria,Anambra,Oyi,Umunya 1,62833331,Umunya Comprehensive Health Center (NAUTH),Secondary,Public,6.1818169,6.9506345
+5,163,Nigeria,Bauchi,Bogoro,Bogoro,67956384,Bogoro General Hospital,Secondary,Public,9.939229,9.624756
+5,163,Nigeria,Bauchi,Dass,Bundot,20121564,Dass General Hospital,Secondary,Public,10.740417,9.805928
+5,163,Nigeria,Bauchi,Ganjuwa,Kafin Madaki A,48597711,Kafin Madaki General Hospital,Secondary,Public,9.694045,10.209998
+5,163,Nigeria,Bauchi,Giade,Giade A,51145355,Giade General Hospital,Secondary,Public,10.831359,10.437621
+5,163,Nigeria,Bauchi,Katagum,Bakin Kasuwa,22127344,Azare General Hospital,Secondary,Public,11.674508,10.191414
+5,163,Nigeria,Bauchi,Toro,Toro,78203403,Toro General Hospital,Secondary,Public,9.993611,8.887778
+5,163,Nigeria,Bayelsa,Brass,Brass 2 2,27902229,Twon Brass General Hospital,Secondary,Public,4.069759,6.2418337
+5,163,Nigeria,Bayelsa,Brass,Okpoama 4,60991710,Okpoama Cottage Hospital,Secondary,Public,4.748828,6.766503
+5,163,Nigeria,Bayelsa,Ekeremor,Iduwini 1 11,47103899,Amatu 2 Cottage Hospital,Secondary,Public,4.651176,6.107793
+5,163,Nigeria,Bayelsa,Ekeremor,Iduwini II 12,23079992,Egbemo-Angalabiri Cottage Hospital,Secondary,Public,5.216667,6.05
+5,163,Nigeria,Bayelsa,Ekeremor,Oporomor II 7,25553380,Tamogbene Cottage Hospital,Secondary,Public,5.150335,5.498951
+5,163,Nigeria,Bayelsa,Ekeremor,Oporomor III 8,48931209,Ekeremor Cottage Hospital,Secondary,Public,5.241076,5.709839
+5,163,Nigeria,Bayelsa,Ekeremor,Oporomor V 10,72339056,Peretorugbene Cottage Hospital,Secondary,Public,5.104477,5.379232
+5,163,Nigeria,Bayelsa,Sagbama,Agbere 1,65738142,Agbere Cottage Hospital,Secondary,Public,5.476564,5.759369
+5,163,Nigeria,Bayelsa,Sagbama,Agbere 1,53264709,Agbere Primary Health Centre,Secondary,Public,5.46571,5.771097
+5,163,Nigeria,Bayelsa,Sagbama,Ebedebiri 5,67240232,Ebedebiri Cottage Hospital,Secondary,Public,5.375018,6.116734
+5,163,Nigeria,Bayelsa,Sagbama,Sagbama 10,60898635,Sagbama General Hospital,Secondary,Public,5.375644,6.025254
+5,163,Nigeria,Bayelsa,Southern Ijaw,Ammasoma 3 11,29401200,Amassoma General Hospital,Secondary,Public,4.875647,6.179266
+5,163,Nigeria,Bayelsa,Southern Ijaw,Ammasoma 3 11,53345680,Niger Delta University Sick Bay,Secondary,Public,5.189677,6.161907
+5,163,Nigeria,Bayelsa,Southern Ijaw,Apoi 15,16312571,Ogboinbiri Cottage Hospital,Secondary,Public,5.369274,6.188416
+5,163,Nigeria,Bayelsa,Southern Ijaw,Koluama 17,38406139,Koluama 1 Cottage Hospital,Secondary,Public,5.382578,6.323585
+5,163,Nigeria,Bayelsa,Southern Ijaw,Olodiama I 3,34128638,Korokorosei Cottage Hospital,Secondary,Public,5.349102,6.245546
+5,163,Nigeria,Bayelsa,Southern Ijaw,Olodiama II 4,52447206,Olugbobiri Cottage Hospital,Secondary,Public,5.383067,6.272611
+5,163,Nigeria,Bayelsa,Southern Ijaw,Peremabiri 8,47475544,Peremabiri Cottage Hospital,Secondary,Public,5.365399,6.282769
+5,163,Nigeria,Bayelsa,Southern Ijaw,Ukubie 16,84122389,Lobia 2 Cottage Hospital,Secondary,Public,5.137547,5.969785
+5,163,Nigeria,Bayelsa,Yenagoa,Atissa I 1,76076376,Bayelsa Specialist Hospital,Secondary,Public,4.874119,6.253104
+5,163,Nigeria,Bayelsa,Yenagoa,Atissa I 1,79160867,Family Support Program Clinic Ovom,Secondary,Public,4.846935,6.198139
+5,163,Nigeria,Bayelsa,Yenagoa,Atissa I 1,58076509,Police Hospital,Secondary,Public,4.865838,6.213711
+5,163,Nigeria,Bayelsa,Yenagoa,Ekpetiama I 10,36033765,Agudama- Ekpetiama General Hospital,Secondary,Public,4.973184,6.283344
+5,163,Nigeria,Bayelsa,Yenagoa,Ekpetiama I 10,32431211,Ikibiri Cottage Hospital,Secondary,Public,5.237707,6.089016
+5,163,Nigeria,Bayelsa,Yenagoa,Epie I 4,50551173,Igbogene Tuberculosis and Leprosy Referral Centre,Secondary,Public,4.8917541,6.1369788
+5,163,Nigeria,Bayelsa,Yenagoa,Epie II 5,48699002,Diete Koki Memorial Hospital,Secondary,Public,4.8403132,6.9780727
+5,163,Nigeria,Bayelsa,Yenagoa,Okordia 14,69754136,Ikarama Cottage Hospital,Secondary,Public,4.9141222,6.0582788
+6,163,Nigeria,Benue,Ado,Ekile,32479438,Odoke Health Post,Secondary,Public,7.0479978,8.9947367
+6,163,Nigeria,Benue,Ado,Igumale II,25181964,Igumale General Hospital,Secondary,Public,7.2565622,7.8267028
+6,163,Nigeria,Benue,Buruku,Mbaapen,33559149,Buruku General Hospital,Secondary,Public,7.2963475,8.9285475
+6,163,Nigeria,Benue,Gboko,Gboko North-West,15646119,Gboko General Hospital,Secondary,Public,7.330311,8.9628702
+6,163,Nigeria,Benue,Gboko,Gboko North-West,65842632,Se-av Foundation,Secondary,Public,7.4079817,8.9979443
+6,163,Nigeria,Benue,Gwer West,Ikyaghev,71989859,Naka General Hospital,Secondary,Public,7.6801757,8.7422927
+6,163,Nigeria,Benue,Logo,Mbayam,58200223,Ugba General Hospital,Secondary,Public,6.9820115,8.1340193
+6,163,Nigeria,Benue,Vandeikya,Mbadede,48003679,Nkst Hospital Mbaakon,Secondary,Public,7.8361996,9.1398886
+7,163,Nigeria,Borno,Bama,Kasugula,49627713,Bama General Hospital,Secondary,Public,11.5199285,13.6848128
+7,163,Nigeria,Borno,Bayo,Briyel,36290632,Briyel General Hospital,Secondary,Public,9.7870388,11.6013315
+7,163,Nigeria,Borno,Biu,Dugja,20257985,Nigerian Army University Hospital Biu,Secondary,Public,10.6126377,12.1972313
+7,163,Nigeria,Borno,Biu,Sul-Umthla,21730976,Biu General Hospital,Secondary,Public,10.6158044,12.1974548
+7,163,Nigeria,Borno,Chibok,Garu,77948315,Chibok General Hospital,Secondary,Public,10.8586886,12.9157689
+7,163,Nigeria,Borno,Gubio,Gubio 1,30115654,General Hospital Gubio,Secondary,Public,12.4211632,13.1933078
+7,163,Nigeria,Borno,Gwoza,Hausari Gadamayo,51395707,General Hospital Gwoza,Secondary,Public,11.0506898,13.6902851
+7,163,Nigeria,Borno,Jere,Gongulon,71199789,7 Division Hospital Maimalari,Secondary,Public,11.8524575,13.1527442
+7,163,Nigeria,Borno,Kaga,Benishiekh,33704187,Benishiekh General Hospital,Secondary,Public,11.8333395,13.9681441
+7,163,Nigeria,Borno,Konduga,Konduga,65920091,Konduga General Hospital,Secondary,Public,11.9139241,13.3661845
+7,163,Nigeria,Borno,Maiduguri,Maisandari (Maiduguri),17562901,Hawfad Memorial Clinic,Secondary,Public,12.9436899,11.9230406
+7,163,Nigeria,Borno,Ngala,Ngala,54293268,General Hospita Ngala,Secondary,Public,12.9753266,13.5336239
+7,163,Nigeria,Borno,Nganzai,Gajiram,41831058,Gajiram General Hospital,Secondary,Public,12.4473342,13.5538417
+8,163,Nigeria,Cross River,Abi,Itigidi,16428793,Eja Memorial Hospital,Secondary,Public,5.009308,8.3347046
+8,163,Nigeria,Cross River,Akpabuyo,Eneyo South,52705867,St Joseph Hospital,Secondary,Public,5.7386899,7.0626293
+8,163,Nigeria,Cross River,Calabar Municipal,Akim,57622540,13 Brigade Medical Centre,Secondary,Public,4.9071573,8.3228024
+8,163,Nigeria,Cross River,Calabar Municipal,Akim,62034035,Calabar Police Hospital,Secondary,Public,4.9642428,8.3233745
+8,163,Nigeria,Cross River,Calabar Municipal,Akim,57101542,College of Health Technology Clinic,Secondary,Public,5.0065352,8.3292358
+8,163,Nigeria,Cross River,Calabar Municipal,Big Qua,72864218,Correctional Service Clinic,Secondary,Public,4.9307157,8.3434804
+8,163,Nigeria,Cross River,Calabar Municipal,Big Qua,75315584,Government House Clinic,Secondary,Public,9.057886,7.484426
+8,163,Nigeria,Cross River,Calabar Municipal,Diamond,53942470,Ministry of Health Staff Clinic,Secondary,Public,9.069009,7.489025
+8,163,Nigeria,Cross River,Calabar Municipal,Diamond,31352027,Nigeria Naval Reference Hospital,Secondary,Public,9.064137,7.489184
+8,163,Nigeria,Cross River,Calabar Municipal,Ediba,52807817,Margaret Ekpo International Airport Medical Centre,Secondary,Public,4.872368,8.943318
+8,163,Nigeria,Cross River,Calabar Municipal,Ediba,44710382,Nigerian Airforce Clinic,Secondary,Public,9.066326,7.487486
+8,163,Nigeria,Cross River,Calabar Municipal,Edim Otop,72259857,University of Calabar Medical Centre,Secondary,Public,4.965038,8.330139
+8,163,Nigeria,Cross River,Calabar Municipal,Ikot Ansa,49463828,146 Batalion Medical Reception Station (MRS),Secondary,Public,7.721556,8.522557
+8,163,Nigeria,Cross River,Calabar South,Calabar South ward 12,52029999,Crutech Medical Centre,Secondary,Public,4.954425,8.328574
+8,163,Nigeria,Cross River,Calabar South,Calabar South ward 7,50140446,Dr Lawrence Henshaw Memorial Specialist Hospital and Research Center,Secondary,Public,4.874041,8.313925
+8,163,Nigeria,Cross River,Odukpani,Creek Town 2,52056268,Ukem General Hospital,Secondary,Public,5.731679,8.706253
+8,163,Nigeria,Cross River,Yakurr,Ijom,86189273,Ugep General Hospital,Secondary,Public,5.810155,8.083074
+8,163,Nigeria,Cross River,Yala,Ebo/Yahe,36340334,Lutheran Hospital Yahe,Secondary,Public,7.797485,8.863467
+8,163,Nigeria,Cross River,Yala,Okpoma,64601742,Okpoma General Hospital,Secondary,Public,8.007708,8.187184
+9,163,Nigeria,Delta,Aniocha North,Issele-Uku 1,36791215,General Hospital Issele Uku,Secondary,Public,6.204924,6.584944
+9,163,Nigeria,Delta,Aniocha North,Obior/Onicha-Uku,17531190,Onicha-Uku General Hospital,Secondary,Public,6.193962,6.791184
+9,163,Nigeria,Delta,Aniocha North,Onicha-Olone,21055136,Onicha Olona Government Hospital.,Secondary,Public,6.312763,6.874309
+9,163,Nigeria,Delta,Aniocha South,Umudei,28998935,Ogwashi-Uku General Hospital,Secondary,Public,6.190107,6.530042
+9,163,Nigeria,Delta,Ethiope East,Egbo Kokori,28549305,Erhoike Cottage Hospital,Secondary,Public,5.480819,6.023313
+9,163,Nigeria,Delta,Ethiope West,Jesse 2,62853423,"Ugbevwe Government Hospital, Ugbevwe-Jesse",Secondary,Public,5.463325,5.986864
+9,163,Nigeria,Delta,Ethiope West,Ogharefe 2,17828652,General Hospital Oghara,Secondary,Public,5.527344,5.757924
+9,163,Nigeria,Delta,Ika North East,Owa-Alero,22614961,Owa-Alero Government Hospital,Secondary,Public,6.292429,6.324589
+9,163,Nigeria,Delta,Ika North East,Owa-Oyibu,55205153,Owa-Oyibu General Hospital,Secondary,Public,6.286025,6.568388
+9,163,Nigeria,Delta,Ika North East,Umunede,17438401,Umunede Government Hospital,Secondary,Public,6.175501,6.587139
+9,163,Nigeria,Delta,Ika South,Boji-Boji 1 Agbor,52482696,Central Hospital Agbor,Secondary,Public,6.256773,6.202263
+9,163,Nigeria,Delta,Ika South,Ekuku Agbor,37870328,Agbor-Alindinma Government Hospital,Secondary,Public,6.239079,6.129169
+9,163,Nigeria,Delta,Isoko North,Ofagbe,48681197,Ofagbe Government Hospital,Secondary,Public,6.027843,6.439088
+9,163,Nigeria,Delta,Isoko North,Owhe 1,51080944,Owhelogbo Government Hospital,Secondary,Public,5.866667,6.033333
+9,163,Nigeria,Delta,Isoko North,Ozoro 3,78552008,Ozoro Governmentl Hospital,Secondary,Public,5.637638,6.206631
+9,163,Nigeria,Delta,Ndokwa West,Kwale,63446622,Kwale General Hospital,Secondary,Public,5.680278,6.455833
+9,163,Nigeria,Delta,Oshimili North,Ebu,12931274,Ebu Government Hospital,Secondary,Public,6.121173,6.899324
+9,163,Nigeria,Delta,Oshimili North,Ogbeowele,83936187,Government Hospital Ibusa,Secondary,Public,6.1875,6.716667
+9,163,Nigeria,Delta,Oshimili North,Okpanam/Ugbolu,45881459,ASABA SPECIALIST HOSPITAL,Secondary,Public,6.194394,6.740444
+9,163,Nigeria,Delta,Oshimili South,Okwe,57859804,Government Hospital Okwe-Asaba,Secondary,Public,6.237242,6.750978
+9,163,Nigeria,Delta,Oshimili South,Okwe,41920662,Police Clinic,Secondary,Public,6.267464,6.567781
+9,163,Nigeria,Delta,Sapele,Okpe,24718095,Nigeria Police Medical Services,Secondary,Public,5.88718,5.676357
+9,163,Nigeria,Delta,Sapele,Okpe,69068837,Sapele Central Hospital,Secondary,Public,5.888889,5.676389
+9,163,Nigeria,Delta,Ughelli North,Agbarho 1,77917889,Ehwerhe Government Hospital,Secondary,Public,5.455019,5.878642
+9,163,Nigeria,Delta,Ughelli North,Agbarho2,13208598,Agbarho Government Hospital,Secondary,Public,5.528025,5.883198
+9,163,Nigeria,Delta,Ughelli North,Orogun 1,35282321,Orogun Government Hospital,Secondary,Public,5.702934,6.030103
+9,163,Nigeria,Delta,Uvwie,Ekpan 1,48445483,Nigerian National Petroleum Cooperation Clinic.,Secondary,Public,5.544444,5.77915
+9,163,Nigeria,Delta,Uvwie,Ohorhe,66724968,3 Battalion Medical Reception Station,Secondary,Public,5.534583,5.794167
+9,163,Nigeria,Delta,Uvwie,Ohorhe,50031159,"Nigerian Navy Hospital, Effurun",Secondary,Public,5.561608,5.795881
+9,163,Nigeria,Delta,Warri South,Esisi,83490203,Warri Central Hospital,Secondary,Public,5.518456,5.76851
+9,163,Nigeria,Delta,Warri South,Obodo,57340235,Omadino Cottage Hospital,Secondary,Public,5.556052,5.922968
+9,163,Nigeria,Delta,Warri South,Ode-Itsekiri,79398272,Ode-Itsekiri Health Facility,Secondary,Public,5.606703,5.783105
+10,163,Nigeria,Ebonyi,Abakaliki,Amagu,77411013,Elinwovbu General Hospital,Secondary,Public,6.132307,4.194112
+10,163,Nigeria,Ebonyi,Afikpo North,Itim,48105440,Itim Ukwu General Hospital,Secondary,Public,5.84391,7.92541
+10,163,Nigeria,Ebonyi,Afikpo South,Owutu,25467776,Owutu General Hospital,Secondary,Public,5.82256,7.84955
+10,163,Nigeria,Ebonyi,Ezza South,Onueke urban,81477141,General Hospital Onueke,Secondary,Public,5.846311,7.872328
+10,163,Nigeria,Ebonyi,Ikwo,Ndufu Alike,64787440,General Hospital Ikwo,Secondary,Public,6.49658,8.00885
+10,163,Nigeria,Ebonyi,Ishielu,Agba,53361740,AGBA GENERAL HOSPITAL,Secondary,Public,6.33924,8.10125
+10,163,Nigeria,Ebonyi,Ivo,Amagu-Ihie,72956225,Ishiagu General Hospital,Secondary,Public,6.32281,7.95633
+10,163,Nigeria,Ebonyi,Ohaozara,Mgbom Okposi,28108595,Okposi General Hospital,Secondary,Public,5.81097,7.77935
+10,163,Nigeria,Ebonyi,Ohaozara,Umuobuna,87290890,Ebonyi State University Community General Hospital Uburu,Secondary,Public,5.89655,7.87116
+10,163,Nigeria,Ebonyi,Ohaukwu,Ezzangbo,75699132,Ezzangbo General Hospital,Secondary,Public,6.12956,8.10945
+10,163,Nigeria,Ebonyi,Onicha,Enuegu,81595085,General Hospital Onicha,Secondary,Public,6.11617,7.54502
+11,163,Nigeria,Edo,Esan Central,Ewu,32592465,District Hospital Ewu,Secondary,Public,6.50991,6.88025
+11,163,Nigeria,Edo,Esan Central,Otoruwa 2,58689852,"Usugbenu District Hospital, Irrua",Secondary,Public,6.58352,6.31659
+11,163,Nigeria,Edo,Esan North-East,Egbele,50351107,Central Hospital Uromi,Secondary,Public,6.69887,6.33172
+11,163,Nigeria,Edo,Esan West,Iruekpen,62820297,General Hospital Iruekpen,Secondary,Public,6.68734,6.78902
+11,163,Nigeria,Edo,Etsako Central,Iviarua,81208741,Fugar General Hospital,Secondary,Public,7.36592,6.63311
+11,163,Nigeria,Edo,Etsako East,Agenebode,18376064,Agenebode General Hospital,Secondary,Public,7.01877,6.42737
+11,163,Nigeria,Edo,Etsako West,Auchi 2,36680804,Central Hospital Auchi,Secondary,Public,7.07345,6.26336
+11,163,Nigeria,Edo,Etsako West,Auchi 3,58972172,Auchi Polytechnic Cottage Hospital,Secondary,Public,7.07934,6.26846
+11,163,Nigeria,Edo,Etsako West,Aviele,77397738,Agbede General Hospital,Secondary,Public,7.00611,6.30181
+11,163,Nigeria,Edo,Igueben,Eguare,24400142,General Hospital Igueben,Secondary,Public,6.74422,6.25518
+11,163,Nigeria,Edo,Orhionmwon,Abiokunla 1,40868219,General Hospital Abudu,Secondary,Public,6.11044,6.64796
+11,163,Nigeria,Edo,Orhionmwon,Abiokunla 1,41232554,"Ossiomo Specialist Hospital,Ogan",Secondary,Public,6.59711,5.87948
+11,163,Nigeria,Edo,Orhionmwon,Igbanke East,50230525,Igbanke General Hospital,Secondary,Public,6.38536,5.90454
+11,163,Nigeria,Edo,Orhionmwon,Ugu,68469807,Oben Cottage Hospital,Secondary,Public,6.27644,6.06919
+11,163,Nigeria,Edo,Orhionmwon,Urhonigbe,48884843,Government Hospital Urhonigbe,Secondary,Public,6.29225,5.98497
+11,163,Nigeria,Edo,Owan East,Emai 1,36731915,General Hospital Afuze,Secondary,Public,6.855169,6.692882
+11,163,Nigeria,Edo,Owan West,Sabogidda-Ora,51412418,General Hospital Sabon Gida Ora,Secondary,Public,7.616808,5.879004
+11,163,Nigeria,Edo,Owan West,Uzebba 1,64909349,General Hospital Uzebba,Secondary,Public,7.533035,5.678855
+11,163,Nigeria,Edo,Uhunmwode,Umagbae South,70193073,"Egba, Egba District Hospital",Secondary,Public,7.983367,4.771389
+12,163,Nigeria,Ekiti,Efon,Alajo/Sur,13420010,General Hospital Efon,Secondary,Public,7.662129,5.097228
+12,163,Nigeria,Ekiti,Ekiti East,Iludofin 9,27774549,Omuo General Hospital,Secondary,Public,7.822091,5.812608
+12,163,Nigeria,Ekiti,Ekiti South West,Okebedo 2,30237905,Ilawe Ekiti General Hospital,Secondary,Public,7.613872,5.219407
+12,163,Nigeria,Ekiti,Ekiti West,Aramoko 2,78102232,Aramoko General Hospital,Secondary,Public,7.688537,5.195472
+12,163,Nigeria,Ekiti,Ekiti West,Okemesi A,67195693,Okemesi General Hospital,Secondary,Public,7.865794,4.909761
+12,163,Nigeria,Ekiti,Emure,Oke-Emure Oge,86592442,Emure General Hospital,Secondary,Public,7.426372,5.304774
+12,163,Nigeria,Ekiti,Ido-Osi,Ifaki 2,40011276,General Hospital Ifaki,Secondary,Public,7.768983,5.232364
+12,163,Nigeria,Ekiti,Ijero,Ijero B,72767231,"State Specialist Hospital, Ijero",Secondary,Public,7.819704,5.072507
+12,163,Nigeria,Ekiti,Ikere,Are/Araromi,73120502,Ikere State Specialist Hospital,Secondary,Public,7.505789,5.231905
+12,163,Nigeria,Ekiti,Ikole,Ijesa Isu,62481133,Ijesa Isu General Hosptal,Secondary,Public,7.745965,5.023538
+12,163,Nigeria,Ekiti,Ikole,Ikole Central,16858007,State Specialist Hospital Ikole,Secondary,Public,7.791305,5.514656
+12,163,Nigeria,Ekiti,Ilejemeje,Isapa,69245175,Isapa General Hospital,Secondary,Public,7.983725,4.641567
+12,163,Nigeria,Ekiti,Irepodun/Ifelodun,Iyin B,25482046,General Adeyinka Adebayo General Hospital Iyin,Secondary,Public,7.680483,5.200108
+12,163,Nigeria,Ekiti,Ise/Orun,Odose III,76056156,General Hospital Ise,Secondary,Public,7.467225,4.692739
+12,163,Nigeria,Ekiti,Moba,Otun III,61737440,General Hospital Otun,Secondary,Public,7.986289,4.948635
+12,163,Nigeria,Ekiti,Oye,Ayede N,47570262,Ayede General Hospital,Secondary,Public,7.984723,4.802208
+12,163,Nigeria,Ekiti,Oye,Ilupeju II,32320352,Ilupeju General Hospital,Secondary,Public,7.837739,5.249937
+12,163,Nigeria,Ekiti,Oye,Oye II,75715413,Oye General Hospital,Secondary,Public,7.631416,5.282325
+13,163,Nigeria,Enugu,Agwu,Awgu 1,18443296,Awgu District Hospital,Secondary,Public,6.055842596,7.291952133
+13,163,Nigeria,Enugu,Agwu,Awgu 1,27007519,Awgu Maternal And Child Health Clinic,Secondary,Public,6.044249058,7.305073262
+13,163,Nigeria,Enugu,Agwu,Mgbidi/Mmaku,84739263,Mmaku Cottage Hospital,Secondary,Public,5.981598854,7.475566148
+13,163,Nigeria,Enugu,Agwu,Ogbaku,24279405,Ogbaku Cottage Hospital,Secondary,Public,5.767798901,7.387001782
+13,163,Nigeria,Enugu,Enugu East,Mbulujodo II,77458214,Akpoga Nike Cottage Hospital,Secondary,Public,6.157413744,7.424262644
+13,163,Nigeria,Enugu,Enugu North,GRA East,76227935,82 Division Military Hospital,Secondary,Public,6.43960714,7.503079386
+13,163,Nigeria,Enugu,Enugu North,GRA East,80474376,Nigeria Airforce Medical Centre,Secondary,Public,6.441597219,7.513186804
+13,163,Nigeria,Enugu,Enugu North,Iva Valley,27224191,Colliery Hospital,Secondary,Public,6.457545191,7.518082469
+13,163,Nigeria,Enugu,Enugu North,Iva Valley,42028920,Planned Parenthood Federation,Secondary,Public,6.440321678,7.49260533
+13,163,Nigeria,Enugu,Enugu South,Amechi East I,64539051,AMECHI COTTAGE HOS PITAL,Secondary,Public,6.027359643,7.456909729
+13,163,Nigeria,Enugu,Enugu South,Amechi East I,27805146,Amechi Cottage Hospital,Secondary,Public,6.036928846,7.46205292
+13,163,Nigeria,Enugu,Ezeagu,Agbudu Owa I,63714450,Aguobu Owa Cottage Hospital,Secondary,Public,6.124232662,7.47791473
+13,163,Nigeria,Enugu,Ezeagu,Obeleagu,37937592,Obeleagu Umana Cottage Hospital,Secondary,Public,6.144489523,7.476460503
+13,163,Nigeria,Enugu,Ezeagu,Oghe II,25931082,Amansiodo Imezi Cottage Hospital,Secondary,Public,6.117849398,7.487314143
+13,163,Nigeria,Enugu,Ezeagu,Olo II,48505715,Olo Cottage Hospital,Secondary,Public,6.127057152,7.485181458
+13,163,Nigeria,Enugu,Igbo-Etiti,Aku V,78809399,Aku Cottage Hospital,Secondary,Public,6.056701258,7.591931856
+13,163,Nigeria,Enugu,Igbo-Etiti,Ikolo/Ohebedim,12760390,Ogbede Cottage Hospital,Secondary,Public,6.059611541,7.602982647
+13,163,Nigeria,Enugu,Igbo-Eze South,Itchi Uwani Word,41888964,Itchi Cottage Hospital,Secondary,Public,6.153969032,7.769772962
+13,163,Nigeria,Enugu,Isi-Uzo,Eha_Amufu II,22137121,Cottage Hospital Eha-Amufu,Secondary,Public,6.780137339,7.836387399
+13,163,Nigeria,Enugu,Isi-Uzo,Ikem I,19157930,Ikem General Hospital,Secondary,Public,6.538078983,7.419787279
+13,163,Nigeria,Enugu,Isi-Uzo,Mbu ward II,73082067,Mbu Cottage Hospital,Secondary,Public,6.738278312,7.456019786
+13,163,Nigeria,Enugu,Nkanu East,Nkerefi II,21652589,Nkerefi Cottage Hospital,Secondary,Public,6.817111401,7.390698299
+13,163,Nigeria,Enugu,Nkanu East,Ubahu Amankanu,66158007,Ubahu Cottage Hospital,Secondary,Public,6.865550516,7.389025343
+13,163,Nigeria,Enugu,Nkanu West,Agbani,71963096,Agbani District Hospital,Secondary,Public,6.215161,7.478456
+13,163,Nigeria,Enugu,Nkanu West,Amurri I,72706421,Cottage Hospital Amurri,Secondary,Public,6.313008,7.397679
+13,163,Nigeria,Enugu,Nkanu West,Obuoiffia,29998415,Obuoffia Cottage Hospital,Secondary,Public,5.922381,7.369463
+13,163,Nigeria,Enugu,Nsukka,Okpuje/Okutu/Anuka,84255368,Okpuje Cottage Hospital,Secondary,Public,6.534948,8.027925
+13,163,Nigeria,Enugu,Oji River,Achi Uno I,15593613,Achi Uno Cottage Hospital,Secondary,Public,6.044063,7.309424
+13,163,Nigeria,Enugu,Oji River,Inyi II,86337092,Cottage Hospital Inyi,Secondary,Public,6.165093,7.463134
+13,163,Nigeria,Enugu,Oji River,Ozondu,17762427,Oji River General Hospital,Secondary,Public,6.173528,7.155404
+13,163,Nigeria,Enugu,Oji River,Ugwoba II,62610632,Cottage Hospital Ugwuoba,Secondary,Public,6.066667,7.4
+13,163,Nigeria,Enugu,Udenu,Imilike,20120728,Imilike Agu Cottage Hospital,Secondary,Public,6.94982,7.490361
+13,163,Nigeria,Enugu,Udenu,Obollo-Afor,41090961,Obollo Afor Cottage Hospital,Secondary,Public,6.756235,7.385508
+13,163,Nigeria,Enugu,Udenu,Obollo-Afor,40701420,Obollo Afor Mental Health Clinic,Secondary,Public,6.748328,7.38784
+13,163,Nigeria,Enugu,Udi,Affa/Oghu,85400786,Affa Cottage Hospital,Secondary,Public,5.897901,7.61274
+13,163,Nigeria,Enugu,Udi,Egede/Umuoka,25348362,Egede Cottage Hospital,Secondary,Public,6.086372,7.443578
+13,163,Nigeria,Enugu,Udi,Ngwo-Asaa,67330621,Ekwomibe Memorial Hospital,Secondary,Public,6.166667,7.366667
+13,163,Nigeria,Enugu,Udi,Okpatu,30993576,Okpatu Cottage Hospital,Secondary,Public,6.177946,7.303837
+13,163,Nigeria,Enugu,Udi,Udi/Agbudu,13539446,"Udi General Hospital, Udi",Secondary,Public,6.408621,7.494729
+13,163,Nigeria,Enugu,Uzo-Uwani,Abbi,54722915,Abbi Cottage Hospital,Secondary,Public,5.764814,7.323148
+13,163,Nigeria,Enugu,Uzo-Uwani,Nimbo I,14500141,Nimbo Cottage Hospital,Secondary,Public,6.351585,7.591513
+13,163,Nigeria,Enugu,Uzo-Uwani,Nkpologu,78684746,Nkpologu Cottage Hospital,Secondary,Public,6.192583,7.607322
+13,163,Nigeria,Enugu,Uzo-Uwani,Umulokpa,20124149,Umulokpa Cottage Hospital,Secondary,Public,6.511267,7.822833
+14,163,Nigeria,FCT,Abuja Municipal Area Council,City Centre,74318602,Defence Head Quarters Medical Centre,Secondary,Public,9.085568,7.401703
+14,163,Nigeria,FCT,Abuja Municipal Area Council,City Centre,63605062,Mambilla Barrack Medical Centre,Secondary,Public,6.208578,11.228019
+14,163,Nigeria,FCT,Kwali,Kwali,40351999,Kwali General Hospital,Secondary,Public,8.845846,7.045599
+15,163,Nigeria,Gombe,Akko,Kumo West,58088420,Kumo Medical Clinic,Secondary,Public,10.044778,11.210936
+16,163,Nigeria,Imo,Aboh-Mbaise,Nguru Nweke,41031597,Aboh Mbaise General Hospital,Secondary,Public,5.492783,7.317435
+16,163,Nigeria,Imo,Ahiazu-Mbaise,Obohia/Ekwerezu Town,62808243,Ekwereazu Town Health Center,Secondary,Public,5.705859,7.202209
+16,163,Nigeria,Imo,Ideato North,Iheme 2,77215691,Arondizuogu General Hospital,Secondary,Public,5.764948,7.172914
+16,163,Nigeria,Imo,Ihitte/Uboma,Ikperejere,28388903,General Hospital Ihitte/uboma,Secondary,Public,5.743069,7.121821
+16,163,Nigeria,Imo,Mbaitoli,Ezi,67124439,General Hospital Mbieri,Secondary,Public,5.486913,7.011569
+16,163,Nigeria,Imo,Mbaitoli,Ifakala,85892774,General Hospital Orieubi,Secondary,Public,5.581515,7.221052
+16,163,Nigeria,Imo,Mbaitoli,Ogbaku,13887070,Ogbaku Comprehensive Health Center,Secondary,Public,5.524688,7.046966
+16,163,Nigeria,Imo,Ngor-Okpala,Ngor,71906744,Ngor Okpala General Hospital,Secondary,Public,5.493328,7.031324
+16,163,Nigeria,Imo,Oguta,Oguta A,16183027,Infant Welfare Clinic,Secondary,Public,5.500481,7.556292
+16,163,Nigeria,Imo,Okigwe,Urban 1,22481395,Okigwe General Hospital,Secondary,Public,5.823437,7.361926
+16,163,Nigeria,Imo,Oru East,Awo Omamma 2,85928573,Awo Omamma General Hospital,Secondary,Public,5.658129,7.083838
+16,163,Nigeria,Imo,Owerri Municipal,Government Residential Area,44796459,Alvan Ikoku College of Education Medical Centre,Secondary,Public,5.497058,7.032651
+16,163,Nigeria,Imo,Owerri Municipal,Government Residential Area,13609158,Government House Clinic,Secondary,Public,5.483256,7.037611
+16,163,Nigeria,Imo,Owerri Municipal,Government Residential Area,18840760,Nigeria Police Medical Services,Secondary,Public,5.532006,7.487404
+16,163,Nigeria,Imo,Owerri Municipal,Government Residential Area,87516342,Owerri Custodian Centre,Secondary,Public,5.503164,7.027819
+16,163,Nigeria,Imo,Owerri Municipal,New Owerri 2,32365394,C0rrectional Armed Squard Training School Owerri,Secondary,Public,5.510385,7.034636
+16,163,Nigeria,Imo,Owerri West,Irette,68355803,Owerri West Unity Hospital,Secondary,Public,5.501753,7.031118
+16,163,Nigeria,Imo,Owerri West,Umuguma,26165659,imo state specialist hopital,Secondary,Public,5.532278,7.038693
+17,163,Nigeria,Jigawa,Babura,Babura,47449976,Babura General Hospital,Secondary,Public,11.790923,9.399254
+17,163,Nigeria,Jigawa,Birnin Kudu,Birnin Kudu,71117148,Birnin Kudu General Hospital,Secondary,Public,11.456841,9.518766
+17,163,Nigeria,Jigawa,Birniwa,Birniwa,67354287,Birniwa General Hospital,Secondary,Public,12.455988,10.042455
+17,163,Nigeria,Jigawa,Dutse,Jigawar Tsada,75345216,Police Hospital Dutse,Secondary,Public,11.765399,9.344058
+17,163,Nigeria,Jigawa,Dutse,Kachi,29124829,Dutse General Hospital,Secondary,Public,11.757476,9.337078
+17,163,Nigeria,Jigawa,Dutse,Kachi,39404505,"University Health Centre, Federal University Dutse",Secondary,Public,11.721516,9.343566
+17,163,Nigeria,Jigawa,Dutse,Madobi,75483002,Rasheed Shekoni Specialist Hospital,Secondary,Public,11.747336,9.356808
+17,163,Nigeria,Jigawa,Gumel,Dantanoma,19733298,Gumel General Hospital,Secondary,Public,12.870731,9.877384
+17,163,Nigeria,Jigawa,Gwaram,Gwaram,14730770,Gwaram Cottage Hospital,Secondary,Public,12.656233,9.876206
+17,163,Nigeria,Jigawa,Hadejia,Atafi,74145781,Hadejia TBL Hospital,Secondary,Public,12.450754,10.043391
+17,163,Nigeria,Jigawa,Hadejia,K/Kuda,42623405,Hadejia General Hospital,Secondary,Public,12.448299,10.042334
+17,163,Nigeria,Jigawa,Jahun,Jahun,17264740,Jahun General Hospital,Secondary,Public,12.75198,9.09065
+17,163,Nigeria,Jigawa,Kafin Hausa,Bulangu,42806845,Bulangu Cottage Hospital,Secondary,Public,12.738194,8.718142
+17,163,Nigeria,Jigawa,Kafin Hausa,Kafin Hausa,67650879,Kafin Hausa General Hospital,Secondary,Public,12.444184,8.439868
+17,163,Nigeria,Jigawa,Kazaure,Kanti,14859963,Kazaure General Hospital,Secondary,Public,12.654161,8.416927
+17,163,Nigeria,Jigawa,Kazaure,Kanti,30969470,Psychiatric Hosptal,Secondary,Public,12.035014,8.534035
+17,163,Nigeria,Jigawa,Ringim,Ringim,31282829,Ringim General Hospital,Secondary,Public,11.998593,8.465955
+18,163,Nigeria,Kaduna,Birnin Gwari,Magajin Gari 2,54264829,Jibrin Maigwari General Hospital.,Secondary,Public,10.31431,9.84288
+18,163,Nigeria,Kaduna,Chikun,Kujama,58131989,Kujama Rural Hospital,Secondary,Public,10.632947,7.41842
+18,163,Nigeria,Kaduna,Chikun,Sabon Tasha,43265729,Sabon Tasha General Hospital,Secondary,Public,10.557692,7.442366
+18,163,Nigeria,Kaduna,Ikara,Jamfalam,50541793,Ikara General Hospital,Secondary,Public,10.52603,8.1004
+18,163,Nigeria,Kaduna,jaba,Sab Zuro,47907175,Kwoi General Hospital,Secondary,Public,9.846354,8.275306
+18,163,Nigeria,Kaduna,Jema'a,Kafanchan B,69933871,Sir Partrict Ibrahim Yakowa Memorial Hospital Kafanchan,Secondary,Public,9.583361,8.292383
+18,163,Nigeria,Kaduna,Jema'a,Kagoma,46292599,Fadan Kagoma Rural Hospital,Secondary,Public,9.610661,8.341881
+18,163,Nigeria,Kaduna,Kachia,Doka (Kachia),64048131,Doka Rural Hospital,Secondary,Public,11.976817,8.929072
+18,163,Nigeria,Kaduna,Kachia,Gumel,83630842,General Hospital Gumel,Secondary,Public,12.633072,9.872885
+18,163,Nigeria,Kaduna,Kaduna North,Kawo,76666953,Kawo General Hospital,Secondary,Public,10.527457,7.45782
+18,163,Nigeria,Kaduna,Kaduna North,Kawo,81687871,Kawo Islamic Hospital,Secondary,Public,10.526327,7.454231
+18,163,Nigeria,Kaduna,Kaduna South,Makera,39794263,Dr Gwamna Awan General Hospital,Secondary,Public,11.499103,7.307906
+18,163,Nigeria,Kaduna,Kaduna South,Tudun Nupawa,54358911,Yusuf Dantsoho General Hospital,Secondary,Public,10.616399,7.416611
+18,163,Nigeria,Kaduna,Kaduna South,Unguwar Sanusi,17066651,Shehu Mohammed Kangiwa Medical Centre(Kadpoly),Secondary,Public,10.53767,7.429074
+18,163,Nigeria,Kaduna,Kagarko,Kagarko South,87059953,Kagarko General Hospital,Secondary,Public,10.733086,7.789517
+18,163,Nigeria,Kaduna,Kajuru,Idon,28842672,Rural Hospital Idon,Secondary,Public,8.833621,7.894728
+18,163,Nigeria,Kaduna,Kaura,Kaura (Kaura),19057914,Kaura Rural Hospital,Secondary,Public,9.854663,8.887164
+18,163,Nigeria,Kaduna,Kauru,Kauru West,25623815,Rural Hospital,Secondary,Public,11.134634,7.718523
+18,163,Nigeria,Kaduna,Kubau,Pambeguwa,76307081,Pambegua Rural Hospital,Secondary,Public,11.045763,7.719072
+18,163,Nigeria,Kaduna,Kudan,Hunkuyi,29119834,Hunkuyi General Hospital,Secondary,Public,11.733509,8.062561
+18,163,Nigeria,Kaduna,Makarfi,Tudun Wada (Makarfi),30772468,Makarfi General Hospital,Secondary,Public,11.115882,7.495962
+18,163,Nigeria,Kaduna,Sabon Gari,Basawa,53643895,Narict Medical Centre,Secondary,Public,11.081007,7.710266
+18,163,Nigeria,Kaduna,Sanga,Gwantu,85969353,Gwantu General Hospital,Secondary,Public,9.878402,8.501802
+18,163,Nigeria,Kaduna,Soba,Maigana,14927133,Rural Hospital Maigana,Secondary,Public,11.06013,7.728677
+18,163,Nigeria,Kaduna,Zaria,Gyellesu,78605852,Gambo Sawaba General Hospital,Secondary,Public,10.552364,7.434461
+19,163,Nigeria,Kano,Ajingi,Ajingi,77144565,Ajingi Cottage Hospital,Secondary,Public,11.501463,8.580859
+19,163,Nigeria,Kano,Bebeji,Gwarmai (Bebeji),54101395,Tiga General Hospital,Secondary,Public,11.364215,8.642391
+19,163,Nigeria,Kano,Bichi,Bichi,25702824,Bichi General Hospital,Secondary,Public,12.236729,8.279838
+19,163,Nigeria,Kano,Danbatta,Danbatta West,76446504,Danbatta General Hospital,Secondary,Public,11.522203,8.430032
+19,163,Nigeria,Kano,Danbatta,Fagwalawa,84225700,Fagwalawa Cottage Hospital,Secondary,Public,11.15594,8.626245
+19,163,Nigeria,Kano,Dawakin Kudu,Dawaki,66247006,Dawakin Kudu General Hospital,Secondary,Public,11.956556,8.52028
+19,163,Nigeria,Kano,Dawakin Kudu,Tamburawa,66276482,Yusuf Maitama Sule Teaching Hospital,Secondary,Public,12.029841,8.533947
+19,163,Nigeria,Kano,Dawakin Kudu,Yar Gaya,28035757,Yargaya General Hospital (Isolation Center),Secondary,Public,12.05652,8.442974
+19,163,Nigeria,Kano,Dawakin Tofa,Dawakin East,29007435,Dawakin Tofa General Hospital,Secondary,Public,12.166429,8.522764
+19,163,Nigeria,Kano,Dawakin Tofa,Dawanau,17547476,Dawanau Psychiatric Hospital,Secondary,Public,12.002915,8.544011
+19,163,Nigeria,Kano,Doguwa,Doguwa,80549153,Doguwa General Hospital,Secondary,Public,11.598919,8.045771
+19,163,Nigeria,Kano,Fagge,Fagge C,82568688,Sheik Mohammed Jidda General Hospital,Secondary,Public,11.762614,8.480871
+19,163,Nigeria,Kano,Fagge,Fagge D 2,23158449,Abubakar Imam Urology Centre,Secondary,Public,12.000177,8.514967
+19,163,Nigeria,Kano,Fagge,Kwachiri,12757068,465 Nigerian Airforce Base Hospital,Secondary,Public,12.037615,8.517131
+19,163,Nigeria,Kano,Fagge,Kwachiri,49412051,Aviation Medical Clinic,Secondary,Public,12.047527,8.508416
+19,163,Nigeria,Kano,Fagge,Kwachiri,18135799,Nigerian Armed Forces Specialist Hospital,Secondary,Public,12.03287,8.51809
+19,163,Nigeria,Kano,Fagge,Sabon Gari West,41762660,Kano Infectious Diseases Hospital,Secondary,Public,12.01465,8.52712
+19,163,Nigeria,Kano,Gaya,Gaya North,66194802,Gaya General Hospital,Secondary,Public,11.86763,8.98923
+19,163,Nigeria,Kano,Gwale,Dorayi,56766218,Imamu Wali General Hospital,Secondary,Public,11.97548,8.46701
+19,163,Nigeria,Kano,Gwale,Gwale,59213084,Imamu Halliru General Hospital,Secondary,Public,12.987007,8.510276
+19,163,Nigeria,Kano,Kabo,Kabo,80863272,Kabo Cottage Hospital,Secondary,Public,12.716236,8.478784
+19,163,Nigeria,Kano,Kano Municipal,Kankarofi,30647869,Nuhu Bamalli General Hospital,Secondary,Public,11.128862,7.719985
+19,163,Nigeria,Kano,Kano Municipal,She-She,78857304,Marmara General Hospital,Secondary,Public,11.207404,7.728201
+19,163,Nigeria,Kano,Kano Municipal,Tudun Nufawa,22027518,Sabo Bakin Zuwo General Hospital,Secondary,Public,12.992381,8.525851
+19,163,Nigeria,Kano,Kano Municipal,Tudun Wuzurci,84538192,Hasiya Bayero Paediatric Hospital,Secondary,Public,12.988538,8.540178
+19,163,Nigeria,Kano,Kano Municipal,Zango,55991934,Murtala Mohammed General Hospital,Secondary,Public,12.986693,8.511772
+19,163,Nigeria,Kano,Madobi,Kwankwaso,53909626,Kwankwaso Cottage Hospital,Secondary,Public,11.992602,8.553104
+19,163,Nigeria,Kano,Minjibir,Minjibir,30736712,Minjibir General Hospital,Secondary,Public,12.233514,8.471144
+19,163,Nigeria,Kano,Nasarawa,Giginyu,84956460,Mohammed Abdullahi Wase General Hospital,Secondary,Public,12.997354,8.837529
+19,163,Nigeria,Kano,Nasarawa,Hotoro North,84503282,Sir Mohammed Sanusi General Hospital,Secondary,Public,12.001111,8.523333
+19,163,Nigeria,Kano,Nasarawa,Tudunwada (NSR),39011259,Bompai Police Clinic,Secondary,Public,12.010556,8.519167
+19,163,Nigeria,Kano,Rano,Sabon Gari (RAN),45295204,Rano General Hospital,Secondary,Public,11.616074,8.582402
+19,163,Nigeria,Kano,Tarauni,Babban Giji,72222033,Sheikh Isyaka Rabiu Paediatric Hospital,Secondary,Public,12.002815,8.548369
+19,163,Nigeria,Kano,Tarauni,Darmanawa,44553707,Kano Dental Hospital,Secondary,Public,12.003327,8.535331
+19,163,Nigeria,Kano,Tudun Wada,Jan Dutse,52698458,Tudun Wada General Hospital,Secondary,Public,12.002955,8.535208
+19,163,Nigeria,Kano,Ungogo,Bachirawa,73052674,Waziri Shehu Gidado General Hospital,Secondary,Public,12.385788,8.414531
+19,163,Nigeria,Kano,Ungogo,Yadakunya,21117361,Yadakunya Leprosy General Hospital,Secondary,Public,12.240104,8.497745
+19,163,Nigeria,Kano,Wudil,Sabon Gari (WDLl),83008809,Wudil General Hospital,Secondary,Public,11.810833,8.540278
+19,163,Nigeria,Kano,Wudil,Sabon Gari (WDLl),17886789,Wudil University School Clinic,Secondary,Public,11.812361,8.545
+20,163,Nigeria,Katsina,Funtua,Makera - Funtua,78170231,Funtua General Hospital,Secondary,Public,11.518865,7.310755
+20,163,Nigeria,Katsina,Jibia,Jibia B,82411947,Jibia General Hospital,Secondary,Public,12.430684,7.487322
+20,163,Nigeria,Katsina,Kankara,Kankara,68293627,Kankara General Hospital,Secondary,Public,12.997963,7.508622
+20,163,Nigeria,Katsina,Kankia,Gachi,63991537,Kankia General Hospital,Secondary,Public,12.617183,8.385997
+20,163,Nigeria,Katsina,Malumfashi,Malumfashi A,78811178,Malumfashi Maternal and Children'S Hospital,Secondary,Public,11.790846,7.618052
+20,163,Nigeria,Katsina,Malumfashi,Malumfashi B,31192088,Malumfashi General Hospital,Secondary,Public,11.7921149,7.6255276
+20,163,Nigeria,Katsina,Musawa,Musawa,49964145,Musawa General Hospital,Secondary,Public,12.174886,8.031795
+21,163,Nigeria,Kebbi,Aleiro,Sarkin Fada II,69080739,Aleiro General Hospital,Secondary,Public,12.174886,8.031795
+21,163,Nigeria,Kebbi,Arewa,Kangiwa,71374713,General Hospital Kangiwa,Secondary,Public,12.409198,4.589841
+21,163,Nigeria,Kebbi,Argungu,Kokani South,26124967,Argungu General Hospital,Secondary,Public,12.919918,4.534785
+21,163,Nigeria,Kebbi,Augie,Augie North,66706859,Augie General Hospital,Secondary,Public,8.185199,4.570583
+21,163,Nigeria,Kebbi,Bagudo,Bagudo Tuga,33476929,General Hospital Bagudo,Secondary,Public,12.431237,4.435904
+21,163,Nigeria,Kebbi,Bagudo,Illo Sabon Gari,65422513,Illo General Hospital,Secondary,Public,12.276302,4.449384
+21,163,Nigeria,Kebbi,Bagudo,Kaoje Gwamba,86985135,Ka'oje General Hospital,Secondary,Public,12.312395,4.668337
+21,163,Nigeria,Kebbi,Birnin Kebbi,Nassarawa I,42001672,Birnin Kebbi Sir Yahaya Memorial General Hospital,Secondary,Public,12.468797,4.198083
+21,163,Nigeria,Kebbi,Birnin Kebbi,Nassarawa I,34081547,Gesse Vesicle Vagina Fistula Centre,Secondary,Public,12.434297,4.191114
+21,163,Nigeria,Kebbi,Birnin Kebbi,Nassarawa II,46025044,Birnin Kebbi Army Barracks Clinic,Secondary,Public,12.465935,4.209109
+21,163,Nigeria,Kebbi,Birnin Kebbi,Zauro,45602305,Zauro Ambursa General Hospital,Secondary,Public,12.402943,4.243727
+21,163,Nigeria,Kebbi,Bunza,Bunza Dangaladima,73815196,Bunza General Hospital,Secondary,Public,12.447431,4.216089
+21,163,Nigeria,Kebbi,Dandi,Kamba-Kamba,53836175,Kamba General Hospital,Secondary,Public,12.222081,4.383058
+21,163,Nigeria,Kebbi,Danko/Wasagu,Bena,22624276,Bena General Hospital,Secondary,Public,12.389937,4.398206
+21,163,Nigeria,Kebbi,Danko/Wasagu,Ribah Machika,69051937,Ribah General Hospital,Secondary,Public,12.423524,4.517766
+21,163,Nigeria,Kebbi,Danko/Wasagu,Wasagu,57545682,Wasagu General Hospital,Secondary,Public,12.332816,4.630541
+21,163,Nigeria,Kebbi,Fakai,Mahuta ward,26642944,Mahuta General Hospital,Secondary,Public,11.811305,4.764136
+21,163,Nigeria,Kebbi,Gwandu,Gwandu Dan Galadima,81519232,General Hospital Gwandu,Secondary,Public,11.945278,4.247354
+21,163,Nigeria,Kebbi,Gwandu,Kambaza,73987574,General Hospital Kambaza,Secondary,Public,11.729989,4.184499
+21,163,Nigeria,Kebbi,Jega,Fircin,72792615,Psychiatric Mental Home Jega,Secondary,Public,12.22359,4.37167
+21,163,Nigeria,Kebbi,Jega,Magaji B,75692324,Aisha Muhammadu Buhari General Hospital,Secondary,Public,12.161237,8.538048
+21,163,Nigeria,Kebbi,Kalgo,Kalgo,75015594,Kebbi Medical Centre,Secondary,Public,12.174153,4.43161
+21,163,Nigeria,Kebbi,Kalgo,Kalgo,71163367,Kebbi State Federal University Clinic,Secondary,Public,12.180729,4.439821
+21,163,Nigeria,Kebbi,Koko/Besse,Koko/Magaji,86924678,Koko General Hospital,Secondary,Public,11.423865,4.517772
+21,163,Nigeria,Kebbi,Ngaski,Wara,60684265,Wara General Hospital,Secondary,Public,10.710063,4.706679
+21,163,Nigeria,Kebbi,Sakaba,Fada,59197760,Dirin Daji General Hospital,Secondary,Public,9.769962,6.10346
+21,163,Nigeria,Kebbi,Shanga,Shanga,66321341,Shanga General Hospital,Secondary,Public,12.667358,4.195058
+21,163,Nigeria,Kebbi,Suru,Suru,40957627,Suru General Hospital,Secondary,Public,9.261082,6.249392
+21,163,Nigeria,Kebbi,Yauri,Yelwa North,71305878,Yauri General Hospital,Secondary,Public,10.385199,4.902187
+21,163,Nigeria,Kebbi,Zuru,Rafin Zuru,38093593,Zuru Martha Bamaiyi General Hospital,Secondary,Public,11.422305,5.232555
+21,163,Nigeria,Kebbi,Zuru,Senchi,19623519,Senchi Bamaiyi Sundu Memorial Medical Hospital,Secondary,Public,11.468156,5.228518
+21,163,Nigeria,Kebbi,Zuru,Senchi,60149177,Senchi Primary Health Clinic,Secondary,Public,11.472497,5.230982
+22,163,Nigeria,Kogi,Adavi,Nagazi,15921801,Nagazi Comprehensive Health Centre,Secondary,Public,7.700454,6.762789
+22,163,Nigeria,Kogi,Ajaokuta,Geregu,16076709,"Asco Medical Center, Ajaokuta",Secondary,Public,7.526832,6.137509
+22,163,Nigeria,Kogi,Ankpa,Ankpa Township,41839523,Ankpa General Hospital,Secondary,Public,7.381714,7.625428
+22,163,Nigeria,Kogi,Bassa,Akuba 1,28554370,Oguma General Hospital,Secondary,Public,7.793417,6.99396
+22,163,Nigeria,Kogi,Bassa,Gboloko,37145806,"Gboloko, Cottage Hospital",Secondary,Public,7.731235,7.481607
+22,163,Nigeria,Kogi,Dekina,Abocho,54930159,Abocho Cottage Hospital,Secondary,Public,7.840742,6.973007
+22,163,Nigeria,Kogi,Dekina,Anyigba,17338486,"Kogi State University Clinic, Anyigba",Secondary,Public,7.528285,7.579191
+22,163,Nigeria,Kogi,Dekina,Dekina,32308477,Dekina General Hospital,Secondary,Public,7.738938,6.72746
+22,163,Nigeria,Kogi,Dekina,Egume,12673440,Egume General Hospital,Secondary,Public,7.744655,6.893594
+22,163,Nigeria,Kogi,Dekina,Emewe,73367028,Emewe Cottage Hospital,Secondary,Public,7.728842,6.933968
+22,163,Nigeria,Kogi,Dekina,Iyale,53194845,General Hospital Iyale,Secondary,Public,7.720207,7.026334
+22,163,Nigeria,Kogi,Ibaji,Ejule (Ibaji),16188629,Ejule-ojebe Cottage Hospital,Secondary,Public,7.669016,6.800221
+22,163,Nigeria,Kogi,Ibaji,Onyedega (Ibaji),74900038,Onyedega Comprehensive Health Centre,Secondary,Public,7.58623,6.412017
+22,163,Nigeria,Kogi,Idah,Ega,26923218,Zonal Hospital Idah,Secondary,Public,7.113386,6.731423
+22,163,Nigeria,Kogi,Igalamela-Odolu,Odolu (Igalamela-Odolu),15272894,General Hospital Odolu,Secondary,Public,7.632287,6.982904
+22,163,Nigeria,Kogi,Ijumu,Ayegune Iluhafon,81263807,Aiyegunle Cottage Hospital,Secondary,Public,6.856409,6.212041
+22,163,Nigeria,Kogi,Ijumu,Ayere Arima,52599781,Ayere Arima Cottage Hospital,Secondary,Public,7.444308,6.949328
+22,163,Nigeria,Kogi,Ijumu,Ayetoro Agrigbon,81976739,Aiyetoro General Hospital,Secondary,Public,7.303456,4.193321
+22,163,Nigeria,Kogi,Ijumu,Ekirin Ade,40451122,Ekirin Adde Cottage Hospital,Secondary,Public,8.033221,4.895014
+22,163,Nigeria,Kogi,Ijumu,Iyamoye Igbopin,84428364,Iyamoye Primary Health Centre,Secondary,Public,7.963516,5.107193
+22,163,Nigeria,Kogi,Ijumu,Iyara,79504771,Iyara Comprehensive Health Centre,Secondary,Public,7.534905,5.512304
+22,163,Nigeria,Kogi,Ijumu,Iyara,73175274,Iyara Family Support Programme Clinic,Secondary,Public,7.534905,5.512304
+22,163,Nigeria,Kogi,Kabba/Bunu,Asuta,49425220,General Hospital Kabba,Secondary,Public,7.828533,6.092462
+22,163,Nigeria,Kogi,Kogi,Ukwo,81820950,General Hospital Koton-Karfe,Secondary,Public,7.572045,6.242101
+22,163,Nigeria,Kogi,Lokoja,Kupa South,40565573,Abugi Cottage Hospital,Secondary,Public,8.073659,4.708108
+22,163,Nigeria,Kogi,Lokoja,Lokoja A,44537920,Nigerian Prison Clinic,Secondary,Public,7.800243,6.733641
+22,163,Nigeria,Kogi,Lokoja,Lokoja A,79844575,The Nigeria Police Hospital Lokoja,Secondary,Public,7.803667,6.739587
+22,163,Nigeria,Kogi,Lokoja,Oworo,29578231,Agbaja Cottage Hospital,Secondary,Public,7.868416,6.720623
+22,163,Nigeria,Kogi,Lokoja,Oworo,75223121,Cottage Hospital Ohono,Secondary,Public,7.915928,6.692839
+22,163,Nigeria,Kogi,Lokoja,Oworo,16370623,Felele Modern Primary Health Centre,Secondary,Public,7.429399,6.607202
+22,163,Nigeria,Kogi,Mopa-Muro,Ileteju 1,24607046,General Hospital Mopa.,Secondary,Public,8.108052,5.580203
+22,163,Nigeria,Kogi,Ofu,Iboko Efaku,41598393,Ohielewu Primary Health Centre,Secondary,Public,8.156091,4.758415
+22,163,Nigeria,Kogi,Ofu,Ogbonicha,15135027,Ogbonicha Eye Hospital,Secondary,Public,7.707977,6.876562
+22,163,Nigeria,Kogi,Ofu,Ogwolawo 1,39754430,General Hospital Ogwolawo,Secondary,Public,8.136144,5.077482
+22,163,Nigeria,Kogi,Ogori/Mangongo,Aiyeromi,56153489,General Hospital Ogori,Secondary,Public,7.496874,5.776978
+22,163,Nigeria,Kogi,Okehi,Obangede,65408283,College Medical Centre FCE Okene,Secondary,Public,7.549449,6.226381
+22,163,Nigeria,Kogi,Okehi,Obangede,31579015,Obangede Specialist Hospital,Secondary,Public,7.784695,5.358561
+22,163,Nigeria,Kogi,Okene,Abuga Ozuja,80559637,Okengwe General Hospital,Secondary,Public,8.216881,5.419518
+22,163,Nigeria,Kogi,Okene,Lafia Obessa,40374075,Zonal Hospital Okene,Secondary,Public,7.557188,6.233347
+22,163,Nigeria,Kogi,Olamaboro,Ogugu 3,68393756,Ogugu Cottage Hospital,Secondary,Public,7.607285,7.04635
+22,163,Nigeria,Kogi,Olamaboro,Okpo,30198291,Ojamapunu Primary Health Centre,Secondary,Public,7.616203,7.085203
+22,163,Nigeria,Kogi,Olamaboro,Okpo,26913459,Okpo General Hospital,Secondary,Public,7.688327,7.208689
+22,163,Nigeria,Kogi,Omala,Abejukolo 1,59600749,Abejukolo-1 General Hospital,Secondary,Public,5.2466,7.3662
+22,163,Nigeria,Kogi,Yagba West,Ere,18593099,Od-Ere General Hospital,Secondary,Public,7.7319,7.8968
+22,163,Nigeria,Kogi,Yagba West,Odo-Egbe 3,62009481,Egbe General Hospital,Secondary,Public,8.0592,4.9487
+23,163,Nigeria,Kwara,Asa,Afon,74621495,General Hospital Afon,Secondary,Public,8.1078,5.6935
+23,163,Nigeria,Kwara,Asa,Alapa/Onire/Odegiwa,26939147,Alapa Cottage Hospital,Secondary,Public,8.1433,4.7187
+23,163,Nigeria,Kwara,Asa,Otte/Balla,61617480,Balla Cottage Hospital,Secondary,Public,8.7586,5.0036
+23,163,Nigeria,Kwara,Baruten,Ilesha,15407396,Ilesha Baruba Cottage Hospital,Secondary,Public,8.2467,4.9396
+23,163,Nigeria,Kwara,Baruten,Okuta,37906005,Okuta General Hospital,Secondary,Public,8.4312,4.8883
+23,163,Nigeria,Kwara,Edu,Lafiagi 2,79069062,General Hospital Lafiagi,Secondary,Public,8.5236,4.7545
+23,163,Nigeria,Kwara,Edu,Shonga 1,82756137,Shonga Comprehensive Health Centre,Secondary,Public,8.8769,5.4166
+23,163,Nigeria,Kwara,Edu,Tsaragi 3,28336810,Tsaragi Cottage Hospital Tsaragi,Secondary,Public,8.9193,5.1238
+23,163,Nigeria,Kwara,Ekiti,Eruku,75092967,"Cottage Hospital, Eruku.",Secondary,Public,9.0506,5.4256
+23,163,Nigeria,Kwara,Ekiti,Obbo Aiyegunle 1,39096665,Cottage Hospital Obbo Aiyegunle,Secondary,Public,8.0192,5.3086
+23,163,Nigeria,Kwara,Ekiti,Obbo Ile/Ora,35639108,Cottage Hospital Obbo Ile,Secondary,Public,8.2095,5.2499
+23,163,Nigeria,Kwara,Ekiti,Opin,38569537,Cottage Hospital Araromi-Opin,Secondary,Public,8.1557,5.1442
+23,163,Nigeria,Kwara,Ifelodun,Oke Ode 1,55793243,Specialist Hospital Oke Ode,Secondary,Public,8.1083,5.0089
+23,163,Nigeria,Kwara,Ifelodun,Omupo 1,20472122,Cottage Hospital Omupo,Secondary,Public,8.0017,5.5532
+23,163,Nigeria,Kwara,Ifelodun,Oro Ago,63770281,General Hospital Oro -Ago,Secondary,Public,8.0273,4.8973
+23,163,Nigeria,Kwara,Ifelodun,Share 2,36831676,General Hospital Share,Secondary,Public,8.1965,5.0422
+23,163,Nigeria,Kwara,Ilorin East,Are 2,42395603,Civil Service Hospital,Secondary,Public,8.8788,5.0086
+23,163,Nigeria,Kwara,Ilorin South,Akanbi 5,62518783,Ogidi Cottage Hospital.,Secondary,Public,8.4997,4.5512
+23,163,Nigeria,Kwara,Ilorin South,Akanbi 5,57408623,Sobi Specialist Hospital,Secondary,Public,7.7076,4.9918
+23,163,Nigeria,Kwara,Ilorin South,Balogun Fulani 1,21429310,Children Specialist Hospital Centre Igboro,Secondary,Public,8.4896,4.5952
+23,163,Nigeria,Kwara,Ilorin South,Balogun Fulani 3,63417862,U.I.T.H Maternity Wing.,Secondary,Public,8.4623,4.5426
+23,163,Nigeria,Kwara,Ilorin West,Adewole,30521876,Adewole Cottage Hospital,Secondary,Public,8.4949,4.5391
+23,163,Nigeria,Kwara,Ilorin West,Ajikobi,68661813,Ajikobi Cottage Hospital,Secondary,Public,8.4827,4.5767
+23,163,Nigeria,Kwara,Ilorin West,Magaji Geri,54836750,General Hospital Ilorin,Secondary,Public,8.4799,4.5484
+23,163,Nigeria,Kwara,Ilorin West,Oloje,77743070,303 M A G Medical Centre,Secondary,Public,8.4919,4.5582
+23,163,Nigeria,Kwara,Irepodun,Ajasse 2,52428146,Agbamu General Hosipital,Secondary,Public,8.8667,5.0333
+23,163,Nigeria,Kwara,Irepodun,Ajasse 2,19539799,Agbonda Comprehensive Health Centre,Secondary,Public,8.75,5.1333
+23,163,Nigeria,Kwara,Irepodun,Arandun,43054811,Arandun Cottage Hospital,Secondary,Public,8.1667,5.0167
+23,163,Nigeria,Kwara,Irepodun,Ihaye,44742143,General Hospital Omu-Aran,Secondary,Public,8.1378,5.0985
+23,163,Nigeria,Kwara,Irepodun,Oro 1,72915186,Ijomu-Oro Cottage Hospital,Secondary,Public,8.15,4.9667
+23,163,Nigeria,Kwara,Irepodun,Oro 1,22279294,Oro General Hospital,Secondary,Public,8.2583,4.9188
+23,163,Nigeria,Kwara,Irepodun,Oro 2,44679764,Iludun Oro Cottage Hospital,Secondary,Public,8.15,4.9667
+23,163,Nigeria,Kwara,Kaiama,Kaiama 2,57057491,General Hospital Kaiama,Secondary,Public,9.7,5.8667
+23,163,Nigeria,Kwara,Kaiama,Kemanji,37296089,Kemanji Primary Health Centre,Secondary,Public,9.6167,5.2667
+23,163,Nigeria,Kwara,Moro,Jebba,28005956,Jebba Specialist Hospital,Secondary,Public,8.9,4.85
+23,163,Nigeria,Kwara,Moro,Okutala,80037472,Odentan Health Center,Secondary,Public,8.8833,4.95
+23,163,Nigeria,Kwara,Offa,Ojomu North West,33938676,Offa Specialist Hospital,Secondary,Public,8.15,4.7167
+23,163,Nigeria,Kwara,Oyun,Erin Ile North,30469605,ErinIle General Hospital,Secondary,Public,8.15,5.0833
+23,163,Nigeria,Kwara,Pategi,Lade 2,72029237,Lade Cottage Hospital,Secondary,Public,9.8,3.3833
+23,163,Nigeria,Kwara,Pategi,Patigi 3,20137539,Patigi General Hospital,Secondary,Public,9.1667,5.0667
+24,163,Nigeria,Lagos,Badagry,Ahovikoh,82552912,Badagry General Hospital,Secondary,Public,6.4386,2.8819
+24,163,Nigeria,Lagos,Epe,Agbowa I,47770413,Agbowa General Hospital,Secondary,Public,6.64,3.55
+24,163,Nigeria,Lagos,Epe,Ketu Ejinrin,62143396,Ketu General Hospital,Secondary,Public,6.6055,3.3649
+24,163,Nigeria,Lagos,Epe,Papa,35547499,Epe General Hospital,Secondary,Public,6.5833,3.9833
+24,163,Nigeria,Lagos,Eti-Osa,Okunmopo - Ogombo,17709423,Eti-Osa Maternal And Child Centre,Secondary,Public,6.45,3.4833
+24,163,Nigeria,Lagos,Ibeju/Lekki,Orimedu 1,14360382,Ibeju Lekki General Hospital,Secondary,Public,6.4744,3.8114
+24,163,Nigeria,Lagos,Ifako/Ijaye,Ifako Coker,56052652,Ifako Ijaiye General Hospital,Secondary,Public,6.64369,3.32548
+24,163,Nigeria,Lagos,Ikeja,GRA,29910249,Police College Hospital,Secondary,Public,6.5253,3.3792
+24,163,Nigeria,Lagos,Ikeja,Onigbongbo,76298852,9 Brigade Medical Centre,Secondary,Public,10.3125,9.8408
+24,163,Nigeria,Lagos,Kosofe,Araromi Ifako,76788734,Gbagada General Hospital,Secondary,Public,6.5512,3.3941
+24,163,Nigeria,Lagos,Lagos Island,Araromi Odo,60521605,Nigerian Air Force Medical,Secondary,Public,6.5776,3.3238
+24,163,Nigeria,Lagos,Lagos Island,Araromi Odo,25014989,Onikan Health Centre,Secondary,Public,6.4465,3.3918
+24,163,Nigeria,Lagos,Lagos Mainland,Abule-Ijesha,66961185,Lagos State Mainland Hospital,Secondary,Public,6.4973,3.3833
+24,163,Nigeria,Lagos,Lagos Mainland,Harvey,87328951,Harvey Road General Hospital,Secondary,Public,6.5025,3.3774
+24,163,Nigeria,Lagos,Lagos Mainland,Okobaba,14998327,Ebute-Metta General Hospital,Secondary,Public,6.4815,3.3863
+24,163,Nigeria,Lagos,Shomolu,Onipanu (Shomolu),39569646,Somolu General Hospital,Secondary,Public,6.5374,3.3804
+25,163,Nigeria,Nasarawa,Akwanga,Akwanga East,39204389,General Hospital Akwanga,Secondary,Public,8.9146,8.4019
+25,163,Nigeria,Nasarawa,Akwanga,Akwanga West,21107691,Akwanga College Of Education Medical Center,Secondary,Public,8.9159,8.4088
+25,163,Nigeria,Nasarawa,Awe,Madaki,74619094,Awe General Hospital,Secondary,Public,8.1035,8.8418
+25,163,Nigeria,Nasarawa,Doma,Agbashi,72671138,Agbashi General Hospital,Secondary,Public,7.9649,8.1782
+25,163,Nigeria,Nasarawa,Doma,Sarki Dawaki,68067671,Doma General Hospital,Secondary,Public,8.4135,8.3691
+25,163,Nigeria,Nasarawa,Keffi,Goriya,82435813,Nassarawa University Health Clinic,Secondary,Public,8.534828,8.524387
+25,163,Nigeria,Nasarawa,Nasarawa Eggon,Alogani,70656441,Nassarawa Eggon General Hospital,Secondary,Public,8.504118,8.547679
+26,163,Nigeria,Niger,Agaie,Ekobaddegi,39839257,Agaie General Hospital,Secondary,Public,9.015644,6.545873
+26,163,Nigeria,Niger,Bida,,52196474,Bida Federal Polytecnic Medical Centre,Secondary,Public,9.066102,6.00042
+26,163,Nigeria,Niger,Kontagora,Kudu,63870179,Kontagora General Hospital,Secondary,Public,10.401792,5.469347
+26,163,Nigeria,Niger,Lapai,Arewa/Yamma,47686977,General Hospital Lapai,Secondary,Public,9.042087,6.469074
+26,163,Nigeria,Niger,Lapai,Gulu/Vatsa,20393766,ABDULSALAM ABUBAKAR GENERAL HOSPITAL GULU,Secondary,Public,8.479215,4.503632
+26,163,Nigeria,Niger,Lavun,Kutigi,28942193,Kutigi General Hospital,Secondary,Public,9.184026,6.780836
+26,163,Nigeria,Niger,Magama,Auna Central,30211208,AUNA GENARAL HOSPITAL,Secondary,Public,10.533175,7.432498
+26,163,Nigeria,Niger,Magama,Nasko,22598572,Nasko Shehu Shagari General Hospital,Secondary,Public,9.027648,6.079187
+26,163,Nigeria,Niger,Mariga,Bangi,12563330,Bangi General Hospital,Secondary,Public,8.938221,4.662374
+26,163,Nigeria,Niger,Mokwa,Mokwa Central,26192723,General Hospital Mokwa,Secondary,Public,9.485413,5.394718
+26,163,Nigeria,Niger,Rafi,Sabon Gari,87207568,General Hospital Kagara,Secondary,Public,9.746778,6.516933
+26,163,Nigeria,Niger,Rafi,Sabon Gari,66321963,Kagara General Hospital,Secondary,Public,9.746778,6.516933
+26,163,Nigeria,Niger,Shiroro,Ubandoma,19587802,General Hospital Kuta,Secondary,Public,9.76392,5.732034
+26,163,Nigeria,Niger,Suleja,Kurmin Sarki,18594937,General Hospital Suleja,Secondary,Public,9.176082,7.181468
+27,163,Nigeria,Ogun,Abeokuta North,Iberekodo 5,20450427,General Hospital Iberekodo,Secondary,Public,6.639674,3.474575
+27,163,Nigeria,Ogun,Abeokuta South,Kugba 2,49695223,Olukoye Community Hospital,Secondary,Public,7.36086,3.864871
+27,163,Nigeria,Ogun,Abeokuta South,Oke Ijemo-Ward 5,64490265,Oba Ademola Maternity Health Centre,Secondary,Public,7.816305,3.918708
+27,163,Nigeria,Ogun,Ado Odo/Ota,Ota 2,34734185,State Hospital Ota,Secondary,Public,6.650444,3.20912
+27,163,Nigeria,Ogun,Ewekoro,Itori,49943354,General Hospital Itori,Secondary,Public,7.071389,3.284244
+27,163,Nigeria,Ogun,Ifo,Agosi,35875190,Ifo General Hospital,Secondary,Public,6.810527,3.194702
+27,163,Nigeria,Ogun,Ijebu East,Ife 1,62561697,Otunba Olumayowa Memorial Hospital,Secondary,Public,7.257145,3.297545
+27,163,Nigeria,Ogun,Ijebu East,Ogbere,71633710,Ogbere General Hospital,Secondary,Public,6.932917,3.903121
+27,163,Nigeria,Ogun,Ijebu North,Atikori,45865440,Ijebu Igbo General Hospital,Secondary,Public,6.971725,4.042891
+27,163,Nigeria,Ogun,Ijebu North East,Atan,64734468,Atan General Hospital,Secondary,Public,6.598715,3.223056
+27,163,Nigeria,Ogun,Ijebu Ode,Odo Esa,69366734,Ijebu Ode State Hospital,Secondary,Public,6.816912,3.933148
+27,163,Nigeria,Ogun,Ikenne,Ikenne 2,41799157,General Hospital Ikenne,Secondary,Public,6.877064,3.71676
+27,163,Nigeria,Ogun,Ikenne,Iperu 3,53592921,Iperu General Hospital,Secondary,Public,6.864127,3.906236
+27,163,Nigeria,Ogun,Imeko Afon,Imeko,45924192,General Hospital Imeko.,Secondary,Public,7.341342,2.972282
+27,163,Nigeria,Ogun,Ipokia,Idiroko,28851755,General Hospital ldiroko,Secondary,Public,6.578982,2.961425
+27,163,Nigeria,Ogun,Ipokia,Ipokia 1,68557501,Ipokia General Hospital,Secondary,Public,6.491791,2.84358
+27,163,Nigeria,Ogun,Odeda,Odeda,40661445,General Hospital Odeda,Secondary,Public,6.862679,3.357937
+27,163,Nigeria,Ogun,Odogbolu,Aiyepe/Eyinwa,86691942,Aiyepe/odogbolu General Hospital,Secondary,Public,6.94447,3.8963
+27,163,Nigeria,Ogun,Odogbolu,Idowa,59153459,General Hospital Ala-Idowa,Secondary,Public,7.645893,3.211116
+27,163,Nigeria,Ogun,Odogbolu,Omu,29296750,Omu General Hospital,Secondary,Public,7.005941,4.032
+27,163,Nigeria,Ogun,Ogun Waterside,Ibiade,16844057,General Hospital Ibiade,Secondary,Public,6.627912,4.322047
+27,163,Nigeria,Ogun,Ogun Waterside,Ibiade,63949881,General Hospital Ibiade,Secondary,Public,6.627912,4.322047
+27,163,Nigeria,Ogun,Remo North,Isara 1,30561233,State Hospital Isara,Secondary,Public,6.87735,3.892573
+28,163,Nigeria,Ondo,Akoko North West,Oke-Irun/Surulere,63824414,Irun-Akoko General Hospital,Secondary,Public,7.54202,5.76968
+28,163,Nigeria,Ondo,Akure North,Ayetoro,45144201,General Hospital Iju/Itaogbolu,Secondary,Public,7.500482,4.123678
+28,163,Nigeria,Ondo,Ese Odo,Apoi 1,61461433,General Hospital Igbekebo,Secondary,Public,5.553809,4.865837
+28,163,Nigeria,Ondo,Idanre,Alade Atosin,52583354,Idanre General Hospital,Secondary,Public,7.1133,5.1
+28,163,Nigeria,Ondo,Ilaje,Mahin 3,54051065,General Hospital Igbokoda,Secondary,Public,6.3371,4.7931
+28,163,Nigeria,Ondo,Okitipupa,Igbotako 2,44147139,General Hospital Igbotako,Secondary,Public,6.02064,4.82992
+28,163,Nigeria,Ondo,Ondo East,Bolorunduro,73789362,Bolorunduro General Hospital,Secondary,Public,7.43256,4.11073
+28,163,Nigeria,Ondo,Ondo West,Jilalu,32159577,Adeyemi College Of Education Medical Centre,Secondary,Public,7.58399,4.53087
+28,163,Nigeria,Ondo,Owo,Isaipen,33985068,General Hospital Owo,Secondary,Public,7.19766,5.59179
+29,163,Nigeria,Osun,Atakumosa East,Iperindo,14703467,IPERINDO COMPREHENSIVE HEALTH CENTRE,Secondary,Public,7.41704,4.05904
+29,163,Nigeria,Osun,Atakumosa West,Ifewara 2/11,15804128,Comprehensive Health Centre Ifewara,Secondary,Public,7.65895,4.21509
+29,163,Nigeria,Osun,Ede South,Alajue 1,66715702,State Hospital Ede,Secondary,Public,7.74464,4.46104
+29,163,Nigeria,Osun,Ife East,Okerewe 1,21869929,State Hospital,Secondary,Public,7.53584,4.52592
+29,163,Nigeria,Osun,Ife North,Edun 2,55794240,Edunabon Comprehensive Health Centre,Secondary,Public,7.79067,4.45912
+29,163,Nigeria,Osun,Ife North,Ipetumodu 2,70517755,Ipetumodu General Hospital,Secondary,Public,7.4324,4.44312
+29,163,Nigeria,Osun,Ifedayo,Awooro,26069507,Oke-Ila Comprehensive Health Centre,Secondary,Public,8.05,4.9333
+29,163,Nigeria,Osun,Ifedayo,Temidire,61396602,Ora Comprehensive Health Centre,Secondary,Public,7.50117,4.16143
+29,163,Nigeria,Osun,Ifelodun,Aludundun,51260129,State Hospital Ikirun,Secondary,Public,7.92522,4.66754
+29,163,Nigeria,Osun,Ila,Oke Ola,25751053,Ila Hospital,Secondary,Public,8.00694,4.90444
+29,163,Nigeria,Osun,Ilesa West,Ilaje (7),60683499,Ilesa State Hospital,Secondary,Public,7.62168,4.73347
+29,163,Nigeria,Osun,Irewole,Sango,63991685,State Hospital Ikire,Secondary,Public,7.37889,4.18833
+29,163,Nigeria,Osun,Obokun,Esa oke/7,42159862,Comprehensive Health Centre Esa Oke,Secondary,Public,7.8167,4.7333
+29,163,Nigeria,Osun,Obokun,Ibokun/1,52636771,Comprehensive Health Centre Ibokun,Secondary,Public,7.826849,4.433523
+29,163,Nigeria,Osun,Obokun,imesi Ile/6,33875044,OAU Rural Health Centre Imesi Ile,Secondary,Public,7.5710476,4.8964806
+29,163,Nigeria,Osun,Odo Otin,Oba Ojomu,13075023,Okuku General Hospital,Secondary,Public,7.5334865,4.4692103
+29,163,Nigeria,Osun,Olorunda,Oba-Ile,47487676,Oba Ile Primary Health Centre,Secondary,Public,7.646002,4.040754
+29,163,Nigeria,Osun,Olorunda,Oba-Ile,32673405,Oba-Ile Comprehensive Health Centre,Secondary,Public,7.646002,4.040754
+29,163,Nigeria,Osun,Oriade,Ijebu-Ijesa,44927010,Ijebu Ijesa General Hospital,Secondary,Public,7.5333333,4.8666667
+29,163,Nigeria,Osun,Oriade,Ijeda/Iloko,13840673,Comprehensive Health Centre Iloko Ijesa,Secondary,Public,7.6333333,4.8666667
+29,163,Nigeria,Osun,Oriade,Ipetu 2,71591289,Ipetu Ijesa State Hospital,Secondary,Public,7.65,4.5666667
+30,163,Nigeria,Oyo,Akinyele,Aroro,57486994,Adegbite Cottage Health Clinic,Secondary,Public,7.8166667,3.9333333
+30,163,Nigeria,Oyo,Akinyele,Ojoo,31061447,2nd Mechanized Division Medical Hosptal,Secondary,Public,7.3833333,3.8833333
+30,163,Nigeria,Oyo,Ibadan North,Bodija,20356663,Institute of Child Health,Secondary,Public,7.4333333,3.8666667
+30,163,Nigeria,Oyo,Ibadan North East,Basorun,21875009,Oyo State Broadcasting Corporation Clinic,Secondary,Public,7.3833333,3.8833333
+30,163,Nigeria,Oyo,Ibadan North East,Basorun,40955316,Skyline Specialist Hospital,Secondary,Public,7.3933367,3.8952427
+30,163,Nigeria,Oyo,Ibadan North West,Afonta,74074856,Jericho Nursing Home,Secondary,Public,7.3833333,3.8833333
+30,163,Nigeria,Oyo,Ibadan North West,Afonta,50068797,Nigeria Railways Clinic,Secondary,Public,7.38843,3.87683
+30,163,Nigeria,Oyo,Ibadan North West,Eleyele,70617322,Police Hospital,Secondary,Public,7.3833333,3.8833333
+30,163,Nigeria,Oyo,Ibadan South West,Aleshinloye,69850650,Government Chest Hospital,Secondary,Public,7.3833333,3.8833333
+30,163,Nigeria,Oyo,Ibadan South West,Aleshinloye,19147580,Jericho Specialist Hospital,Secondary,Public,7.3833333,3.8833333
+30,163,Nigeria,Oyo,Ibadan South West,Apata/Odo Ona,86190228,Maternal And Child Health Care Hospital,Secondary,Public,7.3833333,3.8833333
+30,163,Nigeria,Oyo,Ibadan South West,Challenge/Ring Road,73540816,Oni Memorial Children's Hospital,Secondary,Public,7.3833333,3.8833333
+30,163,Nigeria,Oyo,Ibadan South West,Challenge/Ring Road,83540887,Ring Road State Hospital,Secondary,Public,7.3833333,3.8833333
+30,163,Nigeria,Oyo,Ibarapa Central,Oke Serin,30287229,Igboora General Hospital,Secondary,Public,7.4333333,3.9833333
+30,163,Nigeria,Oyo,Iseyin,Ekunle I,44121799,General Hospital Iseyin,Secondary,Public,7.9666667,3.5833333
+30,163,Nigeria,Oyo,Iseyin,Ekunle II,32126577,Police Hospital Iseyin,Secondary,Public,7.9666667,3.5833333
+30,163,Nigeria,Oyo,Itesiwaju,Okaka II,35636640,General Hospital Okaka,Secondary,Public,8.534828,8.524387
+30,163,Nigeria,Oyo,Iwajowa,Joloko,15522812,General Hospital Iganna,Secondary,Public,8.504118,8.547679
+30,163,Nigeria,Oyo,Lagelu,Ejioku,28590342,Air Force Comprehensive School Hospital,Secondary,Public,9.015644,6.545873
+30,163,Nigeria,Oyo,Lagelu,Olorunda I,84110537,Akobo Naval Air Force Medical Centre,Secondary,Public,9.066102,6.00042
+30,163,Nigeria,Oyo,Lagelu,Ore II,73387880,Lagun General Hospital,Secondary,Public,10.401792,5.469347
+30,163,Nigeria,Oyo,Lagelu,Oyedeji III,57395954,Kutayi General Hospital,Secondary,Public,9.042087,6.469074
+30,163,Nigeria,Oyo,Ogbomosho South,Alapata,66436610,Kajola Comprehensive Health Centre,Secondary,Public,8.479215,4.503632
+30,163,Nigeria,Oyo,Ogbomosho South,Arowomole,16406301,Ogbomoso State Hospital,Secondary,Public,9.184026,6.780836
+30,163,Nigeria,Oyo,Oluyole,Idi Ayunre,57059739,Crin Health Centre,Secondary,Public,10.533175,7.432498
+30,163,Nigeria,Oyo,Oluyole,Idi Ayunre,81987570,Orile Odo General Hospital,Secondary,Public,9.027648,6.079187
+30,163,Nigeria,Oyo,Oluyole,Muslim,17768777,Abeo Memorial Memorial maternity Home,Secondary,Public,8.938221,4.662374
+30,163,Nigeria,Oyo,Ori Ire,Ikoyi-ile,19079518,Ikoyi-Ile General Hospital,Secondary,Public,9.485413,5.394718
+30,163,Nigeria,Oyo,Saki East,Isale Adu,39965013,Ago Amodu General Hospital,Secondary,Public,9.746778,6.516933
+30,163,Nigeria,Oyo,Saki East,Oke Tassi,12678421,Sepeteri General Hospital,Secondary,Public,9.746778,6.516933
+30,163,Nigeria,Oyo,Saki East,Oke Tassi,12813339,Sepeteri Primary Health Care Centre,Secondary,Public,9.76392,5.732034
+30,163,Nigeria,Oyo,Saki West,Isale Efin,56580465,Saki General Hospital,Secondary,Public,9.176082,7.181468
+30,163,Nigeria,Oyo,Surulere,Iresa-Adu,80590818,Iresadu General Hospital,Secondary,Public,6.639674,3.474575
+31,163,Nigeria,Plateau,Bassa,Buhit,78248579,3 Division MilitaryHospital,Secondary,Public,7.36086,3.864871
+31,163,Nigeria,Plateau,Bassa,Buhit,75639591,Bassa Cottage Hospital,Secondary,Public,7.816305,3.918708
+31,163,Nigeria,Plateau,Bokkos,Bokkos West,85734344,Bokkos Cottage Hospital,Secondary,Public,6.650444,3.20912
+31,163,Nigeria,Plateau,Jos East,Jarawa Kogi A,19768655,Angware General Hospital,Secondary,Public,7.071389,3.284244
+31,163,Nigeria,Plateau,Jos North,Targwong - Rigiza,33636891,"University Health Service, Unijos",Secondary,Public,6.810527,3.194702
+31,163,Nigeria,Plateau,Jos South,Giring,77508332,Mopol 8 Barracks Clinic,Secondary,Public,7.257145,3.297545
+31,163,Nigeria,Plateau,Jos South,Kuru B,28609048,"Police Staff College ,Cottage Hospital",Secondary,Public,6.932917,3.903121
+31,163,Nigeria,Plateau,Jos South,Zawan B,26535457,Dadin Kowa Comprehensive Health Center,Secondary,Public,6.971725,4.042891
+31,163,Nigeria,Plateau,Kanam,Dengi,43287081,Dengi General Hospital,Secondary,Public,6.598715,3.223056
+31,163,Nigeria,Plateau,Langtang North,Tabat,74959946,Langtang General Hospital,Secondary,Public,6.816912,3.933148
+31,163,Nigeria,Plateau,Mangu,Gindiri 1,16533686,Juth Comprehensive Health Centre,Secondary,Public,6.877064,3.71676
+31,163,Nigeria,Plateau,Mangu,Mangu 2,52123781,Mangu General Hospital,Secondary,Public,6.864127,3.906236
+31,163,Nigeria,Plateau,Mikang,Tunkus,68265834,General Hospital Tunkus,Secondary,Public,7.341342,2.972282
+31,163,Nigeria,Plateau,Shendam,Shendam A,37949220,Shendam General Hospital,Secondary,Public,6.578982,2.961425
+31,163,Nigeria,Plateau,Wase,Garkuwa,33200859,Wase Cottage Hospital,Secondary,Public,6.491791,2.84358
+32,163,Nigeria,Rivers,Abua/Odual,Abua/Odual 6,37202636,Aminigboko Cottage Hospital,Secondary,Public,9.134818,9.124646
+32,163,Nigeria,Rivers,Ahoada East,Ahoada East 4,37585389,Ahoada General Hospital,Secondary,Public,11.500219,3.695697
+32,163,Nigeria,Rivers,Ahoada West,Ahoada West 3,43674082,General Hospital Joinkrama,Secondary,Public,4.810155,6.439516
+32,163,Nigeria,Rivers,Akuku Toru,Akuku Toru 13,66791068,Abonnema General Hospital,Secondary,Public,5.262997,7.680536
+32,163,Nigeria,Rivers,Akuku Toru,Akuku Toru 17,60956574,Soku Cottage Hospital,Secondary,Public,4.707639,6.789065
+32,163,Nigeria,Rivers,Andoni,Andoni 1,21564014,Ngo General Hospital,Secondary,Public,4.558256,6.636276
+32,163,Nigeria,Rivers,Asari-Toru,Asari-Toru 2,39758484,Buguma General Hospital,Secondary,Public,4.682559,6.958946
+32,163,Nigeria,Rivers,Bonny,Bonny 3,28578323,Bonny Zonal Hospital,Secondary,Public,4.739998,6.866252
+32,163,Nigeria,Rivers,Degema,Degema 11,49962683,Degema General Hospital,Secondary,Public,4.453772,7.160486
+32,163,Nigeria,Rivers,Etche,Etche 3,69347949,Umuebulu Cottage Hospital,Secondary,Public,4.545168,6.779439
+32,163,Nigeria,Rivers,Etche,Etche 5,48626896,Okomoko General Hospital,Secondary,Public,5.811576,7.010579
+32,163,Nigeria,Rivers,Gokana,Gokana 1,78767958,BODO GENERAL HOSPITAL,Secondary,Public,5.261563,7.729465
+32,163,Nigeria,Rivers,Gokana,Gokana 16,41742412,TERABOR GENERAL HOSPITAL,Secondary,Public,4.417568,7.221086
+32,163,Nigeria,Rivers,Ikwerre,Ikwerre 2,53636467,Isiokpo Zonal General Hospital,Secondary,Public,4.309102,7.218147
+32,163,Nigeria,Rivers,Ikwerre,Ikwerre 4,17268663,Elele Cantonment Medical Reception Station,Secondary,Public,5.031676,6.947168
+32,163,Nigeria,Rivers,Ogba/Egbema/Ndoni,Ogba/Egbema/Ndon 2,32048512,General Hospital Omoku,Secondary,Public,4.816177,6.858383
+32,163,Nigeria,Rivers,Ogu/Bolo,Ogu/Bolo 5,60375926,Ogu General Hospital,Secondary,Public,5.339706,6.657437
+32,163,Nigeria,Rivers,Okrika,Okrika 5,70293073,Zonal Hospital Okirika,Secondary,Public,4.708223,7.090325
+32,163,Nigeria,Rivers,Port-Harcourt,Port Harcourt 1,79958760,Military Hospital,Secondary,Public,4.733018,7.342656
+33,163,Nigeria,Sokoto,Tangaza,Tangaza,25425787,Tangaza General Hospital,Secondary,Public,4.833214,7.006229
+34,163,Nigeria,Taraba,Ardo-kola,Bekin Duste,13720966,Sunkani First Referral Hospital,Secondary,Public,12.736164,4.856087
+34,163,Nigeria,Taraba,Bali,Bali B,79937249,Bali General Hospital,Secondary,Public,9.934795,11.763813
+34,163,Nigeria,Taraba,Donga,Asibiti,57715271,Donga First Referral Hospital,Secondary,Public,7.865717,10.994757
+34,163,Nigeria,Taraba,Gassol,Gunduma,14735467,First Referral Hospital,Secondary,Public,7.690671,9.068247
+34,163,Nigeria,Taraba,Ibi,Rimi Uku 1,44849889,Ibi First Referral Hospital,Secondary,Public,8.990007,11.329045
+34,163,Nigeria,Taraba,Karim-Lamido,Darofai,57039029,Bambur General Hospital,Secondary,Public,8.184611,9.009474
+34,163,Nigeria,Taraba,Kurmi,Baissa,63044885,Baissa First Referal Hospital,Secondary,Public,7.605433,12.176978
+34,163,Nigeria,Taraba,Lau,Lau,18517720,Lau First Referral Hospital,Secondary,Public,9.224152,12.514217
+34,163,Nigeria,Taraba,Sardauna,Gembu ?B?,18687193,Gembu General Hospital,Secondary,Public,8.230245,11.808036
+34,163,Nigeria,Taraba,Sardauna,Kabri,37205013,Barka Primary Health Clinic,Secondary,Public,9.2042,12.4733
+34,163,Nigeria,Taraba,Sardauna,Warwar,16150226,Warwar General Hospital,Secondary,Public,10.3479,9.8463
+34,163,Nigeria,Taraba,Takum,Rogo,50772063,General Hospital Takum,Secondary,Public,7.5642,10.7839
+34,163,Nigeria,Taraba,Wukari,Hospital,31237106,Wukari General Hospital,Secondary,Public,7.8485,9.7818
+34,163,Nigeria,Taraba,Wukari,Puje,37811528,Kwararrafa Hospital,Secondary,Public,7.8578,9.7912
+34,163,Nigeria,Taraba,Yorro,Pantisawa,43699303,Abubakar Barde Memorial Referral Hospital Pantisawa.,Secondary,Public,11.2928,9.9731
+34,163,Nigeria,Taraba,Zing,Zing,75983198,Zing General Hospital,Secondary,Public,9.0529,11.7453
+35,163,Nigeria,Yobe,Busari,Dapchi,35448694,Dapchi General Hospital,Secondary,Public,12.4492,11.0352
+35,163,Nigeria,Yobe,Damaturu,Bindigari Pawari,48388324,Damaturu FSP Maternal and Child Health Clinic,Secondary,Public,11.7438,11.9609
+35,163,Nigeria,Yobe,Damaturu,Damaturu Central,28758129,State Specialist Hospital,Secondary,Public,11.7617,11.9661
+35,163,Nigeria,Yobe,Fune,Damagum-A,81910807,Damagum General Hospital,Secondary,Public,11.6113,11.3434
+35,163,Nigeria,Yobe,Gujba,Buni Yadi,30652927,Buni Yadi General Hospital,Secondary,Public,11.8449,12.0892
+35,163,Nigeria,Yobe,Jakusko,Jakusko,46194523,Jakusko General Hospital,Secondary,Public,12.8783,10.4439
+35,163,Nigeria,Yobe,Machina,Machina,59639377,Machina General Hospital,Secondary,Public,12.9981,10.9215
+35,163,Nigeria,Yobe,Nangere,Nangere,84146817,Nangere General Hospital,Secondary,Public,11.6874,10.4527
+35,163,Nigeria,Yobe,Potiskum,Hausawa,52040890,Potiskum General Hospital,Secondary,Public,11.7129,11.0695
+35,163,Nigeria,Yobe,Yusufari,Kumagannam,44078737,Kumagannam General Hospital,Secondary,Public,11.5639,11.2318

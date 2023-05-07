@@ -6,6 +6,7 @@
     <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
     <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
     <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.LayerControlWidget.true...LayerControlWidget />
     <MapboxVectorStylesAndLayers />
     <_.fcp.MarkAnimation.true...MarkAnimation />
     <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
@@ -20,7 +21,7 @@
     <ZoneBackgroundTransparency />
     <ZoneFriendlyName />
   </document-format-change-manifest>
-  <repository-location id='Doctors_Migration' path='/workbooks' revision='1.4' />
+  <repository-location id='Doctors_Migration' path='/workbooks' revision='1.6' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -495,6 +496,7 @@
               <approx-count>37</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Geo-Political Zones</remote-name>
@@ -509,6 +511,7 @@
               <approx-count>6</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Number_of_Doctors</remote-name>
@@ -522,6 +525,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>36</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Number_of_Dentists</remote-name>
@@ -535,6 +539,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>34</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Number_of_Nurses</remote-name>
@@ -548,6 +553,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>37</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Number_of_other_Health_personels</remote-name>
@@ -561,6 +567,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>36</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Year</remote-name>
@@ -574,6 +581,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>1</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>lat</remote-name>
@@ -587,6 +595,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>37</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>long</remote-name>
@@ -600,6 +609,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>37</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_Doctors&amp;otherhealthworkers_Nigeria.csv_5BA82350C1E346168545F2945CFD9313]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>State</remote-name>
@@ -614,6 +624,7 @@
               <approx-count>37</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Geo-Political Zones</remote-name>
@@ -628,6 +639,7 @@
               <approx-count>6</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Doctors_2010</remote-name>
@@ -641,6 +653,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>36</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Doctors-2022</remote-name>
@@ -654,6 +667,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>36</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Change</remote-name>
@@ -667,6 +681,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>16</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[MedicalDoctors2010-2022.csv_1241582446BD4BBC9F8B205270ABC090]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>State</remote-name>
@@ -681,6 +696,7 @@
               <approx-count>37</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>Geo-Political Zones</remote-name>
@@ -695,6 +711,7 @@
               <approx-count>6</approx-count>
               <contains-null>true</contains-null>
               <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>No_of_facility</remote-name>
@@ -708,6 +725,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>36</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>lat</remote-name>
@@ -721,6 +739,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>37</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
             <metadata-record class='column'>
               <remote-name>long</remote-name>
@@ -734,6 +753,7 @@
               <aggregation>Sum</aggregation>
               <approx-count>37</approx-count>
               <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Number_of_HealthFacilities_Nigeria.csv_D55019C8C6124ACE882D8790D1BC3093]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
             </metadata-record>
           </metadata-records>
         </connection>
@@ -1052,7 +1072,7 @@
             <groupfilter function='level-members' level='[Geo-Political Zones]' user:ui-action-filter='[Action2_DEBF10B3DAF44FDA9EFEBC306D91F1C1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Action (Geo-Political Zones1)]'>
-            <groupfilter function='level-members' level='[Geo-Political Zones]' user:ui-action-filter='[Action2_DEBF10B3DAF44FDA9EFEBC306D91F1C1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[Geo-Political Zones]' member='&quot;South-South&quot;' user:ui-action-filter='[Action2_DEBF10B3DAF44FDA9EFEBC306D91F1C1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]</column>
@@ -1334,8 +1354,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='31' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='30' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='35' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='34' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone forceUpdate='true' h='79750' id='3' type-v2='text' w='60500' x='38800' y='5625'>
                   <formatted-text>
                     <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='15'>RESOURCES</run>
@@ -1461,8 +1481,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='35' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='34' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='39' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='38' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='92' h='11500' id='4' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/USER/AppData/Local/Temp/TableauTemp/1rs2hnx0a7g2nr114xmdu0y5w8hf/Sheets3/Image/vrpx2j1mvwfui8jgsb4l__03757.jpg' type-v2='bitmap' w='11900' x='300' y='1500'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -1655,8 +1675,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='38' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='37' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='42' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='41' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone forceUpdate='true' h='3750' id='17' type-v2='text' w='32000' x='54600' y='375'>
                   <formatted-text>
                     <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Fig 3: The Stakeholders</run>
@@ -1824,7 +1844,7 @@
           <formatted-text>
             <run fontcolor='#212121' fontname='Rockwell' fontsize='11'>Furthermore, since the year 2009, Nigeria has been losing an average of 700 doctors annually to Europe, America, Australia and South Africa. Also, the number of Nigeria-trained doctors undergoing residency in the USA has doubled in the last 10 years (Tankwanchi, 2012). Likewise, the number of doctors from Nigeria registered with the General Medical Council (GMC) in the UK has doubled from 2006 to 2016 based on available data on the GMC website (GMC, 2018).</run>
             <run>Æ&#10;&#10;</run>
-            <run fontcolor='#212121' fontname='Rockwell' fontsize='11'>An online survey conducted in Nigeria, in 2017, revealed that 9 out of every 10 doctors surveyed were seeking work opportunities abroad (NOIPolls, 2018). Let&apos;s take a peak into the health financing, health insurance and stakeholders in the country</run>
+            <run fontcolor='#212121' fontname='Rockwell' fontsize='11'>An online survey conducted in Nigeria, in 2017, revealed that 9 out of every 10 doctors surveyed were seeking work opportunities abroad (NOIPolls, 2018).</run>
           </formatted-text>
         </zone>
         <zone forceUpdate='true' h='35750' id='45' type-v2='text' w='44400' x='2400' y='3125'>
@@ -1852,8 +1872,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='71' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='70' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='75' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='74' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone forceUpdate='true' h='35750' id='45' type-v2='text' w='44400' x='2400' y='3125'>
                   <formatted-text>
                     <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='13'>HEALTHCARE PROFESSIONALS ACROSS NIGERIA</run>
@@ -1923,7 +1943,7 @@
                   <formatted-text>
                     <run fontcolor='#212121' fontname='Rockwell' fontsize='11'>Furthermore, since the year 2009, Nigeria has been losing an average of 700 doctors annually to Europe, America, Australia and South Africa. Also, the number of Nigeria-trained doctors undergoing residency in the USA has doubled in the last 10 years (Tankwanchi, 2012). Likewise, the number of doctors from Nigeria registered with the General Medical Council (GMC) in the UK has doubled from 2006 to 2016 based on available data on the GMC website (GMC, 2018).</run>
                     <run>Æ&#10;&#10;</run>
-                    <run fontcolor='#212121' fontname='Rockwell' fontsize='11'>An online survey conducted in Nigeria, in 2017, revealed that 9 out of every 10 doctors surveyed were seeking work opportunities abroad (NOIPolls, 2018). Let&apos;s take a peak into the health financing, health insurance and stakeholders in the country</run>
+                    <run fontcolor='#212121' fontname='Rockwell' fontsize='11'>An online survey conducted in Nigeria, in 2017, revealed that 9 out of every 10 doctors surveyed were seeking work opportunities abroad (NOIPolls, 2018).</run>
                   </formatted-text>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2011,8 +2031,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='33' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='32' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='37' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='36' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone forceUpdate='true' h='3750' id='13' type-v2='text' w='46700' x='50700' y='2875'>
                   <formatted-text>
                     <run bold='true' fontcolor='#005500' fontname='Rockwell' fontsize='11'>Fig 8: African Countries with the Highest Number of Doctors</run>
@@ -2171,8 +2191,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='950' minheight='950' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='53' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='52' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='57' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='56' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='280' h='39875' id='3' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/USER/Documents/GitHub/LA558_FADOJU_AYODELE/Final_Project_Documentation/Doctors_Image.jpg' type-v2='bitmap' w='49100' x='47800' y='1875'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -2392,7 +2412,7 @@
     </window>
     <window class='dashboard' name='Coverpage'>
       <viewpoints />
-      <active id='-1' />
+      <active id='8' />
       <simple-id uuid='{38CB62BA-5379-402A-96F1-4AB459E6172A}' />
     </window>
     <window class='dashboard' name='Section_1'>
@@ -2401,28 +2421,31 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='8' />
+      <active id='-1' />
       <simple-id uuid='{D58E8971-3889-4D2E-956C-8A00DCA1DF7A}' />
     </window>
     <window class='dashboard' name='Section2'>
       <viewpoints />
-      <active id='7' />
+      <active id='10' />
       <simple-id uuid='{FEBF96D6-4D21-4F55-9534-4A760E2581E9}' />
     </window>
-    <window class='dashboard' maximized='true' name='Section3'>
+    <window class='dashboard' name='Section3'>
       <viewpoints>
         <viewpoint name='Doctors_2022'>
           <zoom type='entire-view' />
         </viewpoint>
         <viewpoint name='Doctors_Healthworkers'>
           <zoom type='entire-view' />
+          <floating-toolbar-visibility value='2' />
           <geo-search-visibility value='1' />
+          <map-navigation value='1' />
+          <_.fcp.LayerControlWidget.true...layer-control toolbar-button-enabled='false' />
         </viewpoint>
       </viewpoints>
       <active id='3' />
       <simple-id uuid='{801AB5E7-56A2-477C-9A4D-7E3F34AF0099}' />
     </window>
-    <window class='dashboard' name='Section4'>
+    <window class='dashboard' maximized='true' name='Section4'>
       <viewpoints />
       <active id='-1' />
       <simple-id uuid='{06BA1483-F108-40A8-8991-ABB1D047955E}' />
