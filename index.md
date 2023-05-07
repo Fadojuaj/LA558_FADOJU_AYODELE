@@ -32,7 +32,7 @@ Following is some information about myself and links to the exercises, assignmen
 
 ## Final Project Documentation
 - [5](Final_Project_Documentation/Assignment5.md)- Project Proposal
-
+- [Choropleth Map](Final_Project_Documentation/Sechospitals.html)- Secondary_Hospitals
 
 ## Roadmap
 - April 5: Data cleaning and analysis 
