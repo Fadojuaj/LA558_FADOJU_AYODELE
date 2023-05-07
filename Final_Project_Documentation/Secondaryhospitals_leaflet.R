@@ -1,9 +1,8 @@
-# Leaflet mapping: Make a Chloropleth map.
-# 
+
 # March 23, 2023
 # Fadoju, Ayodele
 
-# Assignment 4
+# Secondary Hospitals
 
 install.packages("leaflet", "leaflet.providers", "tidyverse", "sf")
 library(leaflet)
