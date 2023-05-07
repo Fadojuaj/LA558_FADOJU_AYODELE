@@ -1074,7 +1074,7 @@
             <groupfilter function='level-members' level='[Geo-Political Zones]' user:ui-action-filter='[Action2_DEBF10B3DAF44FDA9EFEBC306D91F1C1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[Action (Geo-Political Zones1)]'>
-            <groupfilter function='level-members' level='[Geo-Political Zones]' user:ui-action-filter='[Action2_DEBF10B3DAF44FDA9EFEBC306D91F1C1]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[Geo-Political Zones]' member='&quot;South-South&quot;' user:ui-action-filter='[Action2_DEBF10B3DAF44FDA9EFEBC306D91F1C1]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.18yfqe20s8ioaa1bz90s01hbe0u3].[none:State:nk]</column>
@@ -1802,10 +1802,10 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='7' />
+      <active id='8' />
       <simple-id uuid='{D58E8971-3889-4D2E-956C-8A00DCA1DF7A}' />
     </window>
-    <window class='dashboard' name='Section_2'>
+    <window class='dashboard' maximized='true' name='Section_2'>
       <viewpoints>
         <viewpoint name='Doctors_2022'>
           <zoom type='entire-view' />
@@ -1814,10 +1814,10 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='8' />
       <simple-id uuid='{801AB5E7-56A2-477C-9A4D-7E3F34AF0099}' />
     </window>
-    <window class='dashboard' maximized='true' name='Section_3'>
+    <window class='dashboard' name='Section_3'>
       <viewpoints />
       <active id='-1' />
       <simple-id uuid='{FEBF96D6-4D21-4F55-9534-4A760E2581E9}' />
