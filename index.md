@@ -35,7 +35,7 @@ Following is some information about myself and links to the exercises, assignmen
 
 - [6](Final_Project_Documentation/Read_me.md)- READ ME: Project Process
 
-- [7](Final_Project_Documentation/Final_Project.md)- Final Project
+- [7](Final_Project_Documentation/Final_Project.html)- Final Project
 
 - [Choropleth Map](Final_Project_Documentation/Sechospitals.html)- Secondary_Hospitals
 
