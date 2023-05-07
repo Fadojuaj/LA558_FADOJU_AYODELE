@@ -33,7 +33,7 @@ Following is some information about myself and links to the exercises, assignmen
 ## Final Project Documentation
 - [5](Final_Project_Documentation/Assignment_5.md)- Project Proposal
 
-- <a href="https://fadojuaj.gitHub.io/LA558_FADOJU_AYODELE/Assignment/Assignment_2/Exported_Map/qgis2web_2023_02_06-22_46_25_723413/qgis2web_2023_02_06-22_50_28_532826/index.html#6/8.524/5.515" target="_blank" rel="noopener noreferrer">QGIS2WEB</a>
+- <a href="https://fadojuaj.gitHub.io/LA558_FADOJU_AYODELE/Final_Project_Documentation/READ_ME_Project_Process.pdf" target="_blank" rel="noopener noreferrer">READ ME: Project Methodology</a>
 
 - [7](Final_Project_Documentation/Final_Project.html)- Final Project
 
